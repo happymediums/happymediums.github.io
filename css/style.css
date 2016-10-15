@@ -130,8 +130,18 @@ nav ul li a:hover {
 }
 
 #hero-title h1 {
-    font-size:3em;
+    font-size:5em;
     color:#000;
+}
+
+#dots {
+    top:54%;
+    left:45.95%;
+    position:absolute;   
+}
+#dots img {
+    width:82.9%;
+    height:auto;
 }
 
 /* End of Home Styling */
