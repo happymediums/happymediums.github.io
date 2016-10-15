@@ -1,0 +1,564 @@
+@charset "UTF-8";
+
+/* Desktop / Laptops devices (1100+ px ) */
+
+body { 
+	
+	background-color:#fff; 
+	margin:0 auto; 
+}
+	
+.container {
+	
+	float:left;
+	width:100%;
+	height:auto;
+}
+
+/* Parallax Styling */
+
+.parallax { 
+    /* The image used */
+    background-image:;
+
+    /* Set a specific height */
+    width:100%;
+    height: 100vh; 
+    background-color:#fff;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+
+/*------------------*/
+
+/* font-family: 'Trirong', serif; */
+
+h1 {font-family: 'Libre Baskerville', serif;}
+
+h2 {font-family: 'Roboto', sans-serif;}
+
+p {font-family: 'Libre Baskerville', serif;}
+
+
+/* Start of Header Styling */
+
+header {
+	
+	float:left;
+	width:100%;
+	height:auto;
+	background-color:#fff;
+	position:fixed;
+	z-index:100;
+}
+
+nav {
+	
+	float:left;
+	width:60%;
+	height:auto;
+	background-color:;
+	margin-left:20%;
+    margin-top:50px;
+	text-align:center;
+}
+
+nav p {
+	color:#fff;
+}
+
+nav ul li {
+    list-style: none;
+    display:inline;
+    padding-right:50px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;  
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+    
+    
+}
+
+/* End of Header Styling */
+
+
+
+/* Start of Home Styling */
+
+#home {
+	
+	float:left;
+	background-color:#fff;
+    display:flex;
+    align-items: center;
+    height:100vh;
+
+}
+
+#hero-logo {
+	
+	float:left;
+	background-color:;
+	width:50%;
+	height:300px;
+	margin-left:25%;
+	margin-top:150px;	
+}
+
+.fade {position:relative;}
+
+#hero-title {
+	
+	float:left;
+	background-color:;
+	height:auto;
+    width:100%;
+    text-align:center;
+}
+
+#hero-title h1 {
+    font-size:3em;
+    color:#000;
+}
+
+/* End of Home Styling */
+
+/* Start of About Styling */
+
+#about {
+	
+	float:left;
+	width:100%;
+	height:auto;
+	background-color:#15233f;
+}
+
+.col-2 {
+	
+	float:left;
+	width:50%;
+	height:300px;
+}
+
+#col-2-1 {
+	
+	background-color:#9764a5;
+}
+
+#col-2-2 {
+	
+	background-color:#F07274;
+}
+
+/* End of About Styling */
+
+/* Start of Services Styling */
+
+.col-3 {
+	
+	float:left;
+	width:33.333333%;
+	height:270px;
+}
+
+#col-3-1 {
+	
+	background-color:#aaaaaa;
+}
+
+#col-3-2 {
+	
+	background-color:#D8A348;
+}
+
+#col-3-3 {
+	
+	background-color:#0F7561;
+}
+
+/* End of Portfolio Styling */
+
+/* Start of Portfolio Styling */
+
+#portfolio {
+    float:left;
+    width:100%;
+    height:auto;
+    background-color:aquamarine;
+}
+
+.col-4 {
+	
+	float:left;
+	width:25%;
+	height:auto;
+	border: solid 0px #000000;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    z-index:999;
+}
+
+#col-4-1 {
+	
+	background-color:#F07274;
+}
+
+#col-4-2 {
+	
+	background-color:#2CD14A;
+}
+	
+#col-4-3 {
+	
+	background-color:#314180;
+}
+
+#col-4-4 {
+	
+	background-color:#B6B21B;
+}
+
+#col-4-5 {
+	
+	background-color:#F07274;
+}
+
+#col-4-6 {
+	
+	background-color:#2CD14A;
+}
+	
+#col-4-7 {
+	
+	background-color:#314180;
+}
+
+#col-4-8 {
+	
+	background-color:#B6B21B;
+}
+
+#col-4-9 {
+	
+	background-color:#F07274;
+}
+
+#col-4-10 {
+	
+	background-color:#2CD14A;
+}
+	
+#col-4-11 {
+	
+	background-color:#314180;
+}
+
+#col-4-12 {
+	
+	background-color:#B6B21B;
+}
+
+#col-4-13 {
+	
+	background-color:#F07274;
+}
+
+#col-4-14 {
+	
+	background-color:#2CD14A;
+}
+	
+#col-4-15 {
+	
+	background-color:#314180;
+}
+
+#col-4-16 {
+	
+	background-color:#B6B21B;
+}
+
+#col-4-17 {
+	
+	background-color:#F07274;
+}
+
+#col-4-18 {
+	
+	background-color:#2CD14A;
+}
+	
+#col-4-19 {
+	
+	background-color:#314180;
+}
+
+#col-4-20 {
+	
+	background-color:#B6B21B;
+}
+
+/* End of Portfolio Styling */
+
+#one {
+    float:left;
+    width:100%;
+    height:50vh;
+}
+
+.top {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-color:;
+  height: auto;
+  opacity: 1;
+  text-align: center;
+  font-weight: 100;
+  color:;
+     display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.title {
+  position: absolute;
+    text-align:center;
+   
+}
+
+#intro {
+    float:left;
+    width:100%;
+    height:auto;
+    background-color:#fff;
+   
+}
+
+#intro-textbox {
+    width:70%;
+    margin-left:15%;
+    background-color:;
+    text-align:center;
+}
+
+#intro-textbox p {
+    font-size:1.5em;
+    color:#000;
+    
+    
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+
+.img-box {
+	
+}
+
+
+
+.img-box img {
+	
+	width:100%;
+	height:auto;
+	display:block;
+	
+}
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 1.5em;
+  padding-top: 30% ;
+  background: ; /* rgba(0, 0, 0, 0.6) */
+  
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 0px solid #fff;
+  margin: 0 0 0 0;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+
+
+/* Start of Contact Styling */
+
+
+
+
+
+/* End of Contact Styling */
+
+
+/* Start of Footer Styling */
+
+footer {
+	
+	float:left;
+	background-color:#fff;
+	width:100%;
+	height:50px;
+}
+
+footer p {
+	
+	color:#000;
+	font-family: 'Roboto';
+	font-size:1em;
+	padding-left:20px;
+}
+
+	
+	
+
+
+
+
+/* End of Footer Styling */
+	
+	
+
+/*-------------------------------------------------------------------------*/
+
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and ( min-width: 981px ) and ( max-width: 1100px ) {
+/* your css goes here */
+
+body { background-color:#000; }
+
+.col-4 { width:33.3333%; }
+
+}
+
+
+
+/* Tablets in portrait mode (768-980px) */
+@media only screen and ( min-width: 768px ) and ( max-width: 980px ) {
+/* your css goes here */
+
+body{ background-color:#000; }
+
+.col-4 { width:33.3333%;}
+
+
+
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+/* your css goes here */
+
+body { background-color:#000; }
+
+.col-2 { width:100%; }
+
+.col-3 { width:50% }
+
+#col-3-3 { margin-left:25%;}
+
+.col-4 { width:50%;
+    }
+
+}
+
+
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and ( max-width: 479px ) {
+/* your css goes here */
+
+body { background-color:#000; }
+
+.col-2 { width:100%; }
+
+.col-3 { width:100%; }
+
+.col-4 { width:100%;       
+    }
+
+}
