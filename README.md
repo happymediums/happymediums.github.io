@@ -1,4 +1,4 @@
 # happymediums.github.io
-the portfolio of Jim Morrison
+The "currently in the process of being built" portfolio website of Jim Morrison
 
-[jimmorrison.io]("http://www.jimmorrison.io") Coming Later...
+<a href="http://www.jimmorrison.io" target="_blank">Visit me</a> ...Coming Later...
