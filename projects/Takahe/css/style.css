@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body,html {
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+}
+
+li {
+	list-style:none;
+}
+
+/*======================================
+							General Styles
+=======================================*/
+
+.container {
+	width:100%;
+	height:100vh;
+}
+img {
+	width:100%;
+	height:auto;
+}
+
+/*======================================
+							Menu Styles
+=======================================*/
+
+.nav {
+  background: #111;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+	bottom:0px;
+  right: 0px;
+  left: 0px;
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+  -moz-transition: -moz-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.nav.hidden {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+/*======================================
+							Banner Styles
+=======================================*/
+
+.banner {
+	background-color:#243C84;
+	width:100%;
+	height:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner h2 {
+	margin-left: 20px;
+}
+
+
+/*======================================
+							Column Styles
+=======================================*/
+
+.col-1 {
+	width:90%;
+	height:auto;
+	padding-left:5%;
+	float:left;
+}
+
+.col-2 {
+	width:45%;
+	margin-left:2.5%;
+	height:100vh;
+	float:left;
+}
+
+
+
+/*======================================
+							Text Styles
+=======================================*/
+
+h1, h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+}
+h1 {
+	font-size:2em;
+}
+h2 {
+	font-size: 2em;
+}
+#home-text h1 .large {
+	font-size:3em !important;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	color:black;
+}
+
+/*======================================
+							Link Styles
+=======================================*/
+
+.home-link a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+  color:white;
+}
+.home-link a:hover {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+  color:white;
+}
+.home-link > a {
+  position: relative;
+  text-decoration: none;
+}
+
+.home-link > a:hover {
+  color: rgba(255,255,255,1);
+}
+.home-link > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,1);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.home-link > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*======================================
+							Home Styles
+=======================================*/
+
+#home {
+	background-color:#FBE33A;
+}
+
+#home-img {
+	position: absolute;
+	top:5%;
+	left:2.5%;
+	width:95%;
+	height:90vh;
+	background-image: url('../img/takahe-main.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index:950;
+}
+
+#home-text {
+	width:50%;
+	height:100%;
+	float: right;
+}
+#home-text h1 {
+	margin-top:20%;
+	padding: 20px;
+	background-color: ;
+}
+.home-link {
+	width:50%;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+}
+.border-box {
+	width:50%;
+	height:100px;
+	border-right: 1px solid #ffffff;
+	align-self: flex-end;
+}
+
+/*======================================
+						Rediscover Styles
+=======================================*/
+
+
+#rediscover {
+	width:100%;
+height:auto;
+	background-image: url('../img/fiordland.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#intro-text {
+			background-color: rgba(0, 0, 0, 0.9);
+			padding:1em 2em;
+			border:10px solid #FBE33A;
+			box-sizing: border-box;
+			margin-right:2em;
+}
+#intro-text p {
+		color:white;
+
+}
+
+#map {
+	padding-top:30px;
+	margin-left:50px;
+}
+
+#fiordland {
+	width:100%;
+	height:auto;
+}
+
+
+/*======================================
+						Orbell Styles
+=======================================*/
+
+
+#orbell-img img {
+	width:100%;
+	height:auto;
+}
+
+#wingspan {
+
+}
+
+/*======================================
+						Footer Styles
+=======================================*/
+
+.sticky-footer {
+	width: 100%;
+	background-color: grey;
+	height:70px;
+}
