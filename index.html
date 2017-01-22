@@ -280,32 +280,31 @@ title: Jim Morrison | UX Designer | Designer of happy mediums | Born in Belfast
 <div id="contact-form">
 
 						<div class="row"> <!-- form row start -->
-     <form method="post" action="mail.php" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+     <form method="post" action="contact.php" id="contact" class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
        <div class="row">
          <div class="input-field col-xs-6">
-           <input id="first_name" type="text" class="validate">
+           <input id="first_name" type="text" class="validate" name="cf_fname">
            <label for="first_name">First Name</label>
          </div>
          <div class="input-field col-xs-6">
-           <input id="last_name" type="text" class="validate">
+           <input id="last_name" type="text" class="validate" name="cf_lname">
            <label for="last_name">Last Name</label>
          </div>
        </div>
        <div class="row">
          <div class="input-field col-xs-12">
-           <input id="email" type="email" class="validate">
+           <input id="email" type="email" class="validate" name="cf_email">
            <label for="email">Email</label>
          </div>
        </div>
 
 
 			 <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <textarea id="textarea1" class="materialize-textarea" name="cf_message"></textarea>
           <label for="textarea1">How can I help?</label>
         </div>
 
-				<button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    <i class="material-icons right">send</i>
+				<button class="button hvr-sweep-to-right" type="submit" name="action">Submit
   </button>
 
      </form> <!-- Close Form -->

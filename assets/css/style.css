@@ -34,10 +34,13 @@ html,body {
 		Contact Styles
 		================================*/
 
-#contact-form {
-	padding-left:15%;
+#contact-form {		/* Main Contact Box */
+	margin-left:17.77%;
 }
-#contact-section {
+#contact {		/* Main Contact Form */
+	
+}
+#contact-section {		/* Main Contact Section */
 	width:100%;
 	height:auto;
 	background-color: #fff;
