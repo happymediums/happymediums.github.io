@@ -193,7 +193,8 @@ footer {
 	margin-left: 8.333%;
 	background: #fff;
 	height:auto;
-	padding:5px;
+	margin-top:20px;
+	padding-bottom:5px;
 	color:#000;
 	border-top:1px solid #e1e1e1;
 }
