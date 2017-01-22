@@ -1,0 +1,58 @@
+/*=====================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (min-width: 1em) {
+
+ /* =General */
+
+ /* =Header */
+
+ /* =Footer */
+}
+
+@media only screen and (min-width: 1em and max-width: 47em) { /* 480px */
+
+  /* =General */
+
+  #about-text {
+    background-color: #fff;
+    border:1px solid #000;
+    padding:0px 10px;
+  }
+
+  /* =Header */
+
+  /* =Footer */
+
+}
+
+@media only screen and (min-width: 48em) { /* 768px */
+
+ /* =General */
+
+ /* =Header */
+
+ /* =Footer */
+
+}
+
+@media only screen and (min-width: 62em) { /* 992px */
+
+ /* =General */
+
+ /* =Header */
+
+ /* =Footer */
+
+}
+
+@media only screen and (min-width: 75em) {
+
+
+
+
+
+
+
+}

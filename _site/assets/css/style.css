@@ -1,0 +1,629 @@
+html,body {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+
+.wrapper {
+	width:100%;
+	height:auto;
+}
+
+.blog-container {
+	margin-left:10%;
+}
+
+/*========================
+	Intro section
+=========================*/
+
+#intro {
+	width:100%;
+	height:100vh;
+	margin:0 auto;
+	background-color:#ffffff;
+	background-attachment: fixed;
+
+}
+
+#aboutsectionone {
+	width:100%;
+	height:100vh;
+	background-color: #e1e1e1;
+}
+
+#aboutsectiontwo {
+	width:100%;
+	height:100vh;
+
+}
+#playsectionone {
+	width:100%;
+	height:50vh;
+}
+#playsectiontwo {
+	width:100%;
+	height:50vh;
+}
+.col-xs-12.col-sm-12.col-md-6.col-lg-6.play-section {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.inline-link a:hover {
+	color:red;
+	text-decoration: underline;
+}
+
+#play h2 {
+	color:white;
+	font-family: 'Special Elite', sans-serif !important;
+	font-size: 2em;
+	font-weight: 100;
+}
+#play {
+	background-color: #ffffff;
+	transition: all 1s linear;
+	padding-bottom:20vh;
+	background-attachment: fixed;
+}
+#play.background-fade {
+background-color: #000000;
+transition: all 1s linear;
+background-attachment: fixed;
+}
+#play.background-fade-out {
+background-color: #ffffff;
+transition: all 1s linear;
+background-attachment: fixed;
+}
+
+.hvr-underline-reveal:before {
+	background: #AA4848!important;
+}
+
+
+.playbutton.button {
+	display: inline-block;
+	background-color: #000;
+	text-decoration: none;
+	color: white;
+	transition: 0.5s linear;
+	font-family: 'Special Elite', sans-serif !important;
+	opacity: 0;
+}
+.playbutton.button.playchange{
+	opacity: 1;
+	transition: 1s all linear;
+}
+.playbutton.button.fade-out{
+	opacity: 0;
+	transition: 1s all linear;
+}
+#companylogos {
+	background-color: #fff;
+	background-attachment: fixed;
+}
+#cv-link.button-change{
+	transition: all 1s linear;
+	background-color: #000;
+	color: white;
+	border: 0px;
+}
+#blog-section li {
+list-style-type: none!important;
+padding-bottom:10px;
+padding-top:10px;
+border-bottom: 1px solid #000;
+}
+#blog-link {
+	padding:50px 0;
+	text-align: center;
+}
+#blog-section li p {
+	font-family: 'Special Elite';
+}
+#blog-section .post-meta {
+	font-family: 'Special Elite'!important;
+}
+.section-end {
+	padding-top:50px;
+	margin-left: 15%;
+	border-bottom: 1px solid #000;
+}
+
+/*================================
+	Work Pages Styles
+================================*/
+
+.info-table {
+	width:60%;
+	font-family: 'Special Elite';
+	margin-left: 20%;
+}
+table.info-table tr {
+	text-align: center;
+}
+td, th {
+	text-align: center!important;
+}
+.work-info {
+
+}
+
+
+footer {
+	margin-left: 8.333%;
+	background: #fff;
+	height:auto;
+	padding:5px;
+	color:#000;
+	border-top:1px solid #e1e1e1;
+}
+footer p {
+	font-family: 'Special Elite';
+	margin-left:10px;
+}
+footer img {
+	width:5%;
+	height:auto;
+	float:right;
+}
+#blog-section {
+	width:100%;
+	height:auto;
+	background-color: white;
+	border-bottom:1px solid #e1e1e1;
+}
+#test1 {
+	height:auto;
+	background-color: ;
+}
+#test2 {
+	height:auto;
+	background-color: ;
+}
+
+#contact {
+	width:100%;
+	height:auto;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
+
+.post-link {
+	font-family: 'Josefin Slab';
+}
+.post-list p{
+	font-family: 'Special Elite';
+}
+
+#section-hand-ani {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height:100vh;
+	width:100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,cccccc+100&0+13,1+100 */
+background: -moz-linear-gradient(top,  rgba(204,204,204,0) 0%, rgba(204,204,204,0) 13%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(204,204,204,0) 0%,rgba(204,204,204,0) 13%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(204,204,204,0) 0%,rgba(204,204,204,0) 13%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cccccc', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+}
+#hand-ani {
+	width:100%;
+	height:100vh;
+	background: white;
+	background-attachment: fixed;
+}
+#work-section {
+	background-color: blue;
+	width:100%;
+	height:100vh;
+}
+
+#section-typed {
+	display:flex;
+	justify-content: center;
+	width:100%;
+	height:100vh;
+}
+.type-wrap {
+	align-self: center;
+}
+.cta-scroll {
+	visibility: hidden;
+	position: absolute;
+	top:50%;
+	left:50%;
+	padding-top: 100px;
+}
+.cta-scroll p{
+	font-family: 'Special Elite', sans-serif !important;
+	font-size:2em;
+}
+.cta-scroll.animated.fadeOutDown.infinite {
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+}
+.row {
+	margin-bottom: 0 !important;
+}
+
+.homeclientlogo {
+    text-align: center;
+    padding:;
+    border-bottom:;
+    opacity: 0;
+    /*transform: translateY(50px);*/
+    transition: all 1s ease-in;
+		transform: translateX(-100%);
+		width:80%;
+		height:auto;
+}
+.homeclientlogo img {
+	width:50%;
+	height:auto;
+}
+
+.homeclientlogo.fade-in-left {
+    opacity: 1;
+		transform: translateX(0);
+		transition: all 1s ease-in
+    /*transform: translateY(0);*/
+}
+#worksectionearl {
+	width:80%;
+	height:auto;
+	transition: all 1s linear;
+	transform: translateY(100%);
+	opacity: 0;
+}
+#worksectionearl.fade-up{
+    opacity: 1;
+		transform: translateY(0);
+    /*transform: translateY(0);*/
+}
+#worksectionearl img {
+	width:80%;
+	height:auto;
+}
+
+#about-text-one {
+	position: absolute;
+	top:10%;
+	left:30%;
+	opacity:0;
+	transition: 1s ease-in;
+	background-color: #fff;
+	border:2px solid #000;
+	padding:0px 10px;
+}
+#about-text-one.fade-in{
+	opacity:1;
+	transition: 1s ease-in;
+}
+#about-text-two {
+	position: absolute;
+	top:10%;
+	left:30%;
+	opacity:0;
+	transition: 1s ease-in;
+	background-color: #fff;
+	border:2px solid #000;
+	padding:0px 10px;
+}
+#about-text-two.fade-in{
+	opacity:1;
+	transition: 1s ease-in;
+}
+
+#about-text-one, #about-text-two h2{
+	font-family: 'Josefin Slab', sans-serif !important;
+}
+#about-text-one, #about-text-two p{
+	font-family: 'Special Elite', sans-serif !important;
+}
+#about-me {
+	width:80%;
+	margin-left: 10%;
+}
+#about-me-section {
+	background-color: #fff;
+	transition: all 1s linear;
+}
+#about-me-section.background-fade {
+	background-color: #000;
+	transition: all 1s linear;
+}
+#about-me p{
+	text-align: left;
+	font-size:1.1em;
+}
+.companies img{
+	width:100%;
+}
+#playtitle {
+width:100%;
+height:auto;
+text-align: center;
+padding-top:10%;
+
+}
+#playtitle p {
+	font-size: 1.1em;
+	color:white;
+	font-family: 'Special Elite';
+}
+.para-info-box {
+	position: absolute;
+	top:10%;
+	left:30%;
+	opacity:0;
+	transition: 1s ease-in;
+	background-color: #fff;
+	border:2px solid #000;
+	padding:0px 10px;
+}
+.para-info-box.fade-in{
+	opacity:1;
+	transition: 1s ease-in;
+}
+.para-info-box h2{
+	font-family: 'Josefin Slab', sans-serif;
+}
+.para-info-box p{
+	font-family: 'Special Elite', sans-serif;
+}
+
+/*===================================
+				Companies
+===================================*/
+
+#companies {
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+#companies.fade-in {
+	background-color: #fff;
+}
+.com-row-one {
+	height:auto;
+	opacity: 0;
+	transition: all 1s ease-in;
+}
+.com-row-one.fade-in {
+	opacity:1;
+	transition: all 1s ease-in;
+}
+.com-row-one img {
+	width:100%;
+}
+.com-row-two {
+	height:auto;
+	opacity: 0;
+	transition: all 1s ease-in;
+}
+.com-row-two.fade-in {
+	opacity:1;
+	transition: all 1s ease-in;
+}
+.com-row-two img {
+	width:100%;
+}
+#com-item-1 {
+background-color: red;
+}
+#com-item-2 {
+background-color: blue;
+}
+#com-item-3 {
+background-color: yellow;
+}
+#com-item-4 {
+background-color: green;
+}
+
+#section-underline {
+	border-bottom: 1px solid #000;
+}
+
+
+/*========================
+	Parallax Effect
+	========================*/
+
+.parallax-container {
+width:100%;
+height:100vh !important;
+
+}
+
+.white-section {
+	width:100%;
+	height:auto;
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.white-section h2{
+	font-family: 'Josefin Slab', sans-serif !important;
+}
+.white-section p{
+	font-family: 'Special Elite', sans-serif !important;
+}
+
+.info-section {
+	width:70%;
+	height:auto;
+	margin-left:15%;
+	padding: 20px 0;
+	border-top:0px solid #e1e1e1;
+	border-bottom:0px solid #e1e1e1;
+}
+.info-section p {
+	font-family: 'Special Elite', sans-serif !important;
+}
+.info-section h2 {
+	font-family: 'Josefin Slab', sans-serif !important;
+}
+
+.info-image img{
+	width:100%;
+	height:auto;
+}
+.info-link {
+	padding-top:20px;
+	text-align: center;
+	width:100%;
+}
+.info-section blockquote {
+	margin: 30px 0;
+	border-left: 5px solid #AA4848;
+}
+.info-section img {
+	width:100%;
+	height:auto;
+	padding: 10px 0;
+}
+.smallredbreak {
+	width:50%;
+	height:2px;
+	background:#AA4848;
+	margin: 0 auto;
+}
+/*===========================
+Video
+=============================*/
+
+
+.videobox {
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.player .title{
+	visibility: hidden !important;
+}
+/*==========================
+
+===========================*/
+
+.parabox {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100%;
+	padding:40px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+		transition: all 1s linear;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+		transition: 0.5s linear;
+		border: 3px solid #000;
+		font-family: 'Special Elite', sans-serif !important;
+}
+.button:hover {
+	transition: 0.5s linear;
+}
+
+
+.intro h1,h2 {font-size:3em;color: black; font-family: 'Libre Baskerville';}
+
+.intro h3 {font-size:2em; font-family: 'Libre Baskerville';}
+
+#introtext01 {
+    padding-left:20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s linear;
+}
+#introtext01.fade-in {
+    opacity: 1;
+ transform: translateY(0);
+}
+
+#introtext02 {
+    padding-top:80px;
+    padding-left:20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s linear;
+}
+
+#introtext02.fade-in {
+    opacity: 1;
+ transform: translateY(0);
+}
+#introtext03 {
+    padding-top:100px;
+    padding-left:20px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s linear;
+}
+
+#introtext03.fade-in {
+    opacity: 1;
+ transform: translateY(0);
+}
+
+/*===========================================================================================================
+
+	Work Section Styles
+
+===================================================================================================== */
+
+
+
+.project {
+    border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 1s ease-out;
+    margin:20% 10%;
+    text-align: left;
+}
+.project.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.project h2 {
+   color:white;
+       font-family:'Raleway';
+}
+#project01 {
+    color: white;
+}
+
+.project a {
+    color:white;
+}
+.project a:hover {
+   color:red;
+
+}

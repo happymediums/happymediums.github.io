@@ -1,0 +1,181 @@
+html, body {
+  margin:0 auto;
+}
+.container {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+#home, #elements {
+  background: url('../img/elements_background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home {
+text-align: center;
+}
+#hometext {
+  width:100%;
+  height:auto;
+  padding-top: 10%;
+  text-align: center;
+
+}
+#homelink {
+  width:100%;
+  text-align: center;
+  padding-top:20%;
+}
+.homescroll {
+  font-family: 'Rubik One', sans-serif;
+  font-size:2em;
+  color:white;
+  text-decoration: none;
+  transition: 0.4s linear;
+}
+.homescroll:hover {
+  color:#00142C;
+  transition: 0.4s linear;
+  background-color: #fff;
+}
+.border-box {
+  width:50%;
+	height:450px;
+	border-right: 4px solid #ffffff;
+	align-self: flex-end;
+}
+
+#elements {
+
+}
+
+h1 {
+  font-family: 'Rubik One', sans-serif;
+  font-size:5em;
+  color:white;
+  -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+h2 {
+  font-family: 'Rubik One', sans-serif;
+  font-size:3em;
+  color:white;
+  -webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+p {
+  font-family: 'Rubik One', sans-serif;
+  font-size:1.5em;
+  color:#00142C;
+}
+.elements-wrapper {
+  margin:0 auto;
+  padding-bottom: 30%;
+}
+.elementbox {
+  height: 0;
+  padding-bottom: 10%;
+  width: 10%;
+  border:4px solid #ffffff;
+  margin-left:8%;
+  float:left;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+   	 transition-duration: 0.4s;
+     text-decoration: none;
+
+}
+
+.elementbox:hover {
+	background-color: #fff;
+	-webkit-transition-duration: 0.4s; /* Safari */
+   	 transition-duration: 0.4s;
+}
+
+.elementbox h2 {
+  color:white;
+  text-decoration: none;
+  padding-top: 25%;
+}
+.elementbox:hover h2{
+  color:#00142C;
+}
+
+/*===================================================
+                  Hydrogen Page Styles
+====================================================*/
+
+.banner {
+  width:100%;
+  background: url('../img/elements_background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.banner h1 {
+  padding-top:10%;
+  padding-bottom:10%;
+
+}
+.wrapper {
+  margin:0 auto;
+}
+#element-animation {
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#element-title {
+  padding-top:50px;
+  padding-left:5%;
+}
+#element-title .elementbox {
+  height: 0;
+  padding-bottom: 10%;
+  width: 10%;
+  border:2px solid #00142C;
+  float:left;
+  text-align: center;
+  margin-top:100px
+}
+#element-title .elementbox h2{
+  color:#00142C;
+}
+.element-summary {
+  width:60%;
+  height:auto;
+  float:left;
+  padding-left:7.5%;
+}
+.hr-line-break {
+  width:80%;
+  border-top:5px solid #00142C;
+  margin-left:10%;
+}
+.element-info {
+  width:50%;
+  height:auto;
+  margin-top:100px;
+  margin-left:25%;
+  margin-bottom: 100px;
+  border:5px solid #00142C;
+  padding:30px 50px;
+}
+.banner p {
+  color:white;
+  text-align: left;
+  padding:5%;
+  font-size: 2em;
+}

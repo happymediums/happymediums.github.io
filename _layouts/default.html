@@ -1,0 +1,191 @@
+<html class="no-js" lang="en">
+<head>
+	    <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Portfolio 01</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+		<link rel="stylesheet" href="/assets/css/media.css">
+		<link rel="stylesheet" href="/assets/css/menu.css">
+		<link rel="stylesheet" href="/assets/css/flexboxgrid.css">
+
+		<link rel="stylesheet" href="/assets/css/imgseq.css">
+		<link rel="stylesheet" href="/assets/css/hover.css">
+		<link rel="stylesheet" href="/assets/css/typed.css">
+
+<link rel="stylesheet" href="/assets/css/animate.css">
+<link rel="stylesheet" href="/assets/css/materialize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
+
+        <!-- Additional Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Special+Elite|Josefin+Slab:400,700italic|Libre+Baskerville' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+
+<div class="wrapper animsition">
+
+
+	<div class="button_container" id="toggle">
+
+	  <span class="top"></span>
+	  <span class="middle"></span>
+	  <span class="bottom"></span>
+		<p class="menutext">Menu</p>
+	</div>
+
+
+
+
+	<div class="overlay" id="overlay">
+	  <nav class="overlay-menu">
+	    <ul>
+	      <li ><a href="/index.html#intro" class="smoothScroll">Home</a></li>
+	      <li><a href="/index.html#work" class="smoothScroll">Work</a></li>
+				<li><a href="/index.html#about-me-section" class="smoothScroll">About</a></li>
+	      <li><a href="/index.html#blog-section" class="smoothScroll">Blog</a></li>
+	      <li><a href="/index.html#contact" class="smoothScroll">Contact</a></li>
+	    </ul>
+	  </nav>
+	</div>
+
+{{content}}
+
+<footer class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+<p>Copyright 2017 <a href="http://www.jimmorrison.io">jimmorrison.io</a></p>
+
+</footer>
+
+</div> <!-- Close Wrapper Div -->
+
+<!-- ScrollMagic, Greensock, jQuery CDN Files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/jquery.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+<!-- Additional JS Files -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.js"></script>
+
+<script src="/assets/js/materialize.js"></script>
+	<script src="/assets/js/main.js"></script>
+	<script src="/assets/js/menu.js"></script>
+	<script src="/assets/js/typed.js"></script>
+	<script src="/assets/js/smoothscroll.js"></script>
+	<script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/js/hammer.min.js"></script>
+	<script>
+  $(function(){
+
+      $("#typed").typed({
+          // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+          stringsElement: $('#typed-strings'),
+          typeSpeed: 30,
+          backDelay: 500,
+          loop: true,
+          contentType: 'html', // or text
+          // defaults to false for infinite loop
+          loopCount: false,
+          callback: function(){ foo(); },
+          resetCallback: function() { newTyped(); }
+      });
+
+      $(".reset").click(function(){
+          $("#typed").typed('reset');
+      });
+
+  });
+
+  function newTyped(){ /* A new typed object */ }
+
+  function foo(){ console.log("Callback"); }
+
+  </script>
+	<script>
+					function pathPrepare ($el) {
+						var lineLength = $el[0].getTotalLength();
+						$el.css("stroke-dasharray", lineLength);
+						$el.css("stroke-dashoffset", lineLength);
+					}
+
+					var $word = $("path#word");
+					var $dot = $("path#dot");
+
+					// prepare SVG
+					pathPrepare($word);
+					pathPrepare($dot);
+
+					// init controller
+					var controller = new ScrollMagic.Controller();
+
+					// build tween
+					var tween = new TimelineMax()
+						.add(TweenMax.to($word, 0.9, {strokeDashoffset: 0, ease:Linear.easeNone})) // draw word for 0.9
+						.add(TweenMax.to($dot, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))  // draw dot for 0.1
+						.add(TweenMax.to("path", 1, {stroke: "#33629c", ease:Linear.easeNone}), 0);			// change color during the whole thing
+
+					// build scene
+					var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 600, tweenChanges: true})
+									.setTween(tween)
+									.addIndicators() // add indicators (requires plugin)
+									.addTo(controller);
+				</script>
+
+				<script>
+				$(document).ready(function(){
+				     $('.parallax').parallax();
+						 $(".button-collapse").sideNav();
+				   });
+				   </script>
+
+					 <script>
+					 $(document).ready(function() {
+					   $(".animsition").animsition({
+					     inClass: 'fade-in',
+					     outClass: 'fade-out',
+					     inDuration: 1500,
+					     outDuration: 800,
+					     linkElement: '.animsition-link',
+					     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+					     loading: true,
+					     loadingParentElement: 'body', //animsition wrapper element
+					     loadingClass: 'animsition-loading',
+					     loadingInner: '', // e.g '<img src="loading.svg" />'
+					     timeout: true,
+					     timeoutCountdown: 2500,
+					     onLoadEvent: true,
+					     browser: [ 'animation-duration', '-webkit-animation-duration'],
+					     // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+					     // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+					     overlay : false,
+					     overlayClass : 'animsition-overlay-slide',
+					     overlayParentElement : 'body',
+					     transition: function(url){ window.location.href = url; }
+					   });
+					 });
+					 </script>
+
+
+
+
+</body>
+
+</html>
