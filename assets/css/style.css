@@ -17,11 +17,11 @@ html,body {
 	Post Styles
 	================================*/
 
-	.post-title {
+	.post-title h2{
 			font-family: 'Josefin Slab', sans-serif;
-			font-size: ;
+			font-size: 2em;
 	}
-	.post-content {
+	.post-content p{
 		font-family: 'Special Elite', sans-serif;
 	}
 
