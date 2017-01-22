@@ -20,6 +20,7 @@ html,body {
 	.post-title h2{
 			font-family: 'Josefin Slab', sans-serif;
 			font-size: 3em;
+			color:#AA4848;
 	}
 	.post-content {
 		font-family: 'Special Elite', sans-serif!important;
@@ -38,7 +39,7 @@ html,body {
 	margin-left:17.77%;
 }
 #contact {		/* Main Contact Form */
-	
+
 }
 #contact-section {		/* Main Contact Section */
 	width:100%;
@@ -84,9 +85,11 @@ html,body {
 	justify-content: center;
 	align-items: center;
 }
-.inline-link a:hover {
-	color:red;
-	text-decoration: underline;
+a.inline-link:link {
+	color:#AA4848;
+}
+a.inline-link:hover {
+	color:#039be5;
 }
 
 #play h2 {
@@ -223,6 +226,7 @@ footer img {
 
 .post-link {
 	font-family: 'Josefin Slab';
+	color:#AA4848;
 }
 .post-list p{
 	font-family: 'Special Elite';
