@@ -21,8 +21,13 @@ html,body {
 			font-family: 'Josefin Slab', sans-serif;
 			font-size: 3em;
 	}
-	.post-content p{
-		font-family: 'Special Elite', sans-serif;
+	.post-content {
+		font-family: 'Special Elite', sans-serif!important;
+	}
+
+	.hero {
+		width:100%;
+		height:auto;
 	}
 
 
