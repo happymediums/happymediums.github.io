@@ -40,6 +40,15 @@ section.demo.doublewidth, .spacer.doublewidth {
 	height:auto;
 }
 
+@media only screen and (min-width: 1em and max-width: 47em) {
+	#myimg img{
+		width:25%!important;
+		height:auto;
+	}
+
+}
+
+
 #imagesequence {
 	width:100%;
 	heigth:auto;
