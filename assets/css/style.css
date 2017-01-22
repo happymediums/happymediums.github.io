@@ -13,6 +13,19 @@ html,body {
 	margin-left:10%;
 }
 
+/*================================
+	Post Styles
+	================================*/
+
+	.post-title {
+			font-family: 'Josefin Slab', sans-serif;
+			font-size: ;
+	}
+	.post-content {
+		font-family: 'Special Elite', sans-serif;
+	}
+
+
 /*========================
 	Intro section
 =========================*/
