@@ -85,7 +85,7 @@ html,body {
 	justify-content: center;
 	align-items: center;
 }
-a.inline-link:link {
+a.inline-link {
 	color:#AA4848!important;
 }
 a.inline-link:hover {
@@ -227,11 +227,11 @@ footer img {
 .post-link {
 	font-family: 'Josefin Slab';
 }
-a.post-link:link {
-	color:#AA4848;
+a.post-link {
+	color:#AA4848!important;
 }
 a.post-link:hover {
-	color:#039be5;
+	color:#039be5!important;
 }
 .post-list p{
 	font-family: 'Special Elite';
