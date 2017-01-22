@@ -35,7 +35,13 @@ html,body {
 		================================*/
 
 #contact-form {
-	margin-left:25%;
+	padding-left:15%;
+}
+#contact-section {
+	width:100%;
+	height:auto;
+	background-color: #fff;
+	background-attachment: fixed;
 }
 
 /*========================
@@ -209,12 +215,7 @@ footer img {
 	background-color: ;
 }
 
-#contact {
-	width:100%;
-	height:auto;
-	background-color: #fff;
-	background-attachment: fixed;
-}
+
 
 
 .post-link {
