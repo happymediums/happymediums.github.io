@@ -86,10 +86,10 @@ html,body {
 	align-items: center;
 }
 a.inline-link:link {
-	color:#AA4848;
+	color:#AA4848!important;
 }
 a.inline-link:hover {
-	color:#039be5;
+	color:#039be5!important;
 }
 
 #play h2 {
@@ -226,7 +226,12 @@ footer img {
 
 .post-link {
 	font-family: 'Josefin Slab';
+}
+a.post-link:link {
 	color:#AA4848;
+}
+a.post-link:hover {
+	color:#039be5;
 }
 .post-list p{
 	font-family: 'Special Elite';
