@@ -30,6 +30,13 @@ html,body {
 		height:auto;
 	}
 
+/*================================
+		Contact Styles
+		================================*/
+
+#contact-form {
+	margin-left:25%;
+}
 
 /*========================
 	Intro section
