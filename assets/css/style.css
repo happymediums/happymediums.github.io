@@ -147,7 +147,7 @@ background-attachment: fixed;
 	color: white;
 	border: 0px;
 }
-#blog-section li {
+.blog-section li {
 list-style-type: none!important;
 padding-bottom:10px;
 padding-top:10px;
@@ -157,10 +157,10 @@ border-bottom: 1px solid #000;
 	padding:50px 0;
 	text-align: center;
 }
-#blog-section li p {
+.blog-section li p {
 	font-family: 'Special Elite';
 }
-#blog-section .post-meta {
+.blog-section .post-meta {
 	font-family: 'Special Elite'!important;
 }
 .section-end {
@@ -168,7 +168,19 @@ border-bottom: 1px solid #000;
 	margin-left: 15%;
 	border-bottom: 1px solid #000;
 }
-
+.top-page-spacer {
+	padding-top:25px;
+}
+.blog-month {
+width:100%;
+text-align: center;
+padding: 50px 0px;
+}
+.blog-month h2 {
+	font-family: 'Josefin Slab', sans-serif;
+	margin-left: 30px;
+	color:#AA4848;
+}
 /*================================
 	Work Pages Styles
 ================================*/
