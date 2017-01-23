@@ -187,6 +187,20 @@ td, th {
 .work-info {
 
 }
+.imgbox {
+	padding:15px 0;
+}
+.imgbox img{
+		width:100%;
+		height:auto;
+}
+#urbanlogos {
+	padding-bottom: 20px;
+}
+#urbanlogos img{
+	width:100%;
+	height:auto;
+}
 
 
 footer {
@@ -211,7 +225,6 @@ footer img {
 	width:100%;
 	height:auto;
 	background-color: white;
-	border-bottom:1px solid #e1e1e1;
 }
 #test1 {
 	height:auto;
