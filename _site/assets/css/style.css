@@ -493,6 +493,10 @@ height:100vh !important;
 
 }
 
+.parallax-container.work-section-para {
+	height:75vh!important;
+}
+
 .white-section {
 	width:100%;
 	height:auto;
