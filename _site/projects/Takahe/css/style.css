@@ -14,7 +14,25 @@ li {
 /*======================================
 							General Styles
 =======================================*/
+.fixed-header {
+	width:100%;
+	height: auto;
+	border: 5px solid #FBE33A;
+	box-sizing: border-box;
+	position: fixed;
+	z-index:20;
+}
+.fixed-header nav {
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12),
+	0 0px 0px 0px rgba(0, 0, 0, 0.2)!important;
+	background: rgba(0, 0, 0, 0.5);
+}
+.fixed-header nav ul {
+	text-align: center;
+}
+.fixed-header {
 
+}
 .full-container {
 	width:100%;
 }
@@ -60,7 +78,10 @@ img {
 
 #one {
 	height:100vh;
-	background-color:#FBE33A;
+	border:50px solid #FBE33A;
+	background-color:;
+	position:;
+	z-index:15;
 }
 #two {
 }
@@ -70,6 +91,7 @@ height:auto;
 #four {
 
 }
+
 
 .parabox {
 	width:80%;
@@ -176,7 +198,8 @@ blockquote {
 .banner {
 	background-color:#243C84;
 	width:100%;
-	height:30%;
+	height:auto;
+	padding:50px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -216,11 +239,8 @@ blockquote {
 h1 {
 	font-size:2em;
 }
-h2 {
-	font-size: 2em;
-}
 #home-text h1 .large {
-	font-size:2em !important;
+	font-size:;
 }
 p {
 	font-family: 'Raleway', sans-serif;
@@ -285,7 +305,7 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	z-index:950;
+	z-index:15;
 }
 
 #home-text {

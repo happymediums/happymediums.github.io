@@ -262,6 +262,18 @@ a.post-link:hover {
 .post-list p{
 	font-family: 'Special Elite';
 }
+.project-link {
+	width:100%;
+	text-align: center;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+}
+.post-col-r {
+
+}
+.post-col-l {
+	
+}
 
 #section-hand-ani {
 	display: flex;
