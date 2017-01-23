@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lesson 01 - Sherlock Holmes - HTML and Semantics</title>
+</head>
+
+<body>
+
+<article>
+
+<header>
+<h1>Heroes and Villians</h1>
+</header>
+
+<section>
+<header>
+<h2>221B Baker Street</h2>
+</header>
+
+<p>Sir Arthur Conan Doyle's celebrated Holme's characters have lived a life beyond the printed page.
+Recent adaptations, brought to life on the silver screen, include Benedict Cumberbatch and Martin
+Freeman's portrayal in <cite><a href="https://en.wikipedia.org/wiki/Sherlock_(TV_series)" target="_blank">Sherlock</a></cite>, and – more
+recently – Sir Ian McKellen's portrayal in <cite><a href="https://en.wikipedia.org/wiki/Mr._Holmes">Mr Holmes</a></cite>.</p>
+
+<p>Conan Doyle's writings lives on from generation to generation. As Scott Monty puts it:
+<blockquote><q>Every generation or so some kind of cycle happens, some big book or movie begins to start the
+process and then others seem to follow up,</q>.<br>- <cite><small>Scott Monty a member of the Sherlock Holmes Enthusiast Group 'Baker Street Irregulars'.
+</small></cite>
+</blockquote></p>
+
+<aside>
+<p>This little web site is a homage to the Holmes' story and was created as a piece of coursework for
+the <cite><a href="#">BDes (Hons) Interaction Design</a></cite> programme at the Belfast School of Art.</p>
+
+<p>Standing on the shoulders of giants we are indebted to Ethan Marcotte who kindly granted his
+permission to develop his original site, designed for A List Apart way back in 2010 when Marcotte
+coined the term <cite><a href="http://alistapart.com/article/responsive-web-design" target="_blank">Responsive Web Design</a></cite>.</p>
+</aside>
+</section>
+
+<section>
+<header>
+<h2>Sherlock Holmes</h2>
+</header>
+
+<p>Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle.
+Known as a "<em>consulting detective</em>" in the stories, Holmes is known for a proficiency with observation,
+forensic science, and logical reasoning that borders on the fantastic, which he employs when
+investigating cases for a wide variety of clients, including Scotland Yard. Amongst other foibles,
+Holmes had a penchant for papier maché.</p>
+
+<p>First appearing in print in 1887 (<cite>in A Study in Scarlet</cite>), the character's popularity became widespread
+with the first series of short stories in The Strand Magazine, beginning with "<cite>A Scandal in Bohemia</cite>"
+in 1891; additional tales appeared from then to 1927, eventually totalling four novels and 56 short
+stories.</p>
+
+<p>All but one are set in the Victorian or Edwardian periods, taking place between about 1880 to 1914.
+Most are narrated by the character of Holmes's friend and biographer Dr. Watson, who usually
+accompanies Holmes during his investigations and often shares quarters with him at the address of
+221B Baker Street, London, where many of the stories begin.</p>
+</section>
+
+<section>
+<header>
+<h2>Dr Watson</h2>
+</header>
+
+<p>Dr John H. Watson is a medical doctor, formerly in the British Army. He was married to Mary Watson
+and is arguably the only friend and confidant of Sherlock Holmes.</p>
+
+<p>In the debut Holmes story A Study in Scarlet, Watson, as the narrator, describes meeting Holmes,
+their subsequent sharing of rooms at 221B Baker Street, his attempts to discover the profession of
+his taciturn companion, Holmes's eventual taking of Watson into his confidence, and the events
+surrounding their first case together. Watson describes Holmes and his methods in too romantic and
+sentimental a manner for Holmes' taste. In time, they become close friends. In The Sign of Four,
+John Watson met Mary Morstan, who became his wife. Mary seemed somewhat less sure of her
+husband, however, absentmindedly calling him "James" in the short story "<cite>The Man with the Twisted
+Lip</cite>". This may be a simple typographical error, though some have speculated that it is a wifely
+reference to Watson's unknown middle name, which could have been "Hamish" (Scottish for
+"James") Dorothy Sayers, creator of the detective <i>Lord Peter Wimsey</i>, also wrote several essays on
+Holmesian speculation, later published this theory in <cite>Unpopular Opinions</cite>.</p>
+</section>
+
+<section>
+<header>
+<h2>Moriarty</h2>
+</header>
+
+<p>Professor James Moriarty, the arch-enemy of the famous Detective Sherlock Holmes, a mathematics
+professor turned the world's only consulting criminal. His genius is equal to, if not perhaps greater
+than, Holmes himself.</p>
+
+<p>He is the Napoleon of crime, Watson. He is the organizer of half that is evil and of nearly all that is
+undetected in this great city. He is a genius, a philosopher, an abstract thinker. He has a brain of the
+first order. He sits motionless, like a spider in the centre of its web, but that web has a thousand
+radiations, and he knows well every quiver of each of them. Sherlock Holmes speaking of Moriarty to
+Watson.</p>
+
+<p>Despite only appearing in two stories, Moriarty has been proven to be the most dangerous of all
+criminals that Holmes has ever encountered. In the short story "<cite>The Adventure of the Final Problem</cite>",
+during a fight with Holmes above the Reichenbach Falls, Moriarty fell to his death.</p>
+</section>
+
+<section>
+<header>
+<h2>Irene Adler</h2>
+</header>
+
+<p>Irene Adler, professionally known as "<em>The Woman</em>", is a brilliant dominatrix who has an apparently
+romantic attraction to Sherlock Holmes.</p>
+
+<p>Whilst Mycroft is telling Sherlock about Irene, he states that she is a dominatrix who gives out
+'recreational scolding' to people. She has been in the middle of two political scandals in recent
+years, one of them involving a famous author, in which she had an affair with both sides.</p>
+
+<p>She is brought to Sherlock's attention when he and John are summoned to Buckingham Palace by
+Mycroft and are asked to take on a case of national importance. Irene had taken compromising
+images of a young female member of the British Royal family during a dominatrix session.</p>
+
+<p>Even though Irene does not want money or power for the pictures, Sherlock is tasked in getting them
+back. She is using them, and other information on her mobile phone, for her "<em>protection</em>".</p>
+</section>
+
+<section>
+<header>
+<h2>Adaptations on the Silver Screen</h2>
+</header>
+
+<p>Sir Arthur Conan Doyle's celebrated Holme's characters have lived a life beyond the printed page.
+Recent adaptations, brought to life on the silver screen, include Benedict Cumberbatch and Martin
+Freeman's portrayal in <a href="#">Sherlock</a>, and – more recently – Sir Ian McKellen's portrayal in <a href="#">Mr
+Holmes</a>.</p>
+
+<p>The content on this page draws on copy from Wikipedia. This has been reworked to incorporate a
+comprehensive set of HTML5 elements to ensure semantics is full explored.</p>
+</section>
+
+<footer>
+<p>Copyright (C) 2016, Christopher Murphy, <i>#ixdbelfast</i></p>
+</footer>
+
+</article>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+body,html {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+.wrapper {
+  width:100%;
+  height:auto;
+}
+#blue {
+  background-color: blue;
+}
+
+footer {
+	margin-left: 8.333%;
+	background: #fff;
+	height:auto;
+	margin-top:20px;
+	padding-bottom:5px;
+	color:#000;
+	border-top:1px solid #e1e1e1;
+}
+footer p {
+	font-family: 'Special Elite';
+	margin-left:10px;
+}
+footer img {
+	width:5%;
+	height:auto;
+	float:right;
+}
