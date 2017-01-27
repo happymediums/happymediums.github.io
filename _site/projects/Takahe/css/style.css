@@ -72,8 +72,9 @@ img {
 		}
 
 	.text-box {
-		width:60%;
+		width:70%;
 		height:auto;
+		padding-left:10%;
 		}
 	.text-title {
 		width:100%;
