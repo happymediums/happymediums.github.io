@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	    <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Elements Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/projects/elements/css/style.css" type="text/css">
+				  <link rel="stylesheet" href="/projects/elements/css/media.css" type="text/css">
+				  <link rel="stylesheet" href="/projects/elements/css/animate.css" type="text/css">
+					<link rel="stylesheet" href="/assets/css/flexboxgrid.css">
+					<link rel="stylesheet" href="/assets/css/hover.css">
+					<link rel="stylesheet" href="/projects/elements/css/animsition.css">
+
+     <!-- Additional Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Raleway:900|Josefin+Slab:400,700italic|Libre+Baskerville' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Rubik+One:300,400" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+	<div class="wrapper animsition">
+
+{{content}}
+
+
+</div> <!-- Close Wrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/projects/elements/js/main.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/projects/elements/js/smoothscroll.js"></script>
+<script src='http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+<script src="/projects/elements/js/animsition.js"></script>
+
+	<script src="/projects/elements/js/main.js"></script>
+
+	<script>
+	$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: true,
+    timeoutCountdown: 2500,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
+
+</body>
+</html>

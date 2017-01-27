@@ -42,7 +42,7 @@ img {
 	height:auto;
 }
  .parallax-container {
-      height: 100vh;
+      height: 75vh!important;
     }
 		.parallax-container {
 		  position: relative;
@@ -72,9 +72,29 @@ img {
 		}
 
 	.text-box {
-		width:80%;
+		width:60%;
 		height:auto;
-		padding: 30px 10%;
+		margin-left:10%;
+		}
+	.text-title {
+		width:100%;
+		height:auto;
+		padding-left: 10%;
+		color:#000;
+	}
+	#mapid {
+	height: 100vh;
+	}
+.film-img-box {
+	border-top: 4px solid #FBE33A;
+	border-top: 4px solid #FBE33A;
+}
+
+	#text-one {
+
+	}
+	#text-one.fade-in {
+
 	}
 
 #one {
@@ -91,6 +111,19 @@ height:auto;
 }
 #four {
 
+}
+
+#mapbox {
+	width:100%;
+	height:100vh;
+	overflow: hidden;
+}
+#map-info {
+	width:100%;
+	text-align: center;
+}
+blockquote {
+	border-color: #FBE33A!important;
 }
 
 
@@ -129,11 +162,12 @@ table {
 }
 
 tr:hover {
-	background-color: rgba(251, 227, 58, 0.9);
+	background-color: rgba(251, 227, 58, 0.5);
 	transition: 1s all linear;
+	color:#000;
 
 }
-td:hover {
+td:after{
 	color:#000;
 }
 th {
@@ -168,29 +202,6 @@ blockquote {
 /*======================================
 							Menu Styles
 =======================================*/
-
-.nav {
-  background: #111;
-  text-align: center;
-  color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  position: fixed;
-	bottom:0px;
-  right: 0px;
-  left: 0px;
-  -webkit-transition: -webkit-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
-  -moz-transition: -moz-transform 1s cubic-bezier(0.86, 0, 0.07, 1);
-  transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
-}
-
-.nav.hidden {
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  -o-transform: translateY(100%);
-  transform: translateY(100%);
-}
 
 /*======================================
 							Banner Styles
@@ -232,16 +243,23 @@ blockquote {
 							Text Styles
 =======================================*/
 
-#one h1, h2 {
+h1, h2 {
 	font-family: 'Raleway', sans-serif;
-	color: #ffffff;
+}
+h2 {
+	font-size: 2.5em!important;
 }
 
 h1 {
 	font-size:2em;
 }
-#home-text h1 .large {
-	font-size:;
+
+#home-text h2 {
+	color: #ffffff;
+}
+
+#home-text h1  {
+	color: #ffffff;
 }
 p {
 	font-family: 'Raleway', sans-serif;
@@ -387,9 +405,3 @@ height:auto;
 /*======================================
 						Footer Styles
 =======================================*/
-
-.sticky-footer {
-	width: 100%;
-	background-color: grey;
-	height:70px;
-}

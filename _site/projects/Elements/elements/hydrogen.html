@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	    <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Elements Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/projects/elements/css/style.css" type="text/css">
+				  <link rel="stylesheet" href="/projects/elements/css/media.css" type="text/css">
+				  <link rel="stylesheet" href="/projects/elements/css/animate.css" type="text/css">
+					<link rel="stylesheet" href="/assets/css/flexboxgrid.css">
+					<link rel="stylesheet" href="/assets/css/hover.css">
+					<link rel="stylesheet" href="/projects/elements/css/animsition.css">
+
+     <!-- Additional Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Raleway:900|Josefin+Slab:400,700italic|Libre+Baskerville' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Rubik+One:300,400" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+	<div class="wrapper animsition">
+
+<div class="banner">
+
+<h1>Hydrogen</h1>
+
+</div>
+
+<div id="element-title">
+
+<div class="elementbox">
+
+<h2>H</h2>
+
+</div>
+
+<div class="element-summary">
+
+<p>Carbon, the sixth most abundant element in the universe, has been known since ancient times.<br><br>
+	Carbon is most commonly obtained from coal deposits, although it usually must be processed into a form suitable for commercial use.<br><br>
+	Three naturally occurring allotropes of carbon are known to exist: amorphous, graphite and diamond.</p>
+
+</div>
+
+
+</div>
+
+<div id="element-animation">
+
+<img src="/projects/elements/img/looped-iron.gif" alt="Hyrdogen Element"/>
+
+</div>
+
+<div class="banner">
+
+<p>Composed of a single proton and a single electron, hydrogen is the simplest and most abundant element in the universe.<br><br>
+It is estimated that 90% of the visible universe is composed of hydrogen.</p>
+
+</div>
+
+<div class="element-info animated">
+
+<p>Atomic Number: 6<br>Atomic Weight: 12.0107</p>
+
+<p>Melting Point: 3823 K (3550°C or 6422°F)<br>
+Boiling Point: 4098 K (3825°C or 6917°F)</p>
+
+<p>Phase at Room Temperature: Solid<br>Element Classification: Non-metal</p>
+
+<p>Period Number: 2 <br>
+Group Number: 14<br>
+Group Name: none</p>
+
+
+</div>
+
+<div class="banner">
+
+<p>Hydrogen is the raw fuel that most stars 'burn' to produce energy.<br><br>
+	The same process, known as fusion, is being studied as a possible power source for use on earth. <br><br>
+	The sun's supply of hydrogen is expected to last another 5 billion years.</p>
+
+</div>
+
+
+
+</div> <!-- Close Wrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/projects/elements/js/main.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/projects/elements/js/smoothscroll.js"></script>
+<script src='http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+<script src="/projects/elements/js/animsition.js"></script>
+
+	<script src="/projects/elements/js/main.js"></script>
+
+	<script>
+	$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: true,
+    timeoutCountdown: 2500,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
+
+</body>
+</html>

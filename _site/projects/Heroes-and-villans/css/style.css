@@ -1,12 +1,67 @@
+
+/*==============================
+    Section Styles
+================================*/
+
+.row:after {
+display: inherit!important;
+}
+
+.iframe-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.iframe-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*==============================
+    Body Styles
+================================*/
+
 body,html {
   width:100%;
   height:auto;
   margin:0 auto;
+  font-family: 'Cormorant', serif;
 }
 
+p {
+font-size: 1.25em;
+}
+#heroes.parallax-container {
+  height:100vh!important;
+}
+#sherlockandwatson.parallax-container {
+  height:75vh!important;
+}
+
+.img-box img {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+  padding:0;
+}
 .wrapper {
   width:100%;
   height:auto;
+}
+.parabox {
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
 }
 #blue {
   background-color: blue;
@@ -29,4 +84,100 @@ footer img {
 	width:5%;
 	height:auto;
 	float:right;
+}
+.text-coloumn-layout {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+     -moz-column-count: 2; /* Firefox */
+     column-count: 2;
+     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+.content-box {
+  width:90%;
+  margin-left:5%;
+}
+
+
+/*==============================
+    Section  Styles
+================================*/
+#hero-title {
+  margin-top:20px;
+  text-align: center;
+  order:1;
+}
+#villan-title {
+  order:7;
+  text-align: center;
+
+}
+.section-title {
+  border-top:1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 15px;
+}
+#sherlock-image {
+order:2;
+}
+#watson-image {
+order:3;
+}
+#sherlock-section {
+order:4;
+}
+#watson-section {
+order:5;
+}
+#book-section {
+  order:6;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+#moriarty-section {
+order:8;
+}
+#irene-section {
+order:9;
+}
+#silver-section {
+order:10;
+}
+#ian-holmes {
+  order:11;
+}
+
+@media only screen and (max-width:768px) {
+
+#sherlock-image {
+order:2;
+}
+#watson-image {
+order:4;
+}
+#sherlock-section {
+order:1;
+}
+#watson-section {
+order:3;
+}
+#book-section {
+  order:5;
+}
+#moriarty-section {
+order:6;
+}
+#irene-section {
+order:6;
+}
+#silver-section {
+order:7;
+}
+
+
+
+
+
+}
+
 }

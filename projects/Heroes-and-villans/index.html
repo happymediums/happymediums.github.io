@@ -12,15 +12,12 @@ title: Heroes & Villans
 
 
 	<link rel="stylesheet" href="/assets/css/flexboxgrid.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-
   <link rel="stylesheet" href="/projects/heroes-and-villans/css/style.css">
 	<link rel="stylesheet" href="/assets/css/hover.css">
+		<link rel="stylesheet" href="/assets/css/materialize.min.css">
 
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Special+Elite|Libre+Baskerville' rel='stylesheet' type='text/css'>
-
+	 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Special+Elite|Libre+Baskerville|Cormorant' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -34,46 +31,40 @@ title: Heroes & Villans
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li ><a href="#section-221b" class="smoothScroll">221b Baker Street</a></li>
-        <li><a href="#section-sherlock" class="smoothScroll">Sherlock Holmes</a></li>
-        <li><a href="#section-watson" class="smoothScroll">Dr Watson</a></li>
-        <li><a href="#section-moriarty" class="smoothScroll">Moriarty</a></li>
-        <li><a href="#section-irene" class="smoothScroll">Irene Adler</a></li>
-        <li><a href="#section-silver" class="smoothScroll">Silver Screen</a></li>
+        <li><a href="#heroes" class="smoothScroll">The Heroes</a></li>
+        <li><a href="#villans" class="smoothScroll">The Villans</a></li>
+        <li><a href="#book-section" class="smoothScroll">The Strand Magazine</a></li>
+        <li><a href="#silver-section" class="smoothScroll">The Silver Screen</a></li>
 </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li ><a href="#section-221b" class="smoothScroll">221b Baker Street</a></li>
-        <li><a href="#section-sherlock" class="smoothScroll">Sherlock Holmes</a></li>
-        <li><a href="#section-watson" class="smoothScroll">Dr Watson</a></li>
-        <li><a href="#section-moriarty" class="smoothScroll">Moriarty</a></li>
-        <li><a href="#section-irene" class="smoothScroll">Irene Adler</a></li>
-        <li><a href="#section-silver" class="smoothScroll">Silver Screen</a></li>
+				<li ><a href="#section-221b" class="smoothScroll">221b Baker Street</a></li>
+        <li><a href="#heroes" class="smoothScroll">The Heroes</a></li>
+        <li><a href="#villans" class="smoothScroll">The Villans</a></li>
+        <li><a href="#book-section" class="smoothScroll">The Strand Magazine</a></li>
+        <li><a href="#silver-section" class="smoothScroll">The Silver Screen</a></li>
       </ul>
     </div>
   </nav>
 
-
-  <div class="parallax-container">
-
-
-      <div class="parallax"><img src="/projects/heroes-and-villans/img/221b.jpg"></div>
-
-      <div class="parabox">
-
-      </div>
-
-    </div>
+	<div class="parallax-container" id="home">
 
 
-  <div class="row">
-    </div>
+			<div class="parallax"><img src="/projects/heroes-and-villans/img/221b.jpg"></div>
+
+			<div class="parabox">
+				<header>
+				<h1>Heroes and Villians</h1>
+				</header>
+			</div>
+
+		</div>
 
 
 
-<article class="content-box col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<article>
+  <div class="row content-box">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-<header>
-<h1>Heroes and Villians</h1>
-</header>
 
 <section id="section-221b">
 <header>
@@ -101,7 +92,47 @@ coined the term <cite><a href="http://alistapart.com/article/responsive-web-desi
 </aside>
 </section>
 
-<section id="section-sherlock">
+</div>
+
+</div>
+
+
+
+<div class="parallax-container" id="sherlockandwatson">
+
+
+		<div class="parallax"><img src="/projects/heroes-and-villans/img/sherlockandwatson.jpg"></div>
+
+		<div class="parabox">
+
+		</div>
+
+	</div>
+
+	<div class="row content-box" id="main-content">
+
+
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="hero-title">
+<div class="section-title" id="heroes">
+			<h2>The Heroes</h2>
+</div>
+		</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-box" id="sherlock-image">
+
+	<img src="/projects/heroes-and-villans/img/sherlock-org.jpg">
+
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 img-box" id="watson-image">
+
+	<img src="/projects/heroes-and-villans/img/watson-org.jpg">
+
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="sherlock-section">
+
+<section>
 <header>
 <h2>Sherlock Holmes</h2>
 </header>
@@ -113,7 +144,7 @@ investigating cases for a wide variety of clients, including Scotland Yard. Amon
 Holmes had a penchant for papier maché.</p>
 
 <p>First appearing in print in 1887 (<cite>in A Study in Scarlet</cite>), the character's popularity became widespread
-with the first series of short stories in The Strand Magazine, beginning with "<cite>A Scandal in Bohemia</cite>"
+with the first series of short stories in The Strand Magazine, beginning with "<a href="#book-section" class="smoothScroll"><cite>A Scandal in Bohemia</cite></a>"
 in 1891; additional tales appeared from then to 1927, eventually totalling four novels and 56 short
 stories.</p>
 
@@ -123,7 +154,10 @@ accompanies Holmes during his investigations and often shares quarters with him 
 221B Baker Street, London, where many of the stories begin.</p>
 </section>
 
-<section id="section-watson">
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="watson-section">
+<section>
 <header>
 <h2>Dr Watson</h2>
 </header>
@@ -143,8 +177,28 @@ reference to Watson's unknown middle name, which could have been "Hamish" (Scott
 "James") Dorothy Sayers, creator of the detective <i>Lord Peter Wimsey</i>, also wrote several essays on
 Holmesian speculation, later published this theory in <cite>Unpopular Opinions</cite>.</p>
 </section>
+</div>
 
-<section id="section-moriarty">
+<div class="col-xs-10 col-sm-10 col-md-12 col-lg-12" id="book-section">
+<div class="iframe-container">
+<iframe src='https://archive.org/stream/TheStrandMagazineAnIllustratedMonthly/TheStrandMagazine1891bVol.IiJul-dec?ui=embed#mode/2up' width='800px' height='717px' frameborder='0' ></iframe>
+</div>
+
+<p>Sherlock Holmes published in The Strand Magazine <a href="https://archive.org/stream/TheStrandMagazineAnIllustratedMonthly/TheStrandMagazine1891bVol.IiJul-dec">1891 Vol II Jul-Dec</a>. Embed from <a href="http://www.archive.org">Archive.org</a>.
+</div>
+
+</div> <!-- close row -->
+
+<div class="row">
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="villan-title">
+<div class="section-title" id="villans">
+	<h2>The Villans</h2>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="moriarty-section">
+<section >
 <header>
 <h2>Moriarty</h2>
 </header>
@@ -163,8 +217,10 @@ Watson.</p>
 criminals that Holmes has ever encountered. In the short story "<cite>The Adventure of the Final Problem</cite>",
 during a fight with Holmes above the Reichenbach Falls, Moriarty fell to his death.</p>
 </section>
+</div>
 
-<section id="section-irene">
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="irene-section">
+<section>
 <header>
 <h2>Irene Adler</h2>
 </header>
@@ -183,8 +239,16 @@ images of a young female member of the British Royal family during a dominatrix 
 <p>Even though Irene does not want money or power for the pictures, Sherlock is tasked in getting them
 back. She is using them, and other information on her mobile phone, for her "<em>protection</em>".</p>
 </section>
+</div>
 
-<section id="section-silver">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img-box" id="ian-holmes">
+
+<img src="/projects/heroes-and-villans/img/ian-mckellen-holmes.jpg"/>
+<p>Image courtesy of <a href="http://goodfilmguide.co.uk/wp-content/uploads/2015/06/MH-GK-26-7-14-01925.jpg">Good Film Guide</a>.</p>
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="silver-section">
+<section>
 <header>
 <h2>Adaptations on the Silver Screen</h2>
 </header>
@@ -197,17 +261,19 @@ Holmes</a>.</p>
 <p>The content on this page draws on copy from Wikipedia. This has been reworked to incorporate a
 comprehensive set of HTML5 elements to ensure semantics is full explored.</p>
 </section>
-
-
 <p>Copyright (C) 2016, Christopher Murphy, <i>#ixdbelfast</i></p>
+</div>
 
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="footer-section">
+
+</div>
 
 </article>
 
 {% include footer.html %}
 
-</div>
-
+</div><!-- End of main content -->
+</div><!-- End of wrapper -->
 
 </body>
 
@@ -222,6 +288,7 @@ comprehensive set of HTML5 elements to ensure semantics is full explored.</p>
   $(document).ready(function(){
        $('.parallax').parallax();
        $(".button-collapse").sideNav();
+			 $('.carousel').carousel();
      });
      </script>
 

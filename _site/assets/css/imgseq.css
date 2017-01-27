@@ -44,6 +44,7 @@ section.demo.doublewidth, .spacer.doublewidth {
 #imagesequence {
 	width:100%;
 	heigth:auto;
+	margin-bottom: -5px;
 }
 
 #section-slides .panel, .demo#section-wipes .panel {
