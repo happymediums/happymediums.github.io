@@ -7,14 +7,14 @@ nav {
   /* mobile first */
   position: fixed;
   width: 90%;
-  max-width: 400px;
+  max-width: 450px;
   right: 5%;
   bottom: 20px;
   border-radius: 0.25em;
   visibility: hidden;
   /* remove overflow:hidden if you want to create a drop-down menu - but then remember to fix/eliminate the list items animation */
   overflow: hidden;
-  z-index: 1;
+  z-index: 2;
   /* Force Hardware Acceleration in WebKit */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -111,9 +111,9 @@ nav {
     border-bottom: none;
   }
   #cd-nav li a:hover {
-    color: black;
-    background-color: #FBE33A;
-  }
+    color: #FBE33A;
+    background-color:;
+    }
   #cd-nav.is-fixed ul {
     /* when the user scrolls down, the navigation moves to the bottom right in Fixed position - as on touch devices */
     position: fixed;
@@ -182,7 +182,7 @@ nav {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  z-index: 2;
+  z-index: 3;
 }
 .cd-nav-trigger span {
   /* the span element is used to create the menu icon */

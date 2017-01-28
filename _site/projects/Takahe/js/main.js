@@ -75,7 +75,183 @@ $(document).ready(function(){
 	$("form.move input[name=duration]:radio").change(function () {
 		scene.duration($(this).val());
 
-    });
+    }); // End of Logo Animation Sequence
 
-// End of Logo Animation Sequence
+		// build a scene 1
+	var ourScene01 = new ScrollMagic.Scene({
+		triggerElement: '#rediscover',
+		triggerHook: 0.7
+	})
+	.setClassToggle('#rediscover', 'fade-in') // add class to project01
+	//.addIndicators({
+
+	//}) // this requires a plugin
+	.addTo(controller);
+
+	// build a scene 2
+var ourScene02 = new ScrollMagic.Scene({
+	triggerElement: '#table-one',
+	triggerHook: 0.5
+})
+.setClassToggle('#table-one', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 3
+var ourScene03 = new ScrollMagic.Scene({
+triggerElement: '#futilewings',
+triggerHook: 0.7
+})
+.setClassToggle('#futilewings', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 4
+var ourScene04 = new ScrollMagic.Scene({
+triggerElement: '#takaheprofile',
+triggerHook: 0.7
+})
+.setClassToggle('#takaheprofile', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 4
+var ourScene04 = new ScrollMagic.Scene({
+triggerElement: '#block-one',
+triggerHook: 0.7
+})
+.setClassToggle('#block-one', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 5
+var ourScene05 = new ScrollMagic.Scene({
+triggerElement: '#vanished',
+triggerHook: 0.7
+})
+.setClassToggle('#vanished', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 6
+var ourScene06 = new ScrollMagic.Scene({
+triggerElement: '#parallax-one',
+triggerHook: 0.3,
+duration: 200
+})
+.setClassToggle('#parabox-one', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 7
+var ourScene07 = new ScrollMagic.Scene({
+triggerElement: '#parallax-two',
+triggerHook: 0.3,
+duration: 200
+})
+.setClassToggle('#parabox-two', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 8
+var ourScene08 = new ScrollMagic.Scene({
+triggerElement: '#thirtyyear',
+triggerHook: 0.7
+})
+.setClassToggle('#thirtyyear', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 9
+var ourScene09 = new ScrollMagic.Scene({
+triggerElement: '#parallax-three',
+triggerHook: 0.5,
+duration: 200
+})
+.setClassToggle('#parabox-three', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 10
+var ourScene10 = new ScrollMagic.Scene({
+triggerElement: '#newzealandmap',
+triggerHook: 0.7
+})
+.setClassToggle('#newzealandmap', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 11
+var ourScene11 = new ScrollMagic.Scene({
+triggerElement: '#severewinters',
+triggerHook: 0.7
+})
+.setClassToggle('#severewinters', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 12
+var ourScene12 = new ScrollMagic.Scene({
+triggerElement: '#parallax-four',
+triggerHook: 0.3,
+duration: 200
+})
+.setClassToggle('#parabox-four', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 13
+var ourScene13 = new ScrollMagic.Scene({
+triggerElement: '#newzealand',
+triggerHook: 0.7
+})
+.setClassToggle('#newzealand', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+// build a scene 14
+var ourScene14 = new ScrollMagic.Scene({
+triggerElement: '#table-two',
+triggerHook: 0.7
+})
+.setClassToggle('#table-two', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+
+
+
+
+
+
+
+
 });

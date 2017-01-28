@@ -14,26 +14,7 @@ li {
 /*======================================
 							General Styles
 =======================================*/
-.fixed-header {
-	width:100%;
-	height: auto;
-	border: 5px solid #FBE33A;
-	box-sizing: border-box;
-	position: fixed;
-	z-index:20;
-	background: rgba(0, 0, 0, 0.5);
-}
-.fixed-header nav {
-	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px 0 rgba(0, 0, 0, 0.12),
-	0 0px 0px 0px rgba(0, 0, 0, 0.2)!important;
-	background: rgba(0, 0, 0, 0);
-}
-.fixed-header nav ul {
-	text-align: center;
-}
-.fixed-header {
 
-}
 .full-container {
 	width:100%;
 }
@@ -41,6 +22,8 @@ img {
 	width:100%;
 	height:auto;
 }
+
+
  .parallax-container {
       height: 75vh!important;
     }
@@ -71,23 +54,42 @@ img {
 		          transform: translateX(-50%);
 		}
 
+.yellow-hr {
+	width:50%;
+	height:4px;
+	margin: 10px 0;
+	background: #FBE33A;
+	margin-left: 10%;
+}
+.yellow-hr-centered {
+	width:50%;
+	height:4px;
+	margin: 10px 0;
+	background: #FBE33A;
+	margin-left: 25%;
+}
+
+
+
 	.text-box {
 		width:70%;
 		height:auto;
 		padding-left:10%;
 		}
 	.text-title {
-		width:100%;
+		width:70%;
 		height:auto;
 		padding-left: 10%;
 		color:#000;
 	}
 	#mapid {
-	height: 100vh;
+		height: 100vh;
+		z-index:1;
 	}
+
 .film-img-box {
-	border-top: 4px solid #FBE33A;
-	border-top: 4px solid #FBE33A;
+	border-top: 25px solid #FBE33A;
+	border-bottom: 25px solid #FBE33A;
 }
 
 	#text-one {
@@ -104,14 +106,6 @@ img {
 	position:;
 	z-index:15;
 }
-#two {
-}
-#three {
-height:auto;
-}
-#four {
-
-}
 
 #mapbox {
 	width:100%;
@@ -124,14 +118,19 @@ height:auto;
 }
 blockquote {
 	border-color: #FBE33A!important;
+	font-family: 'Raleway';
+}
+.parabox blockquote {
+	color:#fff;
 }
 
 
 .parabox {
 	width:80%;
 	position: absolute;
+	right:10%;
 	bottom:0;
-	margin: 30px 10%;
+	margin-bottom: 30px;
 	padding:30px;
 	height:auto;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -142,36 +141,43 @@ blockquote {
 	color:#ffffff;
 }
 table {
-	box-sizing: border-box;
-	border: 5px solid #FBE33A;
 	font-family: 'Raleway';
 	background-color: rgba(0, 0, 0, 0.5);
 	transition: 1s all linear;
 }
 .table-box {
-	position: absolute;
-	bottom: 0;
-	right:0;
-	margin: 20px;
+	box-sizing: border-box;
+	border: 5px solid #FBE33A;
 }
-.table-box p {
+.asset-info {
 	font-size: 12px;
-	color:#fff;
-	font-weight: bold;
 	font-style: italic;
 }
 
 tr:hover {
 	background-color: rgba(251, 227, 58, 0.5);
-	transition: 1s all linear;
+	transition: 0.5s all linear;
 	color:#000;
-
+	cursor: pointer;
 }
-td:after{
+tr {
+	border: 1px solid rgba(251, 227, 58, 1)!important;
+}
+td, th {
+	border-right:1px solid rgba(251, 227, 58, 1)!important;
+	padding-left:10px!important;
+}
+
+tr:hover {
+	color:#000;
+}
+
+tr, td:hover{
 	color:#000;
 }
 th {
 	color:#ffffff;
+	text-align: center;
 }
 td {
 	color:#ffffff;
@@ -184,24 +190,151 @@ td {
 	height:auto;
 	padding-left:10%;
 }
-#ten blockquote {
-	color:#ffffff;
-}
 .mapbox {
 	text-align: center;
 }
-blockquote {
-	font-family: 'Raleway';
-}
+
 .facts {
 	text-align: center;
 }
 .facts li {
 	font-family: 'Raleway';
 }
+#footer-section {
+	padding:30px 0;
+	width:90%;
+	margin-left: 5%;
+}
 /*======================================
-							Menu Styles
+							Scrollmagic Styles
 =======================================*/
+
+#rediscover {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#rediscover.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#table-one {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#table-one.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#futilewings {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#futilewings.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#takaheprofile {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#takaheprofile.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#block-one {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#block-one.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#vanished {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#vanished.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#thirtyyear {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#thirtyyear.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#newzealandmap {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#newzealandmap.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#severewinters {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#severewinters.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#newzealand {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#newzealand.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#table-two {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#table-two.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+
+#parabox-one {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#parabox-one.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#parabox-two {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#parabox-two.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#parabox-three {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#parabox-three.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+#parabox-four {
+	opacity: 0;
+	transition: 1s all linear;
+}
+#parabox-four.fade-in {
+	opacity:1;
+	transition: 1s all linear;
+}
+
+
+
+
+
 
 /*======================================
 							Banner Styles
@@ -356,13 +489,7 @@ p {
 
 
 #rediscover {
-	width:100%;
 height:auto;
-	background-image: url('../img/fiordland.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
 }
 
 #intro-text {

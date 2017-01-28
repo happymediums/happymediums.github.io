@@ -11,9 +11,8 @@
 
 @media only screen and (max-width: 768px) {
 
-#home-text {
+.text-box {
   width:80%;
-  margin-left: 10%;
 }
 
 }
@@ -22,6 +21,11 @@
 
   h1 {
     font-size: 1.5em
+  }
+
+  .text-box {
+    width:90%;
+    margin-left: 5%;
   }
 
 #home-text {

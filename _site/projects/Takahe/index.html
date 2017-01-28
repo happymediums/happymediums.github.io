@@ -3,15 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>The Takahe - Finding the extinct New Zealand bird</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/media.css" rel="stylesheet" type="text/css">
 <link href="css/menu.css" rel="stylesheet" type="text/css">
+<link href="css/imganimation.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Raleway|Special+Elite" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/assets/css/flexboxgrid.css" rel="stylesheet" type="text/css">
+
 <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+ <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 
 <!-- Compiled and minified CSS -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
@@ -22,17 +26,19 @@
 
 <body>
 
+<div class="wrapper">
+
   <div id="cd-nav">
 		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
 
 		<nav id="cd-main-nav">
 			<ul>
-				<li><a href="#two" class="smoothScroll">Rediscover</a></li>
-				<li><a href="#three" class="smoothScroll">Futile Wings</a></li>
-				<li><a href="#four" class="smoothScroll">Thirty Year Quest</a></li>
-				<li><a href="#0" class="smoothScroll">Vanished Birds</a></li>
-        	<li><a href="#0" class="smoothScroll">Severe Winters</a></li>
-				<li><a href="#0" class="smoothScroll">New Zealand</a></li>
+				<li><a href="#rediscover" class="smoothScroll">Rediscover</a></li>
+				<li><a href="#futilewings" class="smoothScroll">Futile Wings</a></li>
+				<li><a href="#thirtyyear" class="smoothScroll">Thirty Year Quest</a></li>
+				<li><a href="#vanished" class="smoothScroll">Vanished Birds</a></li>
+        	<li><a href="#severewinters" class="smoothScroll">Severe Winters</a></li>
+				<li><a href="#newzealand" class="smoothScroll">New Zealand</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -46,7 +52,7 @@
       <h1>The<br><span class="large">Takahe</span></h1>
       <h2>Finding the extinct New Zealand bird</h2>
       <div class="home-link">
-        <a href="#mapbox" class="smoothScroll">Rediscover</a>
+        <a href="#mapid" class="smoothScroll">Rediscover</a>
         <div class="border-box"></div>
       </div>
 
@@ -60,57 +66,25 @@
 
 </div>
 
-
-<div class="text-box" id="map-info">
-<p>Click on the map to discover more about the Takahe</p>
-</div>
-
-<div id="mapbox">
-<iframe width='100%' height='750px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/yonderdesigns.2odadpo6/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1IjoieW9uZGVyZGVzaWducyIsImEiOiJjaWp3dTZkOGMwMDE5dmNtMHRqMzIzenRsIn0.WB_knZtlVi5yeKEgxfshUQ'></iframe></div>
-
-<div class="main-content" id="text-one">
-<div class="text-title">
-<h2>Rediscovered by a Persevering Doctor, the Flightless, Colorful Takahe, or 'Wanderer', Struggles to Survive</h2>
-</div>
-<div class="text-box">
-
-  <p>Rediscovery of this flightless bird, the large, brilliant-hued native rail which the Maoris called
-  takahea, meaning "wandering at large," excited almost as much interest in New Zealand as discovery
-  of a living passenger pigeon would arouse in America.</p>
-
-</div>
-
-</div>
-
-<div class="film-img-box">
-<div id="section-animation">
-    <section class="demo">
-        <div class="spacer s0" id="trigger"></div>
-
-      <div id="imagesequence">
-    <img src="/assets/img/takahe-animation/animation00.jpg" id="myimg">
-    </div>
-
-  </section>
-</div>
-</div>
+<div id="mapid"></div>
 
 
-  <div class="parallax-container" id="two">
+<div class="row" id="rediscover">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="text-title">Rediscovered by a Persevering Doctor, the Flightless, Colorful Takahe, or 'Wanderer', Struggles to Survive</h2>
+    <div class="yellow-hr"></div>
+  </div>
 
-    <div class="parabox">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    <div class="text-box">
+
+      <p>Rediscovery of this flightless bird, the large, brilliant-hued native rail which the Maoris called
+      takahea, meaning "wandering at large," excited almost as much interest in New Zealand as discovery
+      of a living passenger pigeon would arouse in America.</p>
 
       <p>In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival.
-        Behind the rare species in its fight for life is all the protective power of the Dominion Government.</p>
-
-    </div>
-
-      <div class="parallax"><img src="img/the-fiordland-national-park-1.jpg"></div>
-    </div>
-
-  <div class="full-container" id="three">
-
-<div class="text-box">
+          Behind the rare species in its fight for life is all the protective power of the Dominion Government.</p>
 
 <p>To zoologists and bird lovers throughout the world, reappearance of takahea, now called the takahe,
 was a notable event. They had a scientific name for the creature – Notornis hochstetteri, the first
@@ -120,97 +94,121 @@ half of which means "bird of the south"–but they knew tantalizingly little abo
 came as the reward of years of patient and systematic search. Only four of the birds were known to science when he made
 his discovery on the shore of a lake in what is now called Notornis Valley. Since August, 1898, there had been no authentic
 report of one being caught, or even seen.<p>
+
+
+
+  <div class="table-box" id="table-one">
+      <table>
+      <tr>
+          <th>Island</th>
+          <th>Size (ha)</th>
+          <th>Habitat</th>
+          <th>Number of Takahe Pairs</th>
+      </tr>
+
+      <tr>
+          <td>Kapiti</td>
+          <td>2023</td>
+          <td>Mostly forest</td>
+          <td>10</td>
+      </tr>
+
+      <tr>
+          <td>Mana</td>
+          <td>217</td>
+          <td>Mostly grassland</td>
+          <td>10</td>
+      </tr>
+
+      <tr>
+          <td>Maud</td>
+          <td>309</td>
+          <td>mixed forest/grass</td>
+          <td>7-10</td>
+      </tr>
+
+      <tr>
+          <td>Tiritiri</td>
+          <td>210</td>
+          <td>mixed forest/grass</td>
+          <td>10</td>
+      </tr>
+
+
+      </table>
+    </div>
+    <p class="asset-info">Estimated carrying capacity of islands with Takahe.</p>
+
+
 </div>
   </div>
+</div>
 
-  <div class="parallax-container" id="four">
+  <div class="film-img-box">
+  <div id="section-animation">
+      <section class="demo">
+          <div class="spacer s0" id="trigger"></div>
 
-<div class="table-box">
-    <table>
-    <tr>
-        <th>Island</th>
-        <th>Size (ha)</th>
-        <th>Habitat</th>
-        <th>Number of Takahe Pairs</th>
-    </tr>
+        <div id="imagesequence">
+      <img src="/assets/img/takahe-animation/animation00.jpg" id="myimg">
+      </div>
 
-    <tr>
-        <td>Kapiti</td>
-        <td>2023</td>
-        <td>Mostly forest</td>
-        <td><10</td>
-    </tr>
-
-    <tr>
-        <td>Mana</td>
-        <td>217</td>
-        <td>Mostly grassland</td>
-        <td>>10</td>
-    </tr>
-
-    <tr>
-        <td>Maud</td>
-        <td>309</td>
-        <td>mixed forest/grass</td>
-        <td>7-10</td>
-    </tr>
-
-    <tr>
-        <td>Tiritiri</td>
-        <td>210</td>
-        <td>mixed forest/grass</td>
-        <td>10</td>
-    </tr>
-
-
-    </table>
-    <p>Estimated carrying capacity of islands with Takahe.</p>
+    </section>
+  </div>
   </div>
 
-      <div class="parallax"><img src="img/fiordland.jpg"></div>
+<div class="row" id="futilewings">
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="text-title">Futile Wings Have Three-Foot Span</h2>
+    <div class="yellow-hr"></div>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    <div class="text-box">
+
+      <p>A primitive type of large moor hen found only in New Zealand,
+        the takahe is unlike any other member of the world-wide rail family
+        to which it belongs. For example, despite its membership in an aquatic family,
+        it avoids swamps and rivers. It does, however, share some of the clan 's
+        characteristics, such as a large frontal shield.</p>
+
+      <p>The full-grown takahe stands some twenty inches high and weighs about six pounds.
+        The wings, though incapable of flight, may have a three-foot span.</p>
+
+        <div class="imgbox">
+<img id="takaheprofile" src="/projects/takahe/img/takahe-colours.jpg"/>
+<p class="asset-info">Image courtesy of <a href="http://nzbirdsonline.org.nz/species/south-island-takahe" target="_blank">NZ Birds Online.org</a>.</p>
+        </div>
+
+      <p>The adult bird is vividly colored. Head, neck, breast, and flanks are an iridescent
+        indigo blue, becoming brighter on the shoulders and changing to a malachite green on the
+        mantle. The dark rump and upper tail coverts are olive green, the abdomen and thighs purplish
+        black, and the under tail coverts white. The powerful beak is scarlet at the base, fading
+        outwards to a wax pink. Legs and feet are red, eyes reddish brown.</p>
+
+      <p>This brilliant color scheme is seen to full advantage only when the bird is approaching the
+        observer or passing at right angles to him.</p>
+
+      <p>In contrast to its showy parents, the young takahe wears only a uniform, soft black down.
+        The black beak is white-tipped, and the disproportionately large legs are a pale purple.</p>
+
+      <p>In New Zealand's ornithological history, extinction, or near extinction, has been the lot of
+        many species as a result of settlement.</p>
+
+      <blockquote id="block-one">"It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years."
+      <br>— Heather and Robertson</blockquote>
+
     </div>
 
-<div class="full-container" id="five">
-  <div class="text-title">
-    <h2>Futile Wings Have Three-Foot Span</h2>
-</div>
-<div class="text-box">
-
-  <p>A primitive type of large moor hen found only in New Zealand,
-    the takahe is unlike any other member of the world-wide rail family
-    to which it belongs. For example, despite its membership in an aquatic family,
-    it avoids swamps and rivers. It does, however, share some of the clan 's
-    characteristics, such as a large frontal shield.</p>
-
-  <p>The full-grown takahe stands some twenty inches high and weighs about six pounds.
-    The wings, though incapable of flight, may have a three-foot span.</p>
-
-  <p>The adult bird is vividly colored. Head, neck, breast, and flanks are an iridescent
-    indigo blue, becoming brighter on the shoulders and changing to a malachite green on the
-    mantle. The dark rump and upper tail coverts are olive green, the abdomen and thighs purplish
-    black, and the under tail coverts white. The powerful beak is scarlet at the base, fading
-    outwards to a wax pink. Legs and feet are red, eyes reddish brown.</p>
-
-  <p>This brilliant color scheme is seen to full advantage only when the bird is approaching the
-    observer or passing at right angles to him.</p>
-
-  <p>In contrast to its showy parents, the young takahe wears only a uniform, soft black down.
-    The black beak is white-tipped, and the disproportionately large legs are a pale purple.</p>
-
-  <p>In New Zealand's ornithological history, extinction, or near extinction, has been the lot of
-    many species as a result of settlement.</p>
-
-  <blockquote>"It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years."
-  <br>— Heather and Robertson</blockquote>
+  </div>
 
 </div>
 
+  <div class="parallax-container" id="parallax-one">
 
-</div>
-
-  <div class="parallax-container" id="six">
-
-    <div class="parabox">
+    <div class="parabox" id="parabox-one">
 
       <p>Originally, native birds had no enemies, and the vegetation which affords them cover
         was not subject to browsing by animals. Under these favorable conditions many unusual forms of life,
@@ -221,51 +219,58 @@ report of one being caught, or even seen.<p>
       <div class="parallax"><img src="img/takahe-004.jpg"></div>
     </div>
 
-    <div class="full-container" id="seven">
-      <div class="text-title">
-        <h2>Vanished Birds Include 12-Foot Moa</h2>
+
+    <div class="row" id="vanished">
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="text-title">Vanished Birds Include 12-Foot Moa</h2>
+        <div class="yellow-hr"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="text-box">
+
+        <p>Before the arrival of Capt. James Cook in 1769, birds were the dominant land vertebrates.
+          The only land mammals were the dog, a Polynesian rat, and two species of bats.
+          The dog and rat had been introduced by the Maoris on their second migration, about A. D. 1150. *</p>
+
+        <p>After the Maoris had caused the extinction of the huge flightless moa, one species of which was twelve feet high,
+          European settlement brought about more extensive changes. Ferrets, stoats, and weasels were introduced to control
+          a plague of rabbits, and these, with cats, dogs, and other predators, virtually sealed the fate of numerous
+          native species, among them the takahe.</p>
+
+        <p>The first living takahe known to Europeans was purposely killed and eaten.
+          It was caught by a sealing gang on Resolution Island, near the southwest end of South Island , in 1849.
+          Two years later a party of Maoris caught a second bird in Thompson Sound, about forty miles farther north.</p>
+
+        <p>Luckily, the skins of both birds were obtained by Mr. W. D. B. Mantell, who in 1847 had discovered the semi
+          fossil remains of the North Island variety (duly named Notornis mantelli by Sir Richard Owen, of London).
+          The skins were sent to the British Museum.</p>
+
+        <p>Twenty-eight years passed before another specimen appeared.
+          A rabbiter's dog caught it near the south end of Lake Te Anau.
+          The bird was destined for the cooking pot when it was rescued by a farm manager and eventually sold to a
+          museum in Dresden, Germany, for £105.<p>
+
+        <p>After close examination, Dr. Adolph B. Meyer of the Dresden museum found that this bird was sufficiently
+          different from the North Island semi fossil form found by Mantell to warrant a distinct name.
+          Accordingly, the name Notornis hochstetteri was given the present species.</p>
+
+        <p>The fourth specimen was caught by a dog on the shore of Middle Fiord of Lake Te Anau in 1898.
+          The bird was bought by the Government for £250 to ensure that it remained in New Zealand.
+          Preserved in the Otago Museum at Dunedin, it still is the only mounted specimen in the country,
+          for no more takahe were known until Dr. Orbell's discovery.</p>
 </div>
 
-<div class="text-box">
+      </div>
 
 
-  <p>Before the arrival of Capt. James Cook in 1769, birds were the dominant land vertebrates.
-    The only land mammals were the dog, a Polynesian rat, and two species of bats.
-    The dog and rat had been introduced by the Maoris on their second migration, about A. D. 1150. *</p>
 
-  <p>After the Maoris had caused the extinction of the huge flightless moa, one species of which was twelve feet high,
-    European settlement brought about more extensive changes. Ferrets, stoats, and weasels were introduced to control
-    a plague of rabbits, and these, with cats, dogs, and other predators, virtually sealed the fate of numerous
-    native species, among them the takahe.</p>
+    </div>
 
-  <p>The first living takahe known to Europeans was purposely killed and eaten.
-    It was caught by a sealing gang on Resolution Island, near the southwest end of South Island , in 1849.
-    Two years later a party of Maoris caught a second bird in Thompson Sound, about forty miles farther north.</p>
+<div class="parallax-container" id="parallax-two">
 
-  <p>Luckily, the skins of both birds were obtained by Mr. W. D. B. Mantell, who in 1847 had discovered the semi
-    fossil remains of the North Island variety (duly named Notornis mantelli by Sir Richard Owen, of London).
-    The skins were sent to the British Museum.</p>
-
-  <p>Twenty-eight years passed before another specimen appeared.
-    A rabbiter's dog caught it near the south end of Lake Te Anau.
-    The bird was destined for the cooking pot when it was rescued by a farm manager and eventually sold to a
-    museum in Dresden, Germany, for £105.<p>
-
-  <p>After close examination, Dr. Adolph B. Meyer of the Dresden museum found that this bird was sufficiently
-    different from the North Island semi fossil form found by Mantell to warrant a distinct name.
-    Accordingly, the name Notornis hochstetteri was given the present species.</p>
-
-  <p>The fourth specimen was caught by a dog on the shore of Middle Fiord of Lake Te Anau in 1898.
-    The bird was bought by the Government for £250 to ensure that it remained in New Zealand.
-    Preserved in the Otago Museum at Dunedin, it still is the only mounted specimen in the country,
-    for no more takahe were known until Dr. Orbell's discovery.</p>
-
-</div>
-</div>
-
-<div class="parallax-container" id="eight">
-
-  <div class="parabox">
+  <div class="parabox" id="parabox-two">
 
     <p>Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, reiused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.</p>
 
@@ -275,40 +280,28 @@ report of one being caught, or even seen.<p>
   </div>
 
 
+<div class="row" id="thirtyyear">
 
-
-
-  <div class="full-container" id="nine">
-    <div class="text-title">
-      <h2>A Thirty-Year Quest Begins</h2>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="text-title">A Thirty-Year Quest Begins</h2>
+    <div class="yellow-hr"></div>
 </div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <div class="text-box">
+  <p>Dr. Orbell's interest in the creature began more than thirty years ago when, as a boy, he found an old photograph showing the museum bird in a case. His mother told its story and explained that the bird was supposed to be extinct.</p>
 
+  <img id="newzealandmap" src="img/new-zealand.png">  <!-- Image: new-zealand.png -->
+  <p class="asset-info">New Zealand Fiordland Shelters the Takahe, or Notornis, a Bird Long Thought Extinct.</p>
 
-<p>Dr. Orbell's interest in the creature began more than thirty years ago when, as a boy, he found an old photograph showing the museum bird in a case. His mother told its story and explained that the bird was supposed to be extinct.</p>
-
-<p>That word "<em>supposed</em>" stimulated Dr. Orbell's adventurous spirit, and he learned all he could about the species. From game rangers and from men who had probed the fastnesses of Fiordland, from hearsay and from stories told around campfires on numerous hunting trips, Dr. Orbell picked up fragments of information about possible takahe hiding places.</p>
-
-<img src="img/new-zealand.png">
-<p><i><small>New Zealand Fiordland Shelters the Takahe, or Notornis, a Bird Long Thought Extinct.</small></i></p>
-
-
+  <p>That word "<em>supposed</em>" stimulated Dr. Orbell's adventurous spirit, and he learned all he could about the species. From game rangers and from men who had probed the fastnesses of Fiordland, from hearsay and from stories told around campfires on numerous hunting trips, Dr. Orbell picked up fragments of information about possible takahe hiding places.</p>
 </div>
-
-
-  <!-- Image: new-zealand.png -->
-
-
-
-</div>
-
-
 </div>
 </div>
 
-<div class="parallax-container" id="ten">
+<div class="parallax-container" id="parallax-three">
 
-  <div class="parabox">
+  <div class="parabox" id="parabox-three">
 
     <p>In 1945 Dr. Orbell built a summer home at Lake Te Anau, where two of the birds had been caught. The question of the takahe's existence and whereabouts was always with him, but he seldom mentioned the matter except jokingly or as a bait to catch information. In this way he learned that a man who knew the country round about always carried his rifle loaded when in a certain area.</p>
 
@@ -320,90 +313,152 @@ report of one being caught, or even seen.<p>
     <div class="parallax"><img src="img/img_0661.jpg"></div>
   </div>
 
-<div class="full-container" id="eleven">
-  <div class="text-title">
-    <h2>Severe Winters Limit Food</h2>
-</div>
-<div class="text-box">
+  <div class="row" id="severewinters">
 
-  </header>
-  <img src="https://github.com/happymediums/projects/raw/master/The%20Big%20Bird%20Project/img/bent-billiard-pipe.jpg">
-  <p><i><small>Dr. Orbell (Right) Brought the Takahe Back to Human Ken.</small></i></p>
-
-  <p>From observations over three nesting seasons, it seems that most, if not ail, of the birds in the main Notornis Valley breed yearly, but very few chicks are hatched and raised. In the 1949-50 season, 40 percent of the observed eggs were totally infertile, only three chicks were hatched, and by February, 1950, only one remained alive. It is now known, however, that several birds besides those under observation were nesting.</p>
-
-  <p>The availability of snow grass and other food during severe winters, when the area is deeply covered with snow, is an important factor in the survival of the species. A dead adult bird, untouched by predators, was found in the main valley in the spring of 1949. This and other complete skeletons have suggested that starvation is a not uncommon cause of death.</p>
-
-  <p>Every endeavor is being made to preserve these contemporaries of New Zealand's extinct giant moa, swan, and eagle, interesting creatures sorely missed. But if measures to combat predators prove ineffective, if nesting shelter and food suffer serious depletion, if a severe winter strikes, or if infertility increases-if anyone or a combination of these mishaps overtakes back-to-the-wall notornis -then the species must inevitably join the heath hen, the dodo, the great auk, and others that are lost to the world forever.</p>
-
-
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <h2 class="text-title">Severe Winters Limit Food</h2>
+  <div class="yellow-hr"></div>
 </div>
 
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="text-box">
+
+    </header>
+
+    <p>From observations over three nesting seasons, it seems that most, if not ail, of the birds in the main Notornis Valley breed yearly, but very few chicks are hatched and raised. In the 1949-50 season, 40 percent of the observed eggs were totally infertile, only three chicks were hatched, and by February, 1950, only one remained alive. It is now known, however, that several birds besides those under observation were nesting.</p>
+    <img src="https://github.com/happymediums/projects/raw/master/The%20Big%20Bird%20Project/img/bent-billiard-pipe.jpg">
+    <p class="asset-info">Dr. Orbell (Right) brought the Takahe Back to Human Ken.</p>
+
+    <p>The availability of snow grass and other food during severe winters, when the area is deeply covered with snow, is an important factor in the survival of the species. A dead adult bird, untouched by predators, was found in the main valley in the spring of 1949. This and other complete skeletons have suggested that starvation is a not uncommon cause of death.</p>
+
+    <p>Every endeavor is being made to preserve these contemporaries of New Zealand's extinct giant moa, swan, and eagle, interesting creatures sorely missed. But if measures to combat predators prove ineffective, if nesting shelter and food suffer serious depletion, if a severe winter strikes, or if infertility increases-if anyone or a combination of these mishaps overtakes back-to-the-wall notornis -then the species must inevitably join the heath hen, the dodo, the great auk, and others that are lost to the world forever.</p>
+
+
+  </div>
 
 </div>
 
-<div class="parallax-container" id="twelve">
 
-  <div class="parabox">
+  </div>
+
+<div class="parallax-container" id="parallax-four">
+
+  <div class="parabox" id="parabox-four">
 
     <p>New Zealand is a fertile and mountainous group of islands in the southwestern Pacific Ocean. <q>It is a land uplifted high,</q> wrote Abel Tasman, a Dutch navigator who was the first European to sight New Zealand, in 1642. Snowy peaks, fjord-scarred shores, and pastures dotted with sheep define this country.</p>
   </div>
   <div class="parallax"><img src="img/Fiordland-Milford.jpg"></div>
 </div>
 
-<div class="full-container" id="thirteen">
+<div class="row" id="newzealand">
 
-  <div class="text-title">
-    <h2>New Zealand</h2>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <h2 class="text-title">New Zealand</h2>
+  <div class="yellow-hr"></div>
 </div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+  <div class="text-box">
+    <p>New Zealand, a parliamentary democracy modeled on that of the United Kingdom, has been a self-governing British dominion since 1907. It became a founding member of the British Commonwealth in 1926.</p>
+
+    <p>One in three citizens—Kiwis—lives in or around the city of Auckland. Rugby clubs with names such as Canterbury and Wellington reveal a nation peopled mostly by descendants of British settlers. The indigenous Maori constitute about 15 percent of New Zealanders; recent immigrants—primarily from Samoa and Fiji—make Auckland one of the world's largest Polynesian cities.</p>
+
+    <p>The export-driven country, whose chief trading partner used to be the United Kingdom, faltered in 1973 when Britain joined the European Union. The loss of preferential treatment prompted a search for new markets. Japan, Australia, and the U.S. now buy half of all exports, which include wool, mutton, lamb, beef, cheese, fish, and chemicals.</p>
+
+    <p>New Zealand plays an active role in helping democratic nations and emerging Pacific island economies. It sent troops to East Timor when violence broke out in 1999, and it provided millions of dollars to the South Pacific island of Niue after it was devastated by a tropical cyclone in 2004. Niue and the Cook Islands enjoy a status of self-government in free association with New Zealand.</p>
+
+</div>
+</div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h2 class="text-title">Fast Facts</h2>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 <div class="text-box">
 
+  <div class="table-box" id="table-two">
+      <table>
+      <tr>
+          <td>Population</td>
+          <td>4,107,000</td>
+      </tr>
+
+      <tr>
+          <td>Capital</td>
+          <td>Wellington; 343,000</td>
+      </tr>
+
+      <tr>
+          <td>Area</td>
+          <td>270,534 Square Kilometers (104,454 Square Miles)</td>
+      </tr>
+
+      <tr>
+          <td>Language</td>
+          <td>English, Maori</td>
+      </tr>
+
+      <tr>
+          <td>Religion</td>
+          <td>Protestant, Roman Catholic</td>
+      </tr>
+
+      <tr>
+          <td>Currency</td>
+          <td>New Zealand Dollar</td>
+      </tr>
+
+      <tr>
+          <td>Life Expectancy</td>
+          <td>78</td>
+      </tr>
+
+      <tr>
+          <td>GDP per Capita</td>
+          <td>U.S. $20,100</td>
+      </tr>
+
+      <tr>
+          <td>Literacy Percent</td>
+          <td>99</td>
+      </tr>
 
 
-  <p>New Zealand, a parliamentary democracy modeled on that of the United Kingdom, has been a self-governing British dominion since 1907. It became a founding member of the British Commonwealth in 1926.</p>
 
-  <p>One in three citizens—Kiwis—lives in or around the city of Auckland. Rugby clubs with names such as Canterbury and Wellington reveal a nation peopled mostly by descendants of British settlers. The indigenous Maori constitute about 15 percent of New Zealanders; recent immigrants—primarily from Samoa and Fiji—make Auckland one of the world's largest Polynesian cities.</p>
+      </table>
+    </div>
 
-  <p>The export-driven country, whose chief trading partner used to be the United Kingdom, faltered in 1973 when Britain joined the European Union. The loss of preferential treatment prompted a search for new markets. Japan, Australia, and the U.S. now buy half of all exports, which include wool, mutton, lamb, beef, cheese, fish, and chemicals.</p>
+  </div>
 
-  <p>New Zealand plays an active role in helping democratic nations and emerging Pacific island economies. It sent troops to East Timor when violence broke out in 1999, and it provided millions of dollars to the South Pacific island of Niue after it was devastated by a tropical cyclone in 2004. Niue and the Cook Islands enjoy a status of self-government in free association with New Zealand.</p>
-
-<div class="facts">
-  <h2>Fast Facts</h2>
-  <ul>
-  <li>Population: 4,107,000</li>
-  <li>Capital: Wellington; 343,000</li>
-  <li>Area: 270,534 Square Kilometers (104,454 Square Miles)</li>
-  <li>Language: English, Maori</li>
-  <li>Religion: Protestant, Roman Catholic</li>
-  <li>Currency: New Zealand Dollar</li>
-  <li>Life Expectancy: 78</li>
-  <li>GDP per Capita: U.S. $20,100</li>
-  <li>Literacy Percent: 99</li>
-  </ul>
 </div>
 
-  <section>
-  * See, in the National Geographic Magazine: "<cite>The Columbus of the Pacific: Captain James Cook,</cite>" by J. R. Hildebrand, January, 1927; and "<cite>Tuatara: 'Living Fossils' Walk on Well-Nigh Inaccessible Rocky Islands off the Coast of New Zealand,</cite>" by Frieda Cobb Blanchard, May, 1935.
-  </section>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-  <section>
-  <footer class="main-footer">
-  <p>Copyright 1952. R. V. Francis Smith</p>
-  <p>Published by the National Geographic Society, Washington, D.C.</p>
+<div id="footer-section">
+    <section>
+    <p>
+    * See, in the National Geographic Magazine: "<cite>The Columbus of the Pacific: Captain James Cook,</cite>" by J. R. Hildebrand, January, 1927; and "<cite>Tuatara: 'Living Fossils' Walk on Well-Nigh Inaccessible Rocky Islands off the Coast of New Zealand,</cite>" by Frieda Cobb Blanchard, May, 1935.
+  </p>
+    </section>
+    <div class="yellow-hr-centered"></div>
+
+    <section>
+    <footer class="main-footer">
+    <p>Copyright 1952. R. V. Francis Smith</p>
+    <p>Published by the National Geographic Society, Washington, D.C.</p>
   <p>Article: Copyright, 1952, by National Geographic Society, Washington, D.C. International copyright secured. All rights reserved. Printed in U.S.A. Entered at the Post Office at Washington, D.C., as Second Class Mail Matter. Acceptance for mailing at special rate of postage provided for in Sec. 1103, Act of October 3, 1917, authorized July 1, 1918. Cover design and names registered in United States Patent Office.</p>
-  <p>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</p>
-  </footer>
-  </section>
-
-
+    <p>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</p>
+    </footer>
+    </section>
 
 </div>
 
+  </div>    <!-- Close Row -->
 
-</div>
-
+</div> <!-- Close Wrapper -->
 
 <!-- ScrollMagic, Greensock, jQuery CDN Files -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -416,7 +471,6 @@ report of one being caught, or even seen.<p>
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 
 <script>
 $(document).ready(function(){
@@ -426,6 +480,36 @@ $(document).ready(function(){
 <script src="js/smoothscroll.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/main.js"></script>
+<script>
+var mymap = L.map('mapid', {
+  center: [-42.847848, 172.355737],
+      zoom: 6,
+scrollWheelZoom: false
+
+});
+
+	L.tileLayer('https://api.mapbox.com/styles/v1/yonderdesigns/ciyef4399001x2sntrt67h2bw/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoieW9uZGVyZGVzaWducyIsImEiOiJjaWp3dTZkOGMwMDE5dmNtMHRqMzIzenRsIn0.WB_knZtlVi5yeKEgxfshUQ', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
+  var birdIcon = L.icon({
+    iconUrl: '/projects/takahe/img/takahe-map-icon.svg',
+    iconSize:     [40, 150], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+
+  var marker = L.marker([-45.256196, 167.587766], {icon: birdIcon}).addTo(mymap);
+		  marker.bindPopup("<b>Rediscovering the Takahe</b><br/><br>In New Zealand's rugged Fiordland a bird thought extinct for fifty years is struggling for survival. Behind the rare species in its fight for life is all the protective power of the Dominion Government.<br/><br/>Scroll down further for more information.");
+
+
+</script>
 
 
 </body>
