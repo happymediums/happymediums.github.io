@@ -182,7 +182,7 @@ triggerHook: 0.7
 var ourScene09 = new ScrollMagic.Scene({
 triggerElement: '#parallax-three',
 triggerHook: 0.5,
-duration: 200
+duration: 300
 })
 .setClassToggle('#parabox-three', 'fade-in') // add class to project01
 //.addIndicators({
