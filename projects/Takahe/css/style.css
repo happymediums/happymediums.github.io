@@ -292,10 +292,13 @@ td {
 #table-two {
 	opacity: 0;
 	transition: 1s all linear;
+	transform: translateX(-50%);
 }
-#table-two.fade-in {
+#table-two.slide-left {
 	opacity:1;
 	transition: 1s all linear;
+	transform: translateX(0);
+
 }
 
 #parabox-one {

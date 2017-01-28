@@ -238,9 +238,9 @@ triggerHook: 0.7
 // build a scene 14
 var ourScene14 = new ScrollMagic.Scene({
 triggerElement: '#table-two',
-triggerHook: 0.7
+triggerHook: 1
 })
-.setClassToggle('#table-two', 'fade-in') // add class to project01
+.setClassToggle('#table-two', 'slide-left') // add class to project01
 //.addIndicators({
 
 //}) // this requires a plugin
