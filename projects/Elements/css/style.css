@@ -2,6 +2,12 @@
 Main Body Styles
 ===================================*/
 
+@font-face {
+    font-family: Fat Frank;
+    src: url(fonts/fatfrank.otf);
+}
+
+
 html, body {
   margin:0 auto;
   background: url('../img/elements_background.jpg');
@@ -50,10 +56,9 @@ min-height: 100%;
   border: none;
   border-radius: 0.5em;
   color: #fff;
-  font-family: sans-serif;
+  font-family: 'Fat Frank',sans-serif;
   font-size: 1.25em;
   cursor: pointer;
-  font-family: 'Rubik One', sans-serif;
 }
 button.button {
   background: #00142c;
@@ -222,8 +227,8 @@ align-items: center;
   background-color: #fff;
 }
 h1 {
-  font-family: 'Rubik One', sans-serif;
-  font-weight: 300;
+  font-family: 'Fat Frank', sans-serif;
+  font-weight: 600;
   font-size:5em;
   color:white;
   -webkit-margin-before: 0em;
@@ -244,4 +249,14 @@ p {
   font-family: 'Rubik One', sans-serif;
   font-size:1.5em;
   color:#00142C;
+}
+
+#filtersection {
+  opacity:0;
+  transition: 0.5s all linear;
+
+}
+#filtersection.fade-in {
+  opacity:1;
+  transition: 0.5s all linear;
 }

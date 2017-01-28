@@ -33,3 +33,20 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
+
+$(document).ready(function(){
+
+  // Init ScrollMagic
+  var controller = new ScrollMagic.Controller();
+
+  // build a scene 01
+var ourScene01 = new ScrollMagic.Scene({
+  triggerElement: '#filtersection',
+  triggerHook: 0.5
+})
+.setClassToggle('#filtersection', 'fade-in') // add class to project01
+//	.addIndicators({
+//	}) // this requires a plugin
+.addTo(controller);
+
+});
