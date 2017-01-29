@@ -2,12 +2,6 @@
 Main Body Styles
 ===================================*/
 
-@font-face {
-    font-family: 'Fat Frank';
-    src: url('fonts/fatfrank.otf');
-}
-
-
 html, body {
   margin:0 auto;
   background: url('../img/elements_background.jpg');
@@ -48,7 +42,7 @@ min-height: 100%;
 }
 a.backlink {
   color:#fff;
-  font-family: 'Fat Frank';
+  font-family: 'Rubik One';
   text-decoration: none;
 }
 a.backlink:hover {
@@ -67,9 +61,24 @@ a.backlink:hover {
 table {
   color:#fff;
   border: 2px solid #fff;
+  font-family: 'Raleway';
+font-size:1.25em;
+}
+tr {
+  border: 1px solid #fff;
+}
+td {
+  border:1px solid #fff;
+  transition: 0.5s all linear;
+}
+td:hover {
+  background: #fff;
+  color:#00142c;
+  transition: 0.5s all linear;
 }
 .element-table {
-
+width:100%;
+padding: 0 25%;
 }
 
 
@@ -116,7 +125,7 @@ Video
   border: none;
   border-radius: 0.5em;
   color: #fff;
-  font-family: 'Fat Frank',sans-serif;
+  font-family: 'Raleway',sans-serif;
   font-size: 1.25em;
   cursor: pointer;
 }
@@ -284,6 +293,7 @@ Home Section Styles
 }
 .element-summary p {
   color:#fff;
+  font-family: 'Raleway', sans-serif;
 }
 .element-gif {
   text-align: center;
