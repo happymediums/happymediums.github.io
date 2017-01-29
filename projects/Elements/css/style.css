@@ -41,7 +41,6 @@ min-height: 100%;
   margin:25px;
   padding:10px;
   border: 4px solid #fff;
-  position: fixed;
 }
 a.backlink {
   color:#fff;
@@ -51,9 +50,24 @@ a.backlink {
 a.backlink:hover {
   color:#8CF;
 }
+header {
+  width:100%;
+  position: fixed;
+  height:100px;
+  top:0;
+  background: red;
+  transition: top 0.2s ease-in-out;
+}
 .topbar {
   margin:50px 0;
 }
+
+// we'll add this class using javascript
+.nav-up {
+  top: -100px; // same as header height. use variables in LESS/SASS
+}
+
+
 footer {
   width:80%;
   margin-left:10%;
@@ -249,7 +263,7 @@ a.title-link:hover {
   position: relative;
   float: left;
   height: auto;
-  padding-right:25%;
+  width:25%;
   padding-bottom: 25%;
   background: #888;
   color: #262524;
@@ -350,6 +364,10 @@ copy
 }
 .element-gif {
   text-align: center;
+}
+.element-gif img {
+  width:100%;
+  height:auto;
 }
 .heading-center {
   width:100%;
