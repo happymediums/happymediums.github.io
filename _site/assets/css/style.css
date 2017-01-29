@@ -234,7 +234,6 @@ footer img {
 	float:right;
 }
 #blog-section {
-	width:100%;
 	height:auto;
 	background-color: white;
 }
@@ -272,7 +271,7 @@ a.post-link:hover {
 
 }
 .post-col-l {
-	
+
 }
 
 #section-hand-ani {
