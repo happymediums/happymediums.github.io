@@ -39,6 +39,7 @@ min-height: 100%;
   margin:25px;
   padding:10px;
   border: 4px solid #fff;
+  position: fixed;
 }
 a.backlink {
   color:#fff;
@@ -50,6 +51,35 @@ a.backlink:hover {
 }
 .topbar {
   margin:50px 0;
+}
+footer {
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  border-bottom: 1px solid #fff;
+  padding:5 0;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00142c+0,00142c+49,00142c+100&0+0,0.6+10,0.6+50,0.6+95,0+100 */
+background: -moz-linear-gradient(top, rgba(0,20,44,0) 0%, rgba(0,20,44,0.6) 10%, rgba(0,20,44,0.6) 49%, rgba(0,20,44,0.6) 50%, rgba(0,20,44,0.6) 95%, rgba(0,20,44,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,20,44,0) 0%,rgba(0,20,44,0.6) 10%,rgba(0,20,44,0.6) 49%,rgba(0,20,44,0.6) 50%,rgba(0,20,44,0.6) 95%,rgba(0,20,44,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,20,44,0) 0%,rgba(0,20,44,0.6) 10%,rgba(0,20,44,0.6) 49%,rgba(0,20,44,0.6) 50%,rgba(0,20,44,0.6) 95%,rgba(0,20,44,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000142c', endColorstr='#0000142c',GradientType=0 ); /* IE6-9 */
+copy
+
+}
+footer p{
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+  -webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+}
+footer a {
+  color:#fff;
+text-decoration: none;
+}
+footer a:hover {
+  color:#8CF;
 }
 
 /* ==============================
@@ -63,6 +93,7 @@ table {
   border: 2px solid #fff;
   font-family: 'Raleway';
 font-size:1.25em;
+margin:15px 0;
 }
 tr {
   border: 1px solid #fff;
@@ -75,6 +106,7 @@ td:hover {
   background: #fff;
   color:#00142c;
   transition: 0.5s all linear;
+  cursor:pointer;
 }
 .element-table {
 width:100%;
@@ -89,10 +121,10 @@ Video
 
 .videobox {
 	width:80%;
-  margin-left: 10%;
+  margin: 15px 10%;
+  margin-bottom: 30px;
 	height:auto;
 	text-align:center;
-  border: 2px solid #fff;
 }
 .video-container {
 	position:relative;
@@ -100,6 +132,17 @@ Video
 	padding-top:30px;
 	height:0;
 	overflow:hidden;
+  border: 2px solid #fff;
+}
+.videolink p, a {
+  font-size: 1em;
+  color:#fff;
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+.videolink a:hover {
+  color:#8CF;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -207,6 +250,7 @@ a.title-link:hover {
   margin: 2.5%;
   background: #888;
   color: #262524;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -288,7 +332,13 @@ Home Section Styles
 .element-summary {
   width:80%;
   margin-left:10%;
-  background: rgba(0, 20, 44, 0.6);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00142c+0,00142c+49,00142c+100&0+0,0.6+10,0.6+50,0.6+95,0+100 */
+background: -moz-linear-gradient(top, rgba(0,20,44,0) 0%, rgba(0,20,44,0.6) 10%, rgba(0,20,44,0.6) 49%, rgba(0,20,44,0.6) 50%, rgba(0,20,44,0.6) 95%, rgba(0,20,44,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,20,44,0) 0%,rgba(0,20,44,0.6) 10%,rgba(0,20,44,0.6) 49%,rgba(0,20,44,0.6) 50%,rgba(0,20,44,0.6) 95%,rgba(0,20,44,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,20,44,0) 0%,rgba(0,20,44,0.6) 10%,rgba(0,20,44,0.6) 49%,rgba(0,20,44,0.6) 50%,rgba(0,20,44,0.6) 95%,rgba(0,20,44,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000142c', endColorstr='#0000142c',GradientType=0 ); /* IE6-9 */
+copy
+
   padding-top:20px;
 }
 .element-summary p {
