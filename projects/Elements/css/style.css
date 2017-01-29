@@ -50,6 +50,11 @@ a.backlink {
 a.backlink:hover {
   color:#8CF;
 }
+.footerlink {
+  width:100%;
+  padding:20px 0;
+  text-align: center;
+}
 .topbar {
   margin:50px 0;
 }
@@ -76,18 +81,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000142c', e
 copy
 
 }
-footer p{
+footer p, footer a{
   font-family: 'Raleway', sans-serif;
   color:#fff;
   -webkit-margin-before: 0em;
 -webkit-margin-after: 0em;
-}
-footer a {
-  color:#fff;
+font-size: 1em;
 text-decoration: none;
 }
+
 footer a:hover {
   color:#8CF;
+}
+.footerspan {
+  font-family: 'Kanit', sans-serif;
 }
 
 /* ==============================
@@ -402,7 +409,7 @@ align-items: center;
   background-color: #fff;
 }
 h1 {
-  font-family: 'Fat Frank', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 600;
   font-size:5em;
   color:white;
@@ -412,7 +419,7 @@ h1 {
     -webkit-margin-end: 0px;
 }
 h2 {
-  font-family: 'Fat Frank', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size:3em;
   color:white;
   -webkit-margin-before: 0em;
