@@ -1,5 +1,16 @@
 @media only screen and (max-width: 768px) {
 
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+.element-summary {
+  width:90%;
+  margin:0 5%;
+}
+
   .element-item {
     width:33.3333%;
     padding-bottom: 33.3333%;
@@ -21,12 +32,24 @@
 
 @media only screen and (max-width: 478px) {
 
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1em;
+}
   .element-item {
     width:50%;
     padding-bottom: 50%;
   }
-
-
+.element-summary {
+  width:95%;
+  margin:0 2.5%;
+}
     .button-group .button {
       width:98%;
       float: left;

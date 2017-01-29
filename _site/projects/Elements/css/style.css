@@ -50,14 +50,6 @@ a.backlink {
 a.backlink:hover {
   color:#8CF;
 }
-header {
-  width:100%;
-  position: fixed;
-  height:100px;
-  top:0;
-  background: red;
-  transition: top 0.2s ease-in-out;
-}
 .topbar {
   margin:50px 0;
 }
@@ -110,9 +102,12 @@ table {
   font-family: 'Raleway';
 font-size:1.25em;
 margin:15px 0;
+width:100%;
 }
 tr {
   border: 1px solid #fff;
+  width:50%;
+  box-sizing: border-box;
 }
 td {
   border:1px solid #fff;
@@ -348,7 +343,7 @@ Home Section Styles
 }
 .element-summary {
   width:80%;
-  margin-left:10%;
+  margin: 0 10%;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00142c+0,00142c+49,00142c+100&0+0,0.6+10,0.6+50,0.6+95,0+100 */
 background: -moz-linear-gradient(top, rgba(0,20,44,0) 0%, rgba(0,20,44,0.6) 10%, rgba(0,20,44,0.6) 49%, rgba(0,20,44,0.6) 50%, rgba(0,20,44,0.6) 95%, rgba(0,20,44,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(0,20,44,0) 0%,rgba(0,20,44,0.6) 10%,rgba(0,20,44,0.6) 49%,rgba(0,20,44,0.6) 50%,rgba(0,20,44,0.6) 95%,rgba(0,20,44,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -366,12 +361,13 @@ copy
   text-align: center;
 }
 .element-gif img {
-  width:100%;
+  width:50%;
   height:auto;
 }
 .heading-center {
   width:100%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #home {
@@ -416,7 +412,7 @@ h1 {
     -webkit-margin-end: 0px;
 }
 h2 {
-  font-family: 'Rubik One', sans-serif;
+  font-family: 'Fat Frank', sans-serif;
   font-size:3em;
   color:white;
   -webkit-margin-before: 0em;
