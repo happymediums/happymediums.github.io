@@ -6,20 +6,7 @@ body, html {
 	background: url('../img/heroes_background.jpg');
 	background-position: center center;
 	background-size: cover;
-}
-
-@font-face {
-    font-family: 'OldNewspaper';
-    src: url('fonts/oldnewspapertypes.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Serial';
-    src: url('fonts/serialpublicationdemo.ttf') format('truetype');
-}
-@font-face {
-	font-family: 'Phosphate';
-	src: url('fonts/phosphate-inline.ttf') format('truetype');
-
+	background-attachment: fixed;
 }
 
 /*==============================
@@ -31,13 +18,28 @@ body, html {
 .row:after {
 display: inherit!important;
 }
-
+.backtotop {
+	right:0;
+bottom:0;
+text-align: center;
+width:50px;
+height:50px;
+position: fixed;
+}
+.backtotop i {
+	color:#000;
+}
+.backtotop i :hover{
+	color:#000;
+	text-decoration: underline;
+}
 .iframe-container {
 	position:relative;
 	padding-bottom:56.25%;
 	padding-top:30px;
 	height:0;
 	overflow:hidden;
+	text-align: center;
 }
 
 .iframe-container iframe, .video-container object, .video-container embed {
@@ -52,14 +54,67 @@ display: inherit!important;
     Body Styles
 ================================*/
 h1 {
-	font-family: 'Phosphate', serif;
+	font-family: 'Cinzel', serif;
+	font-size: 4em;
 }
 h2 {
-	font-family: 'Serial';
+	font-family: 'Cinzel', serif;
+	font-size: 2em;
 }
 p {
-	font-family: 'OldNewspaper', serif;
+font-family: 'Mate SC', serif;
 	font-size: 1.25em;
+}
+/*==============================
+    Menu Styles
+================================*/
+#menurow {
+text-align: center;
+padding:10px 10px;
+}
+nav {
+	width:90%;
+	margin:0 5%;
+	border-top:2px solid #000;
+	border-bottom:2px solid #000;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li {
+	display: inline;
+padding:0 10px;
+font-family: 'Cinzel', serif;
+font-weight: bold;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color:#000;
+}
+.hvr-underline-from-left:before {
+	background: #000!important;
+}
+.sherlock-sil {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sherlock-sil img{
+	width:50%;
+	height:auto;
+}
+#page-title {
+	padding-top:20px;
+}
+.page-title {
+	text-align: center;
+	margin-top:20px;
+	padding: 10px 0;
+}
+
+.large-text {
+	font-size: 2em;
 }
 .parallax-container {
 	z-index: 20!important;
@@ -96,12 +151,10 @@ p {
 
 footer {
 	margin-left: 8.333%;
-	background: #fff;
 	height:auto;
 	margin-top:20px;
 	padding-bottom:5px;
 	color:#000;
-	border-top:1px solid #e1e1e1;
 }
 footer p {
 	font-family: 'Special Elite';
@@ -139,10 +192,21 @@ footer img {
   text-align: center;
 
 }
+
+#section-221b {
+	padding-top:10px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+
+
 .section-title {
-  border-top:1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top:2px solid #000;
+  border-bottom: 2px solid #000;
   margin-bottom: 15px;
+	text-align: center;
 }
 #sherlock-image {
 order:2;
@@ -167,14 +231,21 @@ order:8;
 #irene-section {
 order:9;
 }
-#silver-section {
-order:10;
+#silver-title {
+	order:10;
 }
-#ian-holmes {
-  order:11;
+#silver-section {
+order:11;
 }
 
 @media only screen and (max-width:768px) {
+
+#section-221b {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+
+}
 
 #sherlock-image {
 order:2;
@@ -189,7 +260,7 @@ order:1;
 order:3;
 }
 #book-section {
-  order:5;
+order:5;
 }
 #moriarty-section {
 order:6;
@@ -197,8 +268,11 @@ order:6;
 #irene-section {
 order:6;
 }
-#silver-section {
+#silver-title {
 order:7;
+}
+#silver-section {
+order:8;
 }
 
 
