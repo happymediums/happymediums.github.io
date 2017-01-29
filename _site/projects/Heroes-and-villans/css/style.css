@@ -1,8 +1,33 @@
 
+body, html {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background: url('../img/heroes_background.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+@font-face {
+    font-family: 'OldNewspaper';
+    src: url('fonts/oldnewspapertypes.ttf') format('truetype')!important;
+}
+@font-face {
+    font-family: 'Serial';
+    src: url('fonts/serialpublicationdemo.ttf') format('truetype')!important;
+}
+@font-face {
+	font-family: 'Phosphate';
+	src: url('fonts/phosphate-inline.ttf') format('truetype')!important;
+
+}
+
 /*==============================
     Section Styles
 ================================*/
-
+.row {
+	background: transparent!important;
+}
 .row:after {
 display: inherit!important;
 }
@@ -26,16 +51,18 @@ display: inherit!important;
 /*==============================
     Body Styles
 ================================*/
-
-body,html {
-  width:100%;
-  height:auto;
-  margin:0 auto;
-  font-family: 'Cormorant', serif;
+h1 {
+	font-family: 'Phosphate', serif;
 }
-
+h2 {
+	font-family: 'Serial';
+}
 p {
-font-size: 1.25em;
+	font-family: 'OldNewspaper', serif;
+	font-size: 1.25em;
+}
+.parallax-container {
+	z-index: 20!important;
 }
 #heroes.parallax-container {
   height:100vh!important;

@@ -3,8 +3,8 @@ Main Body Styles
 ===================================*/
 
 @font-face {
-    font-family: Fat Frank;
-    src: url(fonts/fatfrank.otf);
+    font-family: 'Fat Frank';
+    src: url('fonts/fatfrank.otf');
 }
 
 
@@ -15,6 +15,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: #00142c;
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -40,6 +41,36 @@ min-height: 100%;
   background:;
   padding:50px;
 }
+.backlink {
+  margin:25px;
+  padding:10px;
+  border: 4px solid #fff;
+}
+a.backlink {
+  color:#fff;
+  font-family: 'Fat Frank';
+  text-decoration: none;
+}
+a.backlink:hover {
+  color:#8CF;
+}
+.topbar {
+  margin:50px 0;
+}
+
+/* ==============================
+    Table Styles
+================================ */
+.tables {
+  text-align: center;
+}
+table {
+  color:#fff;
+  border: 2px solid #fff;
+}
+.element-table {
+
+}
 
 /* ==============================
     Menu Styles
@@ -64,9 +95,18 @@ button.button {
   background: #00142c;
 }
 
+a.title-link {
+  color:#fff;
+  text-decoration: none;
+}
+a.title-link:hover {
+  color:#8CF;
+  transition: 0.3s all linear;
+}
 .button:hover {
   background-color: #8CF;
   color: #222;
+  cursor: pointer;
 }
 
 .button:active,
@@ -171,28 +211,52 @@ button.button {
 }
 
 .element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%);}
+.element-item.alkali:hover    { background: #fff; transition: 0.3s linear;}
+
 .element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.element-item.alkaline-earth:hover  { background: #fff; transition: 0.3s linear; }
+
 .element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.element-item.lanthanoid:hover
 
 .element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%);}
 .element-item.actinoid:hover  { background: #fff; transition: 0.3s linear; }
 
 .element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
-
 .element-item.transition:hover { background: #fff; transition: 0.3s linear; }
 
 .element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
-.element-item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.post-transition:hover { background: #fff; transition: 0.3s linear; }
+
+.element-item.metalloid      { background: #08F; background: hsl( 216, 100%, 50%); }
+.element-item.metalloid:hover { background: #fff; transition: 0.3s linear; }
+
 .element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
+.element-item.diatomic:hover { background: #fff; transition: 0.3s linear; }
+
 .element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.element-item.halogen:hover  { background: #fff; transition: 0.3s linear; }
+
 .element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
+.element-item.noble-gas:hover { background: #fff; transition: 0.3s linear; }
 
 /*================================
 Home Section Styles
 ===================================*/
 
-.elementbox {
+.element-info {
   background: #fff;
+}
+.element-summary {
+  width:80%;
+  margin-left:10%;
+  background: rgba(0, 20, 44, 0.6);
+}
+.element-summary p {
+  color:#fff;
+}
+.element-gif {
+  text-align: center;
 }
 
 #home {
