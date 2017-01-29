@@ -1,12 +1,19 @@
 @media only screen and (max-width: 768px) {
 
   .element-item {
-    padding-right:31%;
-    padding-bottom: 31%;
-    margin: 1%;
-
+    padding-right:33.3333%;
+    padding-bottom: 33.3333%;
   }
 
+  .button-group .button {
+    width:49%;
+    float: left;
+    border-radius: 0;
+    margin: 0.5%;
+    height:100px;
+    box-sizing: border-box;
+    border:4px solid #2978a3;
+  }
 
 
 
@@ -15,11 +22,21 @@
 @media only screen and (max-width: 478px) {
 
   .element-item {
-    padding-right:48%;
-    padding-bottom: 48%;
-    margin: 1.5%;
-
+    padding-right:50%;
+    padding-bottom: 50%;
   }
+
+
+    .button-group .button {
+      width:98%;
+      float: left;
+      border-radius: 0;
+      margin: 1%;
+      height:100px;
+      box-sizing: border-box;
+      border:4px solid #2978a3;
+    }
+
 
 
 
