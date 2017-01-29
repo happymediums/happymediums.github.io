@@ -118,7 +118,7 @@ img {
 }
 blockquote {
 	border-color: #FBE33A!important;
-	font-family: 'Raleway';
+	font-family: 'EB Garamond', serif;
 }
 .parabox blockquote {
 	color:#fff;
@@ -141,7 +141,7 @@ blockquote {
 	color:#ffffff;
 }
 table {
-	font-family: 'Raleway';
+	font-family: 'Quicksand', sans-serif;
 	background-color: rgba(0, 0, 0, 0.5);
 	transition: 1s all linear;
 }
@@ -198,7 +198,7 @@ td {
 	text-align: center;
 }
 .facts li {
-	font-family: 'Raleway';
+	font-family: 'Quicksand', sans-serif;
 }
 #footer-section {
 	padding:30px 0;
@@ -380,7 +380,7 @@ td {
 =======================================*/
 
 h1, h2 {
-	font-family: 'Raleway', sans-serif;
+	 font-family: 'Julius Sans One', sans-serif;
 }
 h2 {
 	font-size: 2.5em!important;
@@ -398,7 +398,7 @@ h1 {
 	color: #ffffff;
 }
 p {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'EB Garamond', serif;
 	font-size: 1.25em;
 	color:black;
 }
@@ -408,12 +408,11 @@ p {
 =======================================*/
 
 .home-link a {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1.5em;
   color:white;
 }
 .home-link a:hover {
-	font-family: 'Raleway', sans-serif;
 	font-size: 1.5em;
   color:white;
 }

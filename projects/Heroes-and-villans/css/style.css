@@ -10,15 +10,15 @@ body, html {
 
 @font-face {
     font-family: 'OldNewspaper';
-    src: url('fonts/oldnewspapertypes.ttf') format('truetype')!important;
+    src: url('fonts/oldnewspapertypes.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Serial';
-    src: url('fonts/serialpublicationdemo.ttf') format('truetype')!important;
+    src: url('fonts/serialpublicationdemo.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Phosphate';
-	src: url('fonts/phosphate-inline.ttf') format('truetype')!important;
+	src: url('fonts/phosphate-inline.ttf') format('truetype');
 
 }
 

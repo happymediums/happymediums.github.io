@@ -36,6 +36,7 @@ nav {
   /* Force Hardware Acceleration in WebKit */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  font-family: 'Julius Sans One', sans-serif;
 }
 #cd-nav ul.is-visible {
   visibility: visible;
