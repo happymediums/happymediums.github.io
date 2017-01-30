@@ -597,7 +597,9 @@ height:100vh !important;
 }
 .info-section blockquote {
 	margin: 30px 0;
-	border-left: 5px solid #AA4848;
+}
+blockquote {
+	border-left: 5px solid #AA4848!important;
 }
 .info-section img {
 	width:100%;
