@@ -277,6 +277,10 @@ footer img {
 .post-link {
 	font-family: 'Josefin Slab';
 }
+
+.post-link h2 {
+	font-size: 3.56rem;
+}
 a.post-link {
 	color:#AA4848!important;
 }
