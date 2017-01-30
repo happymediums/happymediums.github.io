@@ -44,7 +44,7 @@ min-height: 100%;
 }
 a.backlink {
   color:#fff;
-  font-family: 'Rubik One';
+  font-family: 'Kanit', sans-serif;;
   text-decoration: none;
 }
 a.backlink:hover {
@@ -402,18 +402,6 @@ align-items: center;
   text-align: center;
   padding-top:20%;
 }
-.homescroll {
-  font-family: 'Rubik One', sans-serif;
-  font-size:2em;
-  color:white;
-  text-decoration: none;
-  transition: 0.4s linear;
-}
-.homescroll:hover {
-  color:#00142C;
-  transition: 0.4s linear;
-  background-color: #fff;
-}
 h1 {
   font-family: 'Kanit', sans-serif;
   font-weight: 600;
@@ -434,9 +422,7 @@ h2 {
 -webkit-margin-end: 0px;
 }
 p {
-  font-family: 'Rubik One', sans-serif;
   font-size:1.5em;
-  color:#00142C;
 }
 
 #filtersection {

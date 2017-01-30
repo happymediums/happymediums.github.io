@@ -82,26 +82,162 @@
 <div class="hero"></div>
 
 <div class="project-link">
-<a href="/projects/Elements/index.html" class="button hvr-sweep-to-right">View Project</a>
+<a href="/projects/Elements/index.html" class="button hvr-sweep-to-right" target="_blank">View Project</a>
 </div>
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<div class="row">
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-Jekyll also offers powerful support for code snippets:
+<blockquote><p>IXD 301<br>
+  Designing with content.<br>
+  Elements Project.</p>
+</blockquote>
+<p>
+  For the Elements project, we were tasked with designing and developing a website for the periodic table of the elements. I decided the design a simple interactive website, with primary focus on interactive elements in order to navigate through the information.
+</p>
+<p>
+  I wanted to produce a design that was minimal and functional, in order to produce the best user experience.
+</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<div class="imgbox-small"><img src="/assets/img/elements/elements-full.jpg"></div>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<h3>
+  Main Design Elements
+</h3>
+<p>
+  I started by creating a graphic that would become the main website background, being inspired by scenes of space and the similarities of the macro and micro universes.
+</p>
+<p>
+  The background contained the main colour schemes for this project, consisting of variants of blue, a nice contrast against a crisp white typeface.
+</p>
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+</div>
+
+<div class="parallax-container post-parallax">
+
+
+    <div class="parallax"><img src="/projects/elements/img/elements_background.jpg"></div>
+
+  </div>
+
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<p>
+  I wanted to showcase the elements using a filter grid and navigation, allowing the different elements to be sorted depending on category.  The main element items, which linked to the individual element information, were then setup on a simple flexible responsive grid format, which different colours indicating the different element categories.
+</p>
+<h3>
+  The Element Grid
+</h3>
+<p>
+  The element grid itself is built with <a href="http://isotope.metafizzy.co" target="_blank" class="inline-link">isotope.js</a>, a simple javascript plugin that comes with a pre-built grid in html & css.  I then customised the grid to the design styles I was looking for, replacing the colour scheme and typography, as well the responsive css properties.
+</p>
+
+<div class="imgbox" ><img src="/assets/img/elements/filter-grid.png"></div>
+
+
+<p>
+  I also added <a href="http://ianlunn.github.io/Hover/" target="_blank" class="inline-link">hover.css</a> to each of the element boxes, creating a small bobbing effect as part of user interaction on the website.
+</p>
+<h3>
+  The Navigation
+</h3>
+<p>
+  The navigation comes pre-built with isotope.js, and its own css properties.  I changed the layout and style of the navigation to best suit the website, as well as adding hover.css animation as a micro-interaction for the user to know which element category that are on.
+</p>
+
+<div class="imgbox" ><img src="/assets/img/elements/filter-menu.png"></div>
+
+<p>
+  The tabs then filter through the elements based on pre-defined data categories and css classes, with the main element items disappearing and appearing based on filter selection.
+</p>
+<h3>
+  Typography
+</h3>
+<p>
+  I decided on crisp typography for the website, knowing that the content will be displayed as white against the dark blue background colour scheme.
+</p>
+<p>
+  For the main headings, I discovered a typeface named ‘Kanit’ which I felt worked really well with the colour scheme, and fit with the design on the site.
+</p>
+<div class="imgbox-small" id="elementtitleimg"><img src="/assets/img/elements/element-title-image.png"></div>
+<p>
+  For the body text, I used the ‘Raleway’ typeface, which is a really crisp sans-serif typeface, and it seemed to pair perfectly with the ‘Kanit’ headings.
+</p>
+<p>
+  I wanted the text to be legible again the dark colour scheme and so it was really important on deciding which typefaces to use, but I think I made the right decision.  Both font families are available from <a href="http://fonts.google.com" target="_blank" class="inline-link">Google Fonts</a>.</p>
+</p>
+<h3>
+  Animated GIF
+</h3>
+<p>
+  With the main index for the site designed, I then looked at the layout and content of the individual element pages.  One of the main features  wanted to add was an animated gif, produced on illustrator and after effects.  I’ve been working to improve my after effects animation skills and felt this was an appropriate asset to create for the website.
+</p>
+
+</div>
+
+<div class="parallax-container post-parallax">
+
+
+    <div class="parallax"><img src="/projects/elements/img/elements_background.jpg"></div>
+
+    <div class="parabox" id="animated-gif-showcase">
+      <img src="/projects/elements/img/uranium-looped.gif" />
+</div>
+  </div>
+
+
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<p>
+  I recreated the atomic structure of each element in illustrator, imported into after effects and animated the sequence.  I then exported this sequence, imported into photoshop in order to produce a transparent GIF file, and then imported in an online gif maker, in order to create an infinite looped animation, as I found I was not able to do this in photoshop.
+</p>
+<h3>
+  Main content
+</h3>
+
+<p>I built the body of the website with <a href="http://flexboxgrid.com" target="_blank" class="inline-link">Flexbox Grid</a>, which I found to be a really nice and flexible Flexbox framework.
+  This allowed me to build responsive and fluid layouts really easily within the pages.  I attempted to construct the element filter using Flexbox on initial development, but found issues
+  with conflicting the with the isotope css properties.  I decided to opt to modify the filter grid CSS properties instead on creating new ones, as I felt the overall design and development
+  had been met with the isotope.js CSS structure.
+</p>
+
+<div class="imgbox-small" id="elementtitleimg"><img src="/assets/img/elements/element-content-image.png"></div>
+<p>
+  The content for the website was taken from a few different sources including text & data from <a href="http://www.rsc.org/periodic-table" target="_blank" class="inline-link">The Royal Society of Chemistry</a>.
+</p>
+
+
+</div>
+
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<div class="smallredbreak"></div>
+</div>
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <p>
+  <a href="http://www.ptable.com" target="_blank" class="inline-link">http://www.ptable.com</a><br>
+<a href="http://www.rsc.org/periodic-table" target="_blank" class="inline-link">http://www.rsc.org/periodic-table</a><br>
+<a href="https://fonts.google.com" target="_blank" class="inline-link">https://fonts.google.com</a><br>
+<a href="https://www.google.co.uk/search?q=images+of+space&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjtzOKm8enRAhWqB8AKHZYtCfUQ_AUICCgB&biw=1280&bih=640" target="_blank" class="inline-link">http://www.google.com/images</a><br>
+<a href="https://color.adobe.com" target="_blank" class="inline-link">https://color.adobe.com</a><br>
+<a href="http://gifcreator.me" target="_blank" class="inline-link">http://gifcreator.me</a><br>
+<a href="http://isotope.metafizzy.co" target="_blank" class="inline-link">http://isotope.metafizzy.co</a><br>
+<a href="http://flexboxgrid.com" target="_blank" class="inline-link">http://flexboxgrid.com</a><br>
+<a href="http://ianlunn.github.io/Hover/" target="_blank" class="inline-link">http://ianlunn.github.io/Hover/</a><br>
+</p>
+
+</div>
+
+
+
+
+</div>
 
 
 </div>

@@ -20,6 +20,7 @@ html,body {
 			font-size: 3em;
 			color:#AA4848;
 	}
+
 	.post-content {
 		font-family: 'Special Elite', sans-serif!important;
 	}
@@ -27,6 +28,10 @@ html,body {
 	.hero {
 		width:100%;
 		height:auto;
+	}
+
+	h3 {
+		font-family: 'Josefin Slab', sans-serif;
 	}
 
 /*================================
@@ -200,6 +205,32 @@ td, th {
 .imgbox img{
 		width:100%;
 		height:auto;
+}
+.imgbox-small {
+	width:100%;
+	text-align: center;
+	padding:15px 0;
+}
+.imgbox-small img {
+	width:50%;
+	height:auto;
+}
+#animated-gif-showcase img{
+width:25%;
+}
+
+#elementtitleimg img {
+	width:100%;
+}
+img#trigger-image {
+	width:25%;
+}
+p.image-text {
+	font-size: 12px;
+	font-style: italic;
+}
+.image-text {
+	text-align: center;
 }
 #urbanlogos {
 	padding-bottom: 20px;
@@ -512,6 +543,10 @@ height:100vh !important;
 
 .parallax-container.work-section-para {
 	height:75vh!important;
+}
+
+.parallax-container.post-parallax {
+	height:50vh!important;
 }
 
 .white-section {

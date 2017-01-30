@@ -1,114 +1,399 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T01:19:34+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">IXD 301</title><link href="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html" rel="alternate" type="text/html" title="IXD 301" /><published>2017-01-11T11:04:36+00:00</published><updated>2017-01-11T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/11/IXD-301</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html">IXD 301
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T13:38:27+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">IXD 302</title><link href="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html" rel="alternate" type="text/html" title="IXD 302" /><published>2017-01-12T11:04:36+00:00</published><updated>2017-01-12T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/12/IXD-302</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html">&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+&lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+  &lt;a href=&quot;http://www.jimmorrison.io/projects/takahe/index.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;The Big Bird Project&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io/jekyll/update/2017/01/04/Takahe.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;The Big Bird Project write-up&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io/projects/heroes-and-villans/index.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Heroes &amp; Villans Project&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io/jekyll/update/2016/23/12/heroes-and-villans.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Heroes &amp; Villans write-up&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;/div&gt;
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">IXD 301</title><link href="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html" rel="alternate" type="text/html" title="IXD 301" /><published>2017-01-11T11:04:36+00:00</published><updated>2017-01-11T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/11/IXD-301</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html">&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+&lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;My portfolio&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io/jekyll/update/2016/12/16/Building-my-portfolio.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Portfolio write-up&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io/projects/Elements/index.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Elements Project&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://www.jimmorrison.io/jekyll/update/2017/01/02/Elements.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Elements write-up&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+  &lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 1&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 1 write-up&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 2&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 2 write-up&lt;/a&gt;&lt;br&gt;
+&lt;/div&gt;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</content><summary type="html">IXD 301
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">The Takahe</title><link href="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html" rel="alternate" type="text/html" title="The Takahe" /><published>2017-01-04T11:04:36+00:00</published><updated>2017-01-04T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/04/Takahe</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html">&lt;div class=&quot;project-link&quot;&gt;
+&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">The Takahe</title><link href="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html" rel="alternate" type="text/html" title="The Takahe" /><published>2017-01-04T11:04:36+00:00</published><updated>2017-01-04T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/04/Takahe</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html">&lt;div class=&quot;project-link&quot;&gt;
 &lt;a href=&quot;/projects/Takahe/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 
-&lt;p&gt;  Something Something
-    You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+    &lt;blockquote&gt;&lt;p&gt;IXD 301&lt;br&gt;
+      Narrative &amp; Storytelling.&lt;br&gt;
+      The Big Bird Project.&lt;/p&gt;
+    &lt;/blockquote&gt;
 
-    To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+&lt;p&gt;
+  Originally I had thought of producing a design that was more focused towards a 6-10yr old demographic, but after reading the article, and researching more about National Geographic magazine, the website and the tv channel, I decided to go for a more streamlined design, paying homage to iconic National Geographic design and typography.
+&lt;/p&gt;
+&lt;p&gt;
+  I really love the style and design of the National Geographic magazine and wanted to design a site that reflected essentially a one-page National Geographic digital publication, retaining its iconic style and design.
+&lt;/p&gt;
 
-    Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;!-- Image insert --&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/ngm-1985-jun-714.jpg&quot;&gt;&lt;/div&gt;
 
-  &lt;/div&gt;
-  &lt;div class=&quot;col-xs-12 col-sm-12 col-md-6 col-lg-6&quot;&gt;
-&lt;div class=&quot;imgbox&quot;&gt;&lt;img src=&quot;/projects/Takahe/img/takahe-main.jpg&quot;&gt;&lt;/div&gt;
+&lt;p&gt;
+For the introduction section of the site, I decided to take my cues from the front cover of the National Geographic magazine, creating an image inside the iconic yellow border, almost a like the window looking into another world.
+&lt;/p&gt;
+
+&lt;!-- Image insert --&gt;
+
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-intro-image.jpg&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;Typography&lt;/h3&gt;
+&lt;p&gt;
+  On the National Geographic website, the use of a crisp ‘Sans’ typeface really sits out against an otherwise serif typeface document.  I liked the distinct contrast of the typography within the articles, and felt it would be appropriate adapt for my own design.
+&lt;/p&gt;
+&lt;p&gt;
+I wanted to keep the typography close to the magazine and digital publications, and so opted for the ‘Julius Sans One’ for headings, a beautiful sans-serif typeface, and ‘EB Garamond’, a really nice serif font for body text, both available from &lt;a href=&quot;http://www.fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Google Fonts&lt;/a&gt;.  I felt this matched quite nicely with the typography already in use on the National Geographic website,
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-julius-image.png&quot;&gt;&lt;/div&gt;
+
+&lt;!-- Image insert --&gt;
+
+&lt;p class=&quot;image-text&quot;&gt;
+National Geographic Typography sample
+&lt;/p&gt;
+&lt;p&gt;
+The section titles are then followed by a distinctive yellow horizontal break. I added this because I felt it helped add more of a national geographic felt to the main content and help break up the text further.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-title-image.png&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;
+Juilus Sans One
+&lt;/p&gt;
+&lt;p&gt;
+I really liked the curvature of this Sans-serif typeface, and felt it added a distinct elegance to the design, while staying true to the nature of National Geographic publications.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-body-image.png&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;
+Using EB Garamond for the body typeface I felt was important to match the body typography styles within NatGeo articles, including the Georgia typeface.  As the Georgia typeface wasn't available via Google Fonts, I felt EB Garamond was a very close substitute, and worked really well with the Sans-serif heading typeface.
+&lt;/p&gt;
+
+&lt;h3&gt;Interactive Map&lt;/h3&gt;
+
+&lt;p&gt;
+I added the interactive map via &lt;a href=&quot;http://leafletjs.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Leaflet.js&lt;/a&gt; &amp; &lt;a href=&quot;http://www.mapbox.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Mapbox&lt;/a&gt;.  Using the Leaflet.js framework, I including the map as a fullscreen interactive section with zoom function.  I also included a custom marker within the map, creating a illustrateted Takage bird, which I felt worked quite nicely with the style of the map tiles.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-map-image.png&quot;&gt;&lt;/div&gt;
 
 
 &lt;p&gt;
+I then added a pop-up to the marker, including some information from within the article, with a small call to action to scroll further.
+&lt;/p&gt;
+&lt;p&gt;
+I attempted to add markers to the map as additional interactive tools, adding anchor links to the pop-up that would then scroll to related anchor on click.  Sadly I have not got this function to work just yet, so rather than complicate things, I keep just one marker on the map, until I can develop my Leaflet.js skills further.
+&lt;/p&gt;
+&lt;h3&gt;
+Interactive film scene
+&lt;/h3&gt;
+&lt;p&gt;
+I had been playing around with &lt;a href=&quot;http://www.scrollmagic.io&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Scrollmagic&lt;/a&gt; for the last few months, and really liked the idea of an interactive film scene that would play as the user scrolled past.
+&lt;/p&gt;
+&lt;p&gt;
+Using Scrollmagic image sequencing, I was able to build an interactive film section as an added reference visual within the article.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-film-image.jpg&quot;&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+&lt;p&gt;
+I managed to find a video on youtube of the discovery of the Takahe in 1948, and really like the old film grain sequence and relevance to the article.  I managed to trim between 3-5 seconds of the video and convert this into an image sequence for use on the website.
+&lt;/p&gt;
+&lt;p&gt;
+I then surround the image sequence container with the distinctive National Geographic yellow borders to help frame the element within the page.
+&lt;/p&gt;
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/&lt;/p&gt;
+&lt;h3&gt;Tables&lt;/h3&gt;
+&lt;p&gt;
+I matched similar styles to the tables found within the document, adding a thick border around the overall table and thin border within the table rows and columns.  I also added a small interactive hover feature to the table, with the element background and text colour changing with a smooth css transition.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-table-image.png&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;
+I used &lt;a href=&quot;http://www.materializecss.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Materialize.css&lt;/a&gt; to create the parallax sections &amp; effect on the website. Materialize is a really nice framework and plugin, similar to Bootstrap, and I wanted to try it out for these projects.
+&lt;/p&gt;
+&lt;p&gt;
+I really like these mini sections that help break up the main content text, but also help tell a story on their own.  Not only does it help add vibrancy from the visual imagery, but it help place the image within the article in a more dynamic and interactive way.  Each parallax container also contains its own content with is affected by interactive scrolling.  The parallax text fades in &amp; out on based on scroll position, helping bring relevance to the image behind, while also inviting the user to scroll further to see what else appears.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-parallax-image.png&quot;&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;
+The menu
+&lt;/h3&gt;
+&lt;p&gt;
+The menu I chose for this project is a simple pop-out menu with ‘scroll to’ navigation links.  I styled the menu to match the national geographic framed border and colour.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-menu-trigger-image.png&quot; id=&quot;trigger-image&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;
+On click, a micro-animation changes the ‘hamburger’ symbol to an ‘x’ to close the menu, and a pop-out overlay appears with the navigation links
+&lt;/p&gt;
+&lt;p&gt;
+I've styled the pop-out with the ‘Julius Sans One’ typeface, while also adding a background colour and text colour change on hover.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/projects/takahe/img/wu-menu-out-image.png&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;
+I decided on a minimal fixed position menu, as to not distract from the main article, but that can also stand its own ground as a distinctive element within the design.
+&lt;/p&gt;
+
+
+
 
 &lt;/div&gt;
-&lt;/div&gt;</content><summary type="html">[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">Elements</title><link href="http://localhost:4000/jekyll/update/2017/01/02/Elements.html" rel="alternate" type="text/html" title="Elements" /><published>2017-01-02T11:04:36+00:00</published><updated>2017-01-02T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/02/Elements</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/02/Elements.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-8 col-sm-8 col-md-8 col-lg-8&quot;&gt;
+&lt;div class=&quot;smallredbreak&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+
+&lt;p&gt;I really liked designing and developing for this project, and playing around with new ideas for user interaction. I feel the overall design and style is true to the subject matter and existing National Geographic publications.&lt;/p&gt;
+
+&lt;p&gt;One of my favourite features is the scroll interactions via Scrollmagic, and I think they help bring the document to life, appearing and inviting the user to scroll down further to find out more information.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-8 col-sm-8 col-md-8 col-lg-8&quot;&gt;
+&lt;div class=&quot;smallredbreak&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+
+&lt;p&gt;
+
+&lt;a href=&quot;http://587.claudiastrong.com/national-geographic-typography/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://587.claudiastrong.com/national-geographic-typography/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=zxWwbCv1cFU&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://www.youtube.com/watch?v=zxWwbCv1cFU&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://ngm.nationalgeographic.com/covers/gallery&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://ngm.nationalgeographic.com/covers/gallery&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://codyhouse.co/gem/smart-fixed-navigation/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://codyhouse.co/gem/smart-fixed-navigation/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://leafletjs.com/reference.html#url-template&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://leafletjs.com/reference.html#url-template&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://nzbirdsonline.org.nz/species/south-island-takahe&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://nzbirdsonline.org.nz/species/south-island-takahe&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://kingofwallpapers.com/takahe.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://kingofwallpapers.com/takahe.html&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.blackzqn.com/tours/fiordland-tours/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://www.blackzqn.com/tours/fiordland-tours/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://materializecss.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://materializecss.com&lt;/a&gt;&lt;br&gt;
+
+
+&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html"></summary></entry><entry><title type="html">Elements</title><link href="http://localhost:4000/jekyll/update/2017/01/02/Elements.html" rel="alternate" type="text/html" title="Elements" /><published>2017-01-02T11:04:36+00:00</published><updated>2017-01-02T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/02/Elements</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/02/Elements.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
 
 &lt;div class=&quot;project-link&quot;&gt;
-&lt;a href=&quot;/projects/Elements/index.html&quot; class=&quot;button hvr-sweep-to-right&quot;&gt;View Project&lt;/a&gt;
+&lt;a href=&quot;/projects/Elements/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
 &lt;/div&gt;
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+&lt;div class=&quot;row&quot;&gt;
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 
-Jekyll also offers powerful support for code snippets:
+&lt;blockquote&gt;&lt;p&gt;IXD 301&lt;br&gt;
+  Designing with content.&lt;br&gt;
+  Elements Project.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  For the Elements project, we were tasked with designing and developing a website for the periodic table of the elements. I decided the design a simple interactive website, with primary focus on interactive elements in order to navigate through the information.
+&lt;/p&gt;
+&lt;p&gt;
+  I wanted to produce a design that was minimal and functional, in order to produce the best user experience.
+&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/elements/elements-full.jpg&quot;&gt;&lt;/div&gt;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+&lt;h3&gt;
+  Main Design Elements
+&lt;/h3&gt;
+&lt;p&gt;
+  I started by creating a graphic that would become the main website background, being inspired by scenes of space and the similarities of the macro and micro universes.
+&lt;/p&gt;
+&lt;p&gt;
+  The background contained the main colour schemes for this project, consisting of variants of blue, a nice contrast against a crisp white typeface.
+&lt;/p&gt;
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</content><summary type="html">[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">Heroes &amp;amp; Villans</title><link href="http://localhost:4000/jekyll/update/2016/12/23/Heroes-and-villans.html" rel="alternate" type="text/html" title="Heroes &amp; Villans" /><published>2016-12-23T11:04:36+00:00</published><updated>2016-12-23T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/23/Heroes-and-villans</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/23/Heroes-and-villans.html">&lt;div class=&quot;project-link&quot;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;parallax-container post-parallax&quot;&gt;
+
+
+    &lt;div class=&quot;parallax&quot;&gt;&lt;img src=&quot;/projects/elements/img/elements_background.jpg&quot;&gt;&lt;/div&gt;
+
+  &lt;/div&gt;
+
+
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+
+&lt;p&gt;
+  I wanted to showcase the elements using a filter grid and navigation, allowing the different elements to be sorted depending on category.  The main element items, which linked to the individual element information, were then setup on a simple flexible responsive grid format, which different colours indicating the different element categories.
+&lt;/p&gt;
+&lt;h3&gt;
+  The Element Grid
+&lt;/h3&gt;
+&lt;p&gt;
+  The element grid itself is built with &lt;a href=&quot;http://isotope.metafizzy.co&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;isotope.js&lt;/a&gt;, a simple javascript plugin that comes with a pre-built grid in html &amp; css.  I then customised the grid to the design styles I was looking for, replacing the colour scheme and typography, as well the responsive css properties.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox&quot; &gt;&lt;img src=&quot;/assets/img/elements/filter-grid.png&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;
+  I also added &lt;a href=&quot;http://ianlunn.github.io/Hover/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;hover.css&lt;/a&gt; to each of the element boxes, creating a small bobbing effect as part of user interaction on the website.
+&lt;/p&gt;
+&lt;h3&gt;
+  The Navigation
+&lt;/h3&gt;
+&lt;p&gt;
+  The navigation comes pre-built with isotope.js, and its own css properties.  I changed the layout and style of the navigation to best suit the website, as well as adding hover.css animation as a micro-interaction for the user to know which element category that are on.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox&quot; &gt;&lt;img src=&quot;/assets/img/elements/filter-menu.png&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;
+  The tabs then filter through the elements based on pre-defined data categories and css classes, with the main element items disappearing and appearing based on filter selection.
+&lt;/p&gt;
+&lt;h3&gt;
+  Typography
+&lt;/h3&gt;
+&lt;p&gt;
+  I decided on crisp typography for the website, knowing that the content will be displayed as white against the dark blue background colour scheme.
+&lt;/p&gt;
+&lt;p&gt;
+  For the main headings, I discovered a typeface named ‘Kanit’ which I felt worked really well with the colour scheme, and fit with the design on the site.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot; id=&quot;elementtitleimg&quot;&gt;&lt;img src=&quot;/assets/img/elements/element-title-image.png&quot;&gt;&lt;/div&gt;
+&lt;p&gt;
+  For the body text, I used the ‘Raleway’ typeface, which is a really crisp sans-serif typeface, and it seemed to pair perfectly with the ‘Kanit’ headings.
+&lt;/p&gt;
+&lt;p&gt;
+  I wanted the text to be legible again the dark colour scheme and so it was really important on deciding which typefaces to use, but I think I made the right decision.  Both font families are available from &lt;a href=&quot;http://fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Google Fonts&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+  Animated GIF
+&lt;/h3&gt;
+&lt;p&gt;
+  With the main index for the site designed, I then looked at the layout and content of the individual element pages.  One of the main features  wanted to add was an animated gif, produced on illustrator and after effects.  I’ve been working to improve my after effects animation skills and felt this was an appropriate asset to create for the website.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;parallax-container post-parallax&quot;&gt;
+
+
+    &lt;div class=&quot;parallax&quot;&gt;&lt;img src=&quot;/projects/elements/img/elements_background.jpg&quot;&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;parabox&quot; id=&quot;animated-gif-showcase&quot;&gt;
+      &lt;img src=&quot;/projects/elements/img/uranium-looped.gif&quot; /&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+
+
+
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+
+&lt;p&gt;
+  I recreated the atomic structure of each element in illustrator, imported into after effects and animated the sequence.  I then exported this sequence, imported into photoshop in order to produce a transparent GIF file, and then imported in an online gif maker, in order to create an infinite looped animation, as I found I was not able to do this in photoshop.
+&lt;/p&gt;
+&lt;h3&gt;
+  Main content
+&lt;/h3&gt;
+
+&lt;p&gt;I built the body of the website with &lt;a href=&quot;http://flexboxgrid.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Flexbox Grid&lt;/a&gt;, which I found to be a really nice and flexible Flexbox framework.
+  This allowed me to build responsive and fluid layouts really easily within the pages.  I attempted to construct the element filter using Flexbox on initial development, but found issues
+  with conflicting the with the isotope css properties.  I decided to opt to modify the filter grid CSS properties instead on creating new ones, as I felt the overall design and development
+  had been met with the isotope.js CSS structure.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox-small&quot; id=&quot;elementtitleimg&quot;&gt;&lt;img src=&quot;/assets/img/elements/element-content-image.png&quot;&gt;&lt;/div&gt;
+&lt;p&gt;
+  The content for the website was taken from a few different sources including text &amp; data from &lt;a href=&quot;http://www.rsc.org/periodic-table&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;The Royal Society of Chemistry&lt;/a&gt;.
+&lt;/p&gt;
+
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-8 col-sm-8 col-md-8 col-lg-8&quot;&gt;
+&lt;div class=&quot;smallredbreak&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+  &lt;p&gt;
+  &lt;a href=&quot;http://www.ptable.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.ptable.com&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://www.rsc.org/periodic-table&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.rsc.org/periodic-table&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://fonts.google.com&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://www.google.co.uk/search?q=images+of+space&amp;client=safari&amp;rls=en&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjtzOKm8enRAhWqB8AKHZYtCfUQ_AUICCgB&amp;biw=1280&amp;bih=640&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.google.com/images&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://color.adobe.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://color.adobe.com&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://gifcreator.me&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://gifcreator.me&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://isotope.metafizzy.co&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://isotope.metafizzy.co&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://flexboxgrid.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://flexboxgrid.com&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://ianlunn.github.io/Hover/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://ianlunn.github.io/Hover/&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">Heroes and Villans</title><link href="http://localhost:4000/jekyll/update/2016/12/23/Heroes-and-villans.html" rel="alternate" type="text/html" title="Heroes and Villans" /><published>2016-12-23T11:04:36+00:00</published><updated>2016-12-23T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/23/Heroes-and-villans</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/23/Heroes-and-villans.html">&lt;div class=&quot;project-link&quot;&gt;
 &lt;a href=&quot;/projects/Heroes-and-villans/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
 &lt;/div&gt;
 
-Heroes &amp; Villans
+&lt;div class=&quot;row&quot;&gt;
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+  &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</content><summary type="html">View Project
+    &lt;blockquote&gt;&lt;p&gt;IXD 302&lt;br&gt;
+      Narrative &amp; Storytelling.&lt;br&gt;
+      Heroes &amp; Villans project.&lt;/p&gt;
+    &lt;/blockquote&gt;
 
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">Building my portfolio</title><link href="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html" rel="alternate" type="text/html" title="Building my portfolio" /><published>2016-12-16T11:04:36+00:00</published><updated>2016-12-16T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html">Building my portfolio
+
+
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html"></summary></entry><entry><title type="html">Building my portfolio</title><link href="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html" rel="alternate" type="text/html" title="Building my portfolio" /><published>2016-12-16T11:04:36+00:00</published><updated>2016-12-16T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html">Building my portfolio
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

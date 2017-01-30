@@ -14,33 +14,182 @@ categories: jekyll update
 <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-<p>  Something Something
-    You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+    <blockquote><p>IXD 301<br>
+      Narrative & Storytelling.<br>
+      The Big Bird Project.</p>
+    </blockquote>
 
-    To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<p>
+  Originally I had thought of producing a design that was more focused towards a 6-10yr old demographic, but after reading the article, and researching more about National Geographic magazine, the website and the tv channel, I decided to go for a more streamlined design, paying homage to iconic National Geographic design and typography.
+</p>
+<p>
+  I really love the style and design of the National Geographic magazine and wanted to design a site that reflected essentially a one-page National Geographic digital publication, retaining its iconic style and design.
+</p>
 
-    Jekyll also offers powerful support for code snippets:</p>
+<!-- Image insert -->
+<div class="imgbox-small"><img src="/projects/takahe/img/ngm-1985-jun-714.jpg"></div>
 
-  </div>
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-<div class="imgbox"><img src="/projects/Takahe/img/takahe-main.jpg"></div>
+<p>
+For the introduction section of the site, I decided to take my cues from the front cover of the National Geographic magazine, creating an image inside the iconic yellow border, almost a like the window looking into another world.
+</p>
+
+<!-- Image insert -->
+
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-intro-image.jpg"></div>
+
+<h3>Typography</h3>
+<p>
+  On the National Geographic website, the use of a crisp ‘Sans’ typeface really sits out against an otherwise serif typeface document.  I liked the distinct contrast of the typography within the articles, and felt it would be appropriate adapt for my own design.
+</p>
+<p>
+I wanted to keep the typography close to the magazine and digital publications, and so opted for the ‘Julius Sans One’ for headings, a beautiful sans-serif typeface, and ‘EB Garamond’, a really nice serif font for body text, both available from <a href="http://www.fonts.google.com" target="_blank" class="inline-link">Google Fonts</a>.  I felt this matched quite nicely with the typography already in use on the National Geographic website,
+</p>
+
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-julius-image.png"></div>
+
+<!-- Image insert -->
+
+<p class="image-text">
+National Geographic Typography sample
+</p>
+<p>
+The section titles are then followed by a distinctive yellow horizontal break. I added this because I felt it helped add more of a national geographic felt to the main content and help break up the text further.
+</p>
+
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-title-image.png"></div>
+
+<p>
+Juilus Sans One
+</p>
+<p>
+I really liked the curvature of this Sans-serif typeface, and felt it added a distinct elegance to the design, while staying true to the nature of National Geographic publications.
+</p>
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-body-image.png"></div>
+
+<p>
+Using EB Garamond for the body typeface I felt was important to match the body typography styles within NatGeo articles, including the Georgia typeface.  As the Georgia typeface wasn't available via Google Fonts, I felt EB Garamond was a very close substitute, and worked really well with the Sans-serif heading typeface.
+</p>
+
+<h3>Interactive Map</h3>
+
+<p>
+I added the interactive map via <a href="http://leafletjs.com" target="_blank" class="inline-link">Leaflet.js</a> & <a href="http://www.mapbox.com" target="_blank" class="inline-link">Mapbox</a>.  Using the Leaflet.js framework, I including the map as a fullscreen interactive section with zoom function.  I also included a custom marker within the map, creating a illustrateted Takage bird, which I felt worked quite nicely with the style of the map tiles.
+</p>
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-map-image.png"></div>
 
 
 <p>
+I then added a pop-up to the marker, including some information from within the article, with a small call to action to scroll further.
+</p>
+<p>
+I attempted to add markers to the map as additional interactive tools, adding anchor links to the pop-up that would then scroll to related anchor on click.  Sadly I have not got this function to work just yet, so rather than complicate things, I keep just one marker on the map, until I can develop my Leaflet.js skills further.
+</p>
+<h3>
+Interactive film scene
+</h3>
+<p>
+I had been playing around with <a href="http://www.scrollmagic.io" target="_blank" class="inline-link">Scrollmagic</a> for the last few months, and really liked the idea of an interactive film scene that would play as the user scrolled past.
+</p>
+<p>
+Using Scrollmagic image sequencing, I was able to build an interactive film section as an added reference visual within the article.
+</p>
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-film-image.jpg"></div>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<p>
+I managed to find a video on youtube of the discovery of the Takahe in 1948, and really like the old film grain sequence and relevance to the article.  I managed to trim between 3-5 seconds of the video and convert this into an image sequence for use on the website.
+</p>
+<p>
+I then surround the image sequence container with the distinctive National Geographic yellow borders to help frame the element within the page.
+</p>
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</p>
+<h3>Tables</h3>
+<p>
+I matched similar styles to the tables found within the document, adding a thick border around the overall table and thin border within the table rows and columns.  I also added a small interactive hover feature to the table, with the element background and text colour changing with a smooth css transition.
+</p>
+
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-table-image.png"></div>
+
+
+<p>
+I used <a href="http://www.materializecss.com" target="_blank" class="inline-link">Materialize.css</a> to create the parallax sections & effect on the website. Materialize is a really nice framework and plugin, similar to Bootstrap, and I wanted to try it out for these projects.
+</p>
+<p>
+I really like these mini sections that help break up the main content text, but also help tell a story on their own.  Not only does it help add vibrancy from the visual imagery, but it help place the image within the article in a more dynamic and interactive way.  Each parallax container also contains its own content with is affected by interactive scrolling.  The parallax text fades in & out on based on scroll position, helping bring relevance to the image behind, while also inviting the user to scroll further to see what else appears.
+</p>
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-parallax-image.png"></div>
+
+
+<h3>
+The menu
+</h3>
+<p>
+The menu I chose for this project is a simple pop-out menu with ‘scroll to’ navigation links.  I styled the menu to match the national geographic framed border and colour.
+</p>
+
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-menu-trigger-image.png" id="trigger-image"></div>
+
+<p>
+On click, a micro-animation changes the ‘hamburger’ symbol to an ‘x’ to close the menu, and a pop-out overlay appears with the navigation links
+</p>
+<p>
+I've styled the pop-out with the ‘Julius Sans One’ typeface, while also adding a background colour and text colour change on hover.
+</p>
+<div class="imgbox-small"><img src="/projects/takahe/img/wu-menu-out-image.png"></div>
+
+
+<p>
+I decided on a minimal fixed position menu, as to not distract from the main article, but that can also stand its own ground as a distinctive element within the design.
+</p>
+
+
+
 
 </div>
+
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<div class="smallredbreak"></div>
 </div>
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<p>I really liked designing and developing for this project, and playing around with new ideas for user interaction. I feel the overall design and style is true to the subject matter and existing National Geographic publications.</p>
+
+<p>One of my favourite features is the scroll interactions via Scrollmagic, and I think they help bring the document to life, appearing and inviting the user to scroll down further to find out more information.</p>
+</div>
+
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<div class="smallredbreak"></div>
+</div>
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+<p>
+
+<a href="http://587.claudiastrong.com/national-geographic-typography/" target="_blank" class="inline-link">http://587.claudiastrong.com/national-geographic-typography/</a><br>
+<a href="https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/" target="_blank" class="inline-link">https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/</a><br>
+<a href="http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/" target="_blank" class="inline-link">http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/</a><br>
+<a href="https://www.youtube.com/watch?v=zxWwbCv1cFU" target="_blank" class="inline-link">https://www.youtube.com/watch?v=zxWwbCv1cFU</a><br>
+<a href="http://ngm.nationalgeographic.com/covers/gallery" target="_blank" class="inline-link">http://ngm.nationalgeographic.com/covers/gallery</a><br>
+<a href="https://codyhouse.co/gem/smart-fixed-navigation/" target="_blank" class="inline-link">https://codyhouse.co/gem/smart-fixed-navigation/</a><br>
+<a href="http://leafletjs.com/reference.html#url-template" target="_blank" class="inline-link">http://leafletjs.com/reference.html#url-template</a><br>
+<a href="http://nzbirdsonline.org.nz/species/south-island-takahe" target="_blank" class="inline-link">http://nzbirdsonline.org.nz/species/south-island-takahe</a><br>
+<a href="http://kingofwallpapers.com/takahe.html" target="_blank" class="inline-link">http://kingofwallpapers.com/takahe.html</a><br>
+<a href="http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/" target="_blank" class="inline-link">http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/</a><br>
+<a href="https://www.blackzqn.com/tours/fiordland-tours/" target="_blank" class="inline-link">https://www.blackzqn.com/tours/fiordland-tours/</a><br>
+<a href="http://materializecss.com" target="_blank" class="inline-link">http://materializecss.com</a><br>
+
+
+</p>
+</div>
+
+
+
+
+</div> <!-- Close Row -->
