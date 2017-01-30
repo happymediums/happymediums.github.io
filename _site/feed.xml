@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T14:43:54+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T16:08:09+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">IXD 302</title><link href="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html" rel="alternate" type="text/html" title="IXD 302" /><published>2017-01-12T11:04:36+00:00</published><updated>2017-01-12T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/12/IXD-302</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 &lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
@@ -12,7 +12,7 @@
 &lt;/div&gt;
 
 
-&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">IXD 301</title><link href="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html" rel="alternate" type="text/html" title="IXD 301" /><published>2017-01-11T11:04:36+00:00</published><updated>2017-01-11T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/11/IXD-301</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><summary type="html">Follow the links to view the project work for IXD 301 Designing with Content</summary></entry><entry><title type="html">IXD 301</title><link href="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html" rel="alternate" type="text/html" title="IXD 301" /><published>2017-01-11T11:04:36+00:00</published><updated>2017-01-11T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/11/IXD-301</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/11/IXD-301.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 &lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
 
@@ -30,7 +30,7 @@
 &lt;/div&gt;
 
 
-&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">The Takahe</title><link href="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html" rel="alternate" type="text/html" title="The Takahe" /><published>2017-01-04T11:04:36+00:00</published><updated>2017-01-04T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/04/Takahe</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html">&lt;div class=&quot;project-link&quot;&gt;
+&lt;/div&gt;</content><summary type="html">Follow the links to view the project work for IXD 301 Designing with Content</summary></entry><entry><title type="html">The Takahe</title><link href="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html" rel="alternate" type="text/html" title="The Takahe" /><published>2017-01-04T11:04:36+00:00</published><updated>2017-01-04T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/04/Takahe</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/04/Takahe.html">&lt;div class=&quot;project-link&quot;&gt;
 &lt;a href=&quot;/projects/Takahe/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
 &lt;/div&gt;
 
@@ -215,7 +215,7 @@ I decided on a minimal fixed position menu, as to not distract from the main art
 
 
 
-&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html"></summary></entry><entry><title type="html">Elements</title><link href="http://localhost:4000/jekyll/update/2017/01/02/Elements.html" rel="alternate" type="text/html" title="Elements" /><published>2017-01-02T11:04:36+00:00</published><updated>2017-01-02T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/02/Elements</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/02/Elements.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html">View Project</summary></entry><entry><title type="html">Elements</title><link href="http://localhost:4000/jekyll/update/2017/01/02/Elements.html" rel="alternate" type="text/html" title="Elements" /><published>2017-01-02T11:04:36+00:00</published><updated>2017-01-02T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/02/Elements</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/02/Elements.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
 
 &lt;div class=&quot;project-link&quot;&gt;
 &lt;a href=&quot;/projects/Elements/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
@@ -440,19 +440,105 @@ I decided on a minimal fixed position menu, as to not distract from the main art
 
   &lt;/div&gt;
 
-&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html"></summary></entry><entry><title type="html">Building my portfolio</title><link href="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html" rel="alternate" type="text/html" title="Building my portfolio" /><published>2016-12-16T11:04:36+00:00</published><updated>2016-12-16T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html">View Project</summary></entry><entry><title type="html">Building my portfolio</title><link href="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html" rel="alternate" type="text/html" title="Building my portfolio" /><published>2016-12-16T11:04:36+00:00</published><updated>2016-12-16T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
 
 &lt;div class=&quot;project-link&quot;&gt;
-&lt;a href=&quot;/projects/Elements/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
+&lt;a href=&quot;http://jimmorrison.io&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;row&quot;&gt;
 
 &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 
+  &lt;blockquote&gt;&lt;p&gt;IXD 301&lt;br&gt;
+    Designing with content.&lt;br&gt;
+    Portfolio Project.&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+
+&lt;p&gt;
+For my portfolio site, I thought I would put together a design that showcased the skills I have learnt over the last few months, including javascript components, flexbox frameworks and scrolling-based interactions.
+&lt;/p&gt;
+&lt;p&gt;The overall design came from wanting to reflect the various different styles that I produce in my work, while retaining elements of my personality throughout the content.
+  I primarily wanted to include different interactive elements including micro-interactions and scrolling interactions, and provide really nice visuals for the user.
+&lt;/p&gt;
+&lt;p&gt;The website is built using the &lt;a href=&quot;https://jekyllrb.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Jekyll&lt;/a&gt; framework, utilising '_includes' and '_layouts' for the different page layouts, &lt;a href=&quot;http://materializecss.com&quot; target=&quot;_blank&quot;class=&quot;inline-link&quot;&gt;Materialize.css&lt;/a&gt; for javascript components and &lt;a href=&quot;http://www.flexboxgrid.com&quot; target=&quot;_blank&quot;class=&quot;inline-link&quot;&gt;Flexbox Grid&lt;/a&gt; for fluid responsive layout.
+&lt;/p&gt;
+
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/portfolio/intro-section-image.jpg&quot;&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Introduction Section&lt;/h3&gt;
+&lt;p&gt;
+The introduction section contains too different interactions that I really wanted to use within my projects.  The first is &lt;a href=&quot;http://www.mattboldt.com/demos/typed-js/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;typed.js&lt;/a&gt;, which creates the typing animation, and the second is a scroll-based image sequence created using &lt;a href=&quot;http://www.scrollmagic.io&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Scrollmagic&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;I customised the typeface and colours for the typed.js CSS properties, using the 'Libre Baskerville' typeface.  Although this is the only time I use this typeface on the website, I felt it worked really well with the animation and style of the section.
+&lt;/p&gt;
+&lt;p&gt;
+  To build the scrolling animation, I recorded different hand gestures and turned the video into an image sequence on photoshop.  With about forty layers, I removed the background from the images, in order to create a transparent PNG image, enabling a customised background colour through CSS.
+ Once I had exported the sequence, I then set up the image sequence Scrollmagic settings with the HTML, CSS &amp; JS, and imported the images into the website.  What you're left with, is an interactive animation completely controlled through scrolling interaction.
+ &lt;/p&gt;
+ &lt;p&gt;One thing I did notice was the slow loading times of the images within the sequence, due to their PNG filesize. To optimise this, I would recreate the sequence as JPEG images, reducing the overall file and and loading times, with the only compromise being the set background colour depending on the background chosen while building the sequence.
+
+&lt;/p&gt;
+
+&lt;h3&gt;Case Study Sections&lt;/h3&gt;
+&lt;p&gt;
+  For the case study sections, I decided to choose fullscreen parallax images, built with &lt;a href=&quot;http://www.materializecss.com&quot; class=&quot;inline-link&quot; target=&quot;_blank&quot;&gt;Materialize.css&lt;/a&gt; and use Scrollmagic to animate the corresponding case study logos.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/portfolio/wu-portfolio-casestudy.png&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;For each case study there is a relevant link below the main parallax image, using hover.css to animate the case study links to create the desired effect.
+&lt;/p&gt;
+
+&lt;h3&gt;Typography&lt;/h3&gt;
+
+&lt;p&gt;The typography on the website uses three typefaces, 'Libre Baskerville' for the introduction section, 'Josefin Slab' for the headings and 'Special Elite' for the body text.  All three fonts can be found on &lt;a href=&quot;http://fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Google Fonts&lt;/a&gt;, and I really liked how these typefaces paired well together. Although I only use the 'Libre Baskerville' typeface once on the introduction section, I feel it works well against the other typefaces on the website.
+&lt;/p&gt;
+
+&lt;h3&gt;Artwork&lt;/h3&gt;
+&lt;p&gt;To break up the different sections, I decided to use various pieces of artwork I have created, which I think work well to add a bit more grit to the site overall. The artwork was each placed inside parallax containers, along with a comment box, animated by Scrollmagic.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox&quot;&gt;&lt;img src=&quot;/assets/img/portfolio/wu-portfolio-artwork.png&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;Content&lt;/h3&gt;
+&lt;p&gt;I order to create the fade-in / fade-out effect when navigating to different pages, I created a wrapper for all the content and assigned an 'animstion' class to it. I found &lt;a href=&quot;http://git.blivesta.com/animsition/&quot; target=&quot;_blank&quot; class&quot;inline-link&quot;&gt;Animstion&lt;/a&gt;, a jquery plugin, which allowed me to animate the page transition when applied to both a container and relevant link.
+&lt;/p&gt;
+
+&lt;h3&gt;The Navigation&lt;/h3&gt;
+&lt;p&gt;I found the structure for the main navigation on &lt;a href=&quot;http://codepen.io/PaulVanO/pen/GgGeyE&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;codepen.io&lt;/a&gt;, and which a bit of tweaking, customised the menu to better suit the website.  I added the animated hover link using hover.css and changed the colour to match the website colour scheme.
+   I really like the effect and animation properties the navigation has, and think it works well with the overall design.  I also used Scrollmagic scrolling interaction to change the class and colour of the menu whenever it scrolls over different sections of the website.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox&quot;&gt;&lt;img src=&quot;/assets/img/portfolio/wu-portfolio-menu-image.png&quot;&gt;&lt;/div&gt;
+&lt;p&gt;I really like how the portfolio website turned out, and think the visuals work really well in terms of graphics and typography.  The only main issue I found was that on mobile, the main index and blog index page both seemed to stretch outside their defined width of 100%.  I am still looking into this issue and trying to correct it, working my way through the CSS in order to discover the issue.
+&lt;/p&gt;
 
 &lt;/div&gt;
 
+
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-8 col-sm-8 col-md-8 col-lg-8&quot;&gt;
+&lt;div class=&quot;smallredbreak&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
+
+
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+&lt;p&gt;
+  &lt;a href=&quot;http://www.mattboldt.com/demos/typed-js/&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://www.mattboldt.com/demos/typed-js/&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://scrollmagic.io&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://scrollmagic.io&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;https://ihatetomatoes.net&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;https://ihatetomatoes.net&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;https://jekyllrb.com/docs/frontmatter/&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://navnav.co/tagged/fullscreen-overlay&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://navnav.co/tagged/fullscreen-overlay&lt;/a&gt;&lt;br&gt;
+
+&lt;a href=&quot;http://codepen.io/PaulVanO/pen/GgGeyE&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://codepen.io/PaulVanO/pen/GgGeyE&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;#&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;&lt;/a&gt;&lt;br&gt;
+
+
+
+&lt;/p&gt;
+&lt;/div&gt;
 
 
 

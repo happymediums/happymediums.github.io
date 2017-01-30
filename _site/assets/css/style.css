@@ -24,6 +24,10 @@ html,body {
 	.post-content {
 		font-family: 'Special Elite', sans-serif!important;
 	}
+	a.post-link h2 {
+		font-size: 3em!important;
+
+	}
 
 	.hero {
 		width:100%;

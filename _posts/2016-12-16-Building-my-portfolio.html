@@ -4,20 +4,105 @@ title:  "Building my portfolio"
 date:   2016-12-16 11:04:36 +0000
 categories: jekyll update
 ---
-
 <div class="hero"></div>
 
 <div class="project-link">
-<a href="/projects/Elements/index.html" class="button hvr-sweep-to-right" target="_blank">View Project</a>
+<a href="http://jimmorrison.io" class="button hvr-sweep-to-right" target="_blank">View Project</a>
 </div>
 
 <div class="row">
 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
+  <blockquote><p>IXD 301<br>
+    Designing with content.<br>
+    Portfolio Project.</p>
+  </blockquote>
+
+
+<p>
+For my portfolio site, I thought I would put together a design that showcased the skills I have learnt over the last few months, including javascript components, flexbox frameworks and scrolling-based interactions.
+</p>
+<p>The overall design came from wanting to reflect the various different styles that I produce in my work, while retaining elements of my personality throughout the content.
+  I primarily wanted to include different interactive elements including micro-interactions and scrolling interactions, and provide really nice visuals for the user.
+</p>
+<p>The website is built using the <a href="https://jekyllrb.com" target="_blank" class="inline-link">Jekyll</a> framework, utilising '_includes' and '_layouts' for the different page layouts, <a href="http://materializecss.com" target="_blank"class="inline-link">Materialize.css</a> for javascript components and <a href="http://www.flexboxgrid.com" target="_blank"class="inline-link">Flexbox Grid</a> for fluid responsive layout.
+</p>
+
+<div class="imgbox-small"><img src="/assets/img/portfolio/intro-section-image.jpg"></div>
+
+
+<h3>Introduction Section</h3>
+<p>
+The introduction section contains too different interactions that I really wanted to use within my projects.  The first is <a href="http://www.mattboldt.com/demos/typed-js/" target="_blank" class="inline-link">typed.js</a>, which creates the typing animation, and the second is a scroll-based image sequence created using <a href="http://www.scrollmagic.io" target="_blank" class="inline-link">Scrollmagic</a>.
+</p>
+<p>I customised the typeface and colours for the typed.js CSS properties, using the 'Libre Baskerville' typeface.  Although this is the only time I use this typeface on the website, I felt it worked really well with the animation and style of the section.
+</p>
+<p>
+  To build the scrolling animation, I recorded different hand gestures and turned the video into an image sequence on photoshop.  With about forty layers, I removed the background from the images, in order to create a transparent PNG image, enabling a customised background colour through CSS.
+ Once I had exported the sequence, I then set up the image sequence Scrollmagic settings with the HTML, CSS & JS, and imported the images into the website.  What you're left with, is an interactive animation completely controlled through scrolling interaction.
+ </p>
+ <p>One thing I did notice was the slow loading times of the images within the sequence, due to their PNG filesize. To optimise this, I would recreate the sequence as JPEG images, reducing the overall file and and loading times, with the only compromise being the set background colour depending on the background chosen while building the sequence.
+
+</p>
+
+<h3>Case Study Sections</h3>
+<p>
+  For the case study sections, I decided to choose fullscreen parallax images, built with <a href="http://www.materializecss.com" class="inline-link" target="_blank">Materialize.css</a> and use Scrollmagic to animate the corresponding case study logos.
+</p>
+<div class="imgbox-small"><img src="/assets/img/portfolio/wu-portfolio-casestudy.png"></div>
+
+<p>For each case study there is a relevant link below the main parallax image, using hover.css to animate the case study links to create the desired effect.
+</p>
+
+<h3>Typography</h3>
+
+<p>The typography on the website uses three typefaces, 'Libre Baskerville' for the introduction section, 'Josefin Slab' for the headings and 'Special Elite' for the body text.  All three fonts can be found on <a href="http://fonts.google.com" target="_blank" class="inline-link">Google Fonts</a>, and I really liked how these typefaces paired well together. Although I only use the 'Libre Baskerville' typeface once on the introduction section, I feel it works well against the other typefaces on the website.
+</p>
+
+<h3>Artwork</h3>
+<p>To break up the different sections, I decided to use various pieces of artwork I have created, which I think work well to add a bit more grit to the site overall. The artwork was each placed inside parallax containers, along with a comment box, animated by Scrollmagic.
+</p>
+<div class="imgbox"><img src="/assets/img/portfolio/wu-portfolio-artwork.png"></div>
+
+<h3>Content</h3>
+<p>I order to create the fade-in / fade-out effect when navigating to different pages, I created a wrapper for all the content and assigned an 'animstion' class to it. I found <a href="http://git.blivesta.com/animsition/" target="_blank" class"inline-link">Animstion</a>, a jquery plugin, which allowed me to animate the page transition when applied to both a container and relevant link.
+</p>
+
+<h3>The Navigation</h3>
+<p>I found the structure for the main navigation on <a href="http://codepen.io/PaulVanO/pen/GgGeyE" target="_blank" class="inline-link">codepen.io</a>, and which a bit of tweaking, customised the menu to better suit the website.  I added the animated hover link using hover.css and changed the colour to match the website colour scheme.
+   I really like the effect and animation properties the navigation has, and think it works well with the overall design.  I also used Scrollmagic scrolling interaction to change the class and colour of the menu whenever it scrolls over different sections of the website.
+</p>
+<div class="imgbox"><img src="/assets/img/portfolio/wu-portfolio-menu-image.png"></div>
+<p>I really like how the portfolio website turned out, and think the visuals work really well in terms of graphics and typography.  The only main issue I found was that on mobile, the main index and blog index page both seemed to stretch outside their defined width of 100%.  I am still looking into this issue and trying to correct it, working my way through the CSS in order to discover the issue.
+</p>
 
 </div>
 
+
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+<div class="smallredbreak"></div>
+</div>
+<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<p>
+  <a href="http://www.mattboldt.com/demos/typed-js/" target="" class="inline-link">http://www.mattboldt.com/demos/typed-js/</a><br>
+  <a href="http://scrollmagic.io" target="" class="inline-link">http://scrollmagic.io</a><br>
+  <a href="https://ihatetomatoes.net" target="" class="inline-link">https://ihatetomatoes.net</a><br>
+  <a href="https://jekyllrb.com/docs/frontmatter/" target="" class="inline-link">https://jekyllrb.com/docs/frontmatter/</a><br>
+<a href="http://navnav.co/tagged/fullscreen-overlay" target="" class="inline-link">http://navnav.co/tagged/fullscreen-overlay</a><br>
+
+<a href="http://codepen.io/PaulVanO/pen/GgGeyE" target="" class="inline-link">http://codepen.io/PaulVanO/pen/GgGeyE</a><br>
+<a href="#" target="" class="inline-link"></a><br>
+
+
+
+</p>
+</div>
 
 
 
