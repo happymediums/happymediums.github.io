@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T16:08:09+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T16:32:41+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">IXD 302</title><link href="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html" rel="alternate" type="text/html" title="IXD 302" /><published>2017-01-12T11:04:36+00:00</published><updated>2017-01-12T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/12/IXD-302</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 &lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
@@ -22,11 +22,9 @@
   &lt;a href=&quot;http://jimmorrison.io/projects/Elements/index.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Elements Project&lt;/a&gt;&lt;br&gt;
   &lt;a href=&quot;http://www.jimmorrison.io/jekyll/update/2017/01/02/Elements.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Elements write-up&lt;/a&gt;&lt;br&gt;
 &lt;br&gt;
-  &lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 1&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 1 write-up&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://jimmorrison.io/jekyll/update/2016/11/29/Little-Blue-Dot.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 1&lt;/a&gt;&lt;br&gt;
 &lt;br&gt;
 &lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 2&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;#&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Masterclass 2 write-up&lt;/a&gt;&lt;br&gt;
 &lt;/div&gt;
 
 
@@ -587,26 +585,42 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">Little Blue Dot</title><link href="http://localhost:4000/jekyll/update/2016/11/29/Little-Blue-Dot.html" rel="alternate" type="text/html" title="Little Blue Dot" /><published>2016-11-29T11:04:36+00:00</published><updated>2016-11-29T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/11/29/Little-Blue-Dot</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/29/Little-Blue-Dot.html">Little Blue Dot
+[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">Little Blue Dot</title><link href="http://localhost:4000/jekyll/update/2016/11/29/Little-Blue-Dot.html" rel="alternate" type="text/html" title="Little Blue Dot" /><published>2016-11-29T11:04:36+00:00</published><updated>2016-11-29T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/11/29/Little-Blue-Dot</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/11/29/Little-Blue-Dot.html">&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+    &lt;blockquote&gt;&lt;p&gt;IXD 301&lt;br&gt;
+      Designing with content.&lt;br&gt;
+      Masterclass 1.&lt;/p&gt;
+    &lt;/blockquote&gt;
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+&lt;p&gt;A Masterclass with Chris Murphy, we explored the idea of Micropublications, taking an idea, through concept, development and design to produce a possible digital/analog application within a few days.
+&lt;/p&gt;
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/masterclass/image3.jpg&quot;&gt;&lt;/div&gt;
 
-Jekyll also offers powerful support for code snippets:
+&lt;h3&gt;Idea Generation&lt;/h3&gt;
+&lt;p&gt;
+From an inital concept of space photography and weather notifications, the idea took hold of bringing together a way in which we could find out information about whats happening on our planet using an interactive globe.
+The information would cover a range of topics which could help create a better understanding of the world and our place in it.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/masterclass/sketch.jpg&quot;&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h3&gt;Research &amp; Development&lt;/h3&gt;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+&lt;p&gt;
+I began to look at various applications including Google Earth, NASA and National Geographic the limitations of each and how the 'Little Blue Dot' app could be placed within the market.
+I then began to look at how the information could be accessed and displayed within the app by defining the required elements and wireframing the screen layout accordingly.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/masterclass/image1.jpg&quot;&gt;&lt;/div&gt;
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</content><summary type="html">Little Blue Dot
+&lt;h3&gt;Concept Design&lt;/h3&gt;
+&lt;p&gt;
+I wanted to make sure that the main focus was on interaction, using touch gestures to search and find information via an interactive globe. The key was to allow easy access to navigate and find information without the need to type in a searchbar for content; providing a more passive approach to tailoring and receiving information, content and updates from the world around us and beyond.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/masterclass/image2.jpg&quot;&gt;&lt;/div&gt;
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry></feed>
+
+&lt;/div&gt;
+
+&lt;/div&gt;</content><summary type="html">IXD 301
+      Designing with content.
+      Masterclass 1.</summary></entry></feed>
