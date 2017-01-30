@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T14:08:05+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-30T14:41:30+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">IXD 302</title><link href="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html" rel="alternate" type="text/html" title="IXD 302" /><published>2017-01-12T11:04:36+00:00</published><updated>2017-01-12T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/12/IXD-302</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 &lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
@@ -386,36 +386,78 @@ I decided on a minimal fixed position menu, as to not distract from the main art
       Heroes &amp; Villans project.&lt;/p&gt;
     &lt;/blockquote&gt;
 
+&lt;/div&gt;
+
+    &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+
+    &lt;p&gt;
+    The Heroes &amp; Villans project for Narrative &amp; Storytelling consists of web markup, as well as design and development of a one-page website
+    &lt;/p&gt;
+&lt;h3&gt;Main Design Elements&lt;/h3&gt;
+    &lt;p&gt;My inital ideas came from the text itself, explaining the history of the characters and the overall Sherlock Holmes story.
+    &lt;/p&gt;
+
+    &lt;p&gt;
+    Originally published during the end of the 19th century, my design ideas came from both the original publication itself, as well as old newspaper layouts and design from the era.
+    &lt;/p&gt;
+    &lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/heroes/old-paper.jpg&quot;&gt;&lt;/div&gt;
+
+    &lt;p&gt;
+      This gave me a good layout framework to work from, along with different design elements I would be able to include within the site.
+      This included the two column layout of the content, as well as the type and style of typography that could be used.
+    &lt;/p&gt;
 
 
+    &lt;div class=&quot;imgbox&quot;&gt;&lt;img src=&quot;/assets/img/heroes/wu-main-title.jpg&quot;&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Typography&lt;/h3&gt;
+&lt;p&gt;For the typography, I decided to choose two serif typefaces to be used, one for the headings and another of body text.
+  The headings on the site used the 'Cinzel' typeface, which is a really nice bold serif type, while for the body text I chose 'Mate SC',
+   another serif type which I think look similar to old-school newspaper typography. Both typefaces are available from &lt;a href=&quot;http://fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Google Fonts&lt;/a&gt;&lt;/p&gt;
+ &lt;/p&gt;
+
+ &lt;h3&gt;The Navigation&lt;/h3&gt;
+ &lt;p&gt;Keeping with the old newspaper theme of the website, I decided to create a header section to house the main navigation links, similar to the date/time areas of the old papers.
+&lt;/p&gt;
+&lt;p&gt;
+  I then added &lt;a href=&quot;https://github.com/cferdinandi/smooth-scroll&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;smoothscroll.js&lt;/a&gt; to each link in order for the scroll action to be smooth as the user navigates down the page.
+  Along with this, I applied a &lt;a href=&quot;http://ianlunn.github.io/Hover/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;hover.css&lt;/a&gt; class to the navigation links in order to produce the slide underline when the link is hovered.
+&lt;/p&gt;
+&lt;h3&gt;Main Content&lt;/h3&gt;
+&lt;p&gt;The main body of the website is built using &lt;a href=&quot;https://www.flexboxgrid.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;Flexbox Grid&lt;/a&gt;, as I really liked the functionality of re-ordering sections through media queries.
+&lt;/p&gt;
+&lt;div class=&quot;imgbox-small&quot;&gt;&lt;img src=&quot;/assets/img/heroes/wu-flexbox-image.jpg&quot;&gt;&lt;/div&gt;
+&lt;p&gt;I felt that the flexbox layout allowed me to re-create the column effect, while at the same time being able to re-order the section, particularly to re-order the placement of images in relation to the relative text sections.
+&lt;/p&gt;
+&lt;p&gt;Along with this, I used the 'column-count' CSS property, which allowed me to overflow text into two columns, while changing back to one based on media queries.
+&lt;/p&gt;
+
+&lt;p&gt;I also decided to add in a digital publication of the original Sherlock Holmes stories, from The Strand magazine.  I embedded the content, wrapping it inside responsive CSS, allowing the user to experience the publication if they wished, while staying on the website.
+&lt;/p&gt;
 
 
 
   &lt;/div&gt;
 
-&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html"></summary></entry><entry><title type="html">Building my portfolio</title><link href="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html" rel="alternate" type="text/html" title="Building my portfolio" /><published>2016-12-16T11:04:36+00:00</published><updated>2016-12-16T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html">Building my portfolio
+&lt;/div&gt; &lt;!-- Close Row --&gt;</content><summary type="html"></summary></entry><entry><title type="html">Building my portfolio</title><link href="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html" rel="alternate" type="text/html" title="Building my portfolio" /><published>2016-12-16T11:04:36+00:00</published><updated>2016-12-16T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/16/Building-my-portfolio.html">&lt;div class=&quot;hero&quot;&gt;&lt;/div&gt;
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+&lt;div class=&quot;project-link&quot;&gt;
+&lt;a href=&quot;/projects/Elements/index.html&quot; class=&quot;button hvr-sweep-to-right&quot; target=&quot;_blank&quot;&gt;View Project&lt;/a&gt;
+&lt;/div&gt;
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+&lt;div class=&quot;row&quot;&gt;
 
-Jekyll also offers powerful support for code snippets:
+&lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+&lt;/div&gt;
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</content><summary type="html">Building my portfolio
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/</summary></entry><entry><title type="html">Understanding Flexbox</title><link href="http://localhost:4000/jekyll/update/2016/12/08/Understanding-Flexbox.html" rel="alternate" type="text/html" title="Understanding Flexbox" /><published>2016-12-08T11:04:36+00:00</published><updated>2016-12-08T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/08/Understanding-Flexbox</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/08/Understanding-Flexbox.html">Understanding Flexbox
+
+
+
+&lt;/div&gt;</content><summary type="html"></summary></entry><entry><title type="html">Understanding Flexbox</title><link href="http://localhost:4000/jekyll/update/2016/12/08/Understanding-Flexbox.html" rel="alternate" type="text/html" title="Understanding Flexbox" /><published>2016-12-08T11:04:36+00:00</published><updated>2016-12-08T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2016/12/08/Understanding-Flexbox</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2016/12/08/Understanding-Flexbox.html">Understanding Flexbox
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
