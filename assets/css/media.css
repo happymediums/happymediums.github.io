@@ -24,8 +24,8 @@ Media Queries
     	margin-left: 0;
   }
 
-  .post-link h2 {
-  	font-size: 2rem;
+.post-title h2 {
+  	font-size: 1.75em;
   }
 
   /* =Header */
@@ -34,9 +34,12 @@ Media Queries
 
 }
 
-@media only screen and (min-width: 48em) { /* 768px */
+@media only screen and (min-width: 48em and max-width: 62em) { /* 768px */
 
  /* =General */
+ .post-title h2 {
+   	font-size: 1.75em;
+   }
 
  /* =Header */
 
