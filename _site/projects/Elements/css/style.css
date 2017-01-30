@@ -272,10 +272,14 @@ a.title-link:hover {
   font-family: 'Raleway', sans-serif;
 }
 
-
 .element-item > * {
   margin: 0;
   padding: 0;
+}
+
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+  -webkit-animation-duration: 0.7s!important;
+  animation-duration: 0.7s!important;
 }
 
 .element-item .name {
@@ -285,7 +289,7 @@ a.title-link:hover {
   top: 60px;
   text-transform: none;
   letter-spacing: 0;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -307,39 +311,41 @@ a.title-link:hover {
 .element-item .weight {
   position: absolute;
   left: 10px;
-  top: 76px;
-  font-size: 12px;
+  top: 100px;
+  font-size: 16px;
 }
 
-.element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%);}
-.element-item.alkali:hover    { background: #fff; transition: 0.3s linear;}
+.element-item.alkali         { background: #ACCC23;}
+.element-item.alkali:hover  { background: #2978a3; transition: 0.3s linear;}
+.element-item:hover h3, .element-item:hover p  {color:#fff}
 
-.element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
-.element-item.alkaline-earth:hover  { background: #fff; transition: 0.3s linear; }
+.element-item.alkaline-earth  { background: #8C9951; }
+.element-item.alkaline-earth:hover  { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
-.element-item.lanthanoid:hover
+.element-item.lanthanoid      { background: #FFE345;}
+.element-item.lanthanoid:hover { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%);}
-.element-item.actinoid:hover  { background: #fff; transition: 0.3s linear; }
+.element-item.actinoid        { background: #849AFF;}
+.element-item.actinoid:hover  { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
-.element-item.transition:hover { background: #fff; transition: 0.3s linear; }
+.element-item.transition      { background: #236DCC;}
+.element-item.transition:hover { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
-.element-item.post-transition:hover { background: #fff; transition: 0.3s linear; }
+.element-item.post-transition { background: #FFEA84; }
+.element-item.post-transition:hover { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.metalloid      { background: #08F; background: hsl( 216, 100%, 50%); }
-.element-item.metalloid:hover { background: #fff; transition: 0.3s linear; }
+.element-item.metalloid      { background: #CC603C;}
+.element-item.metalloid:hover { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
-.element-item.diatomic:hover { background: #fff; transition: 0.3s linear; }
+.element-item.nonmetal      { background: #7CCC3C; }
+.element-item.nonmetal:hover { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
-.element-item.halogen:hover  { background: #fff; transition: 0.3s linear; }
+.element-item.halogen         { background: #C0A6FF; }
+.element-item.halogen:hover  { background: #2978a3; transition: 0.3s linear; }
 
-.element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
-.element-item.noble-gas:hover { background: #fff; transition: 0.3s linear; }
+.element-item.noblegas       { background: #CC762C; }
+.element-item.noblegas:hover { background: #2978a3; transition: 0.3s linear; }
+
 
 /*================================
 Home Section Styles
