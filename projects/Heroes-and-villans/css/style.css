@@ -9,6 +9,13 @@ body, html {
 	background-attachment: fixed;
 }
 
+.hvr-underline-from-left:before {
+	height:2px!important;
+}
+a.inlinelink {
+	text-decoration: none;
+	color:#000;
+}
 /*==============================
     Section Styles
 ================================*/
@@ -225,17 +232,24 @@ order:5;
   padding-top: 14px;
   padding-bottom: 10px;
 }
-#moriarty-section {
-order:8;
+#moriarty-image {
+	order:7;
 }
-#irene-section {
+#irene-image {
+	order:8;
+}
+
+#moriarty-section {
 order:9;
 }
+#irene-section {
+order:10;
+}
 #silver-title {
-	order:10;
+	order:11;
 }
 #silver-section {
-order:11;
+order:12;
 }
 
 @media only screen and (max-width:768px) {
@@ -262,17 +276,28 @@ order:3;
 #book-section {
 order:5;
 }
+#villan-title {
+	order:6;
+}
 #moriarty-section {
-order:6;
-}
-#irene-section {
-order:6;
-}
-#silver-title {
 order:7;
 }
+#moriarty-image {
+	order:8;
+}
+
+
+#irene-section {
+order:9;
+}
+#irene-image {
+	order:10;
+}
+#silver-title {
+order:11;
+}
 #silver-section {
-order:8;
+order:12;
 }
 
 
