@@ -560,7 +560,7 @@ height:100vh !important;
 	width:100%;
 	height:auto;
 	text-align:center;
-	padding:50px 20px;
+	padding:50px 10px;
 }
 .white-section h2{
 	font-family: 'Josefin Slab', sans-serif !important;
@@ -578,8 +578,6 @@ height:100vh !important;
 	height:auto;
 	margin-left:15%;
 	padding: 20px 0;
-	border-top:0px solid #e1e1e1;
-	border-bottom:0px solid #e1e1e1;
 }
 .info-section p {
 	font-family: 'Special Elite', sans-serif !important;

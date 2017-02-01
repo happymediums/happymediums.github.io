@@ -12,12 +12,19 @@ Media Queries
     padding:0px 10px;
   }
   .info-table {
-    	margin-left: 0%!important;
+    	margin-left: 1%!important;
   }
 
 a.post-link h2 {
   	font-size: 1.5em!important;
   }
+  .info-section {
+  	width:90%;
+  	height:auto;
+  	margin-left:5%;
+  	padding: 20px 0;
+  }
+
 h2 {
   font-size:1.5em!important;
 }
@@ -34,6 +41,17 @@ h2 {
    h2 {
      font-size:1.5em!important;
    }
+
+ a.post-link h2 {
+    font-size: 1.5em!important;
+   }
+   .info-section {
+    width:80%;
+    height:auto;
+    margin-left:10%;
+    padding: 20px 0;
+   }
+
 
  /* =Header */
 
