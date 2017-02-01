@@ -15,6 +15,13 @@
   width:80%;
 }
 
+.text-title {
+  width:80%;
+  height:auto;
+  padding: 0 10%;
+  color:#000;
+}
+
 h2 {
 	font-size: 2em!important;
 }
@@ -50,6 +57,14 @@ nav ul li {
   .text-box {
     width:90%;
   }
+
+  .text-title {
+    width:90%;
+    height:auto;
+    padding: 0 10%;
+    color:#000;
+  }
+
 
 #home-text {
   width:80%;
