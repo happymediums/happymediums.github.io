@@ -570,6 +570,9 @@ height:100vh !important;
 	font-family: 'Special Elite', sans-serif !important;
 }
 
+.link-resources {
+	overflow-wrap: break-word;
+}
 .info-section {
 	width:70%;
 	height:auto;

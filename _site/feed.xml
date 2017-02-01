@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-01T18:05:23+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-01T18:21:40+00:00</updated><id>http://localhost:4000//</id><title type="html">Jim Morrison Portfolio</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">IXD 302 Narrative &amp;amp; Storytelling</title><link href="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html" rel="alternate" type="text/html" title="IXD 302 Narrative &amp; Storytelling" /><published>2017-01-12T11:04:36+00:00</published><updated>2017-01-12T11:04:36+00:00</updated><id>http://localhost:4000/jekyll/update/2017/01/12/IXD-302</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/01/12/IXD-302.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 &lt;p&gt;Follow the links to view the project work for IXD 301 Designing with Content&lt;p&gt;
@@ -191,23 +191,44 @@ I decided on a minimal fixed position menu, as to not distract from the main art
 
 &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
 
+&lt;div class=&quot;link-resources&quot;&gt;
 &lt;p&gt;
-
-&lt;a href=&quot;http://587.claudiastrong.com/national-geographic-typography/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://587.claudiastrong.com/national-geographic-typography/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=zxWwbCv1cFU&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://www.youtube.com/watch?v=zxWwbCv1cFU&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://ngm.nationalgeographic.com/covers/gallery&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://ngm.nationalgeographic.com/covers/gallery&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://codyhouse.co/gem/smart-fixed-navigation/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://codyhouse.co/gem/smart-fixed-navigation/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://leafletjs.com/reference.html#url-template&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://leafletjs.com/reference.html#url-template&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://nzbirdsonline.org.nz/species/south-island-takahe&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://nzbirdsonline.org.nz/species/south-island-takahe&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://kingofwallpapers.com/takahe.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://kingofwallpapers.com/takahe.html&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://www.blackzqn.com/tours/fiordland-tours/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://www.blackzqn.com/tours/fiordland-tours/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://materializecss.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://materializecss.com&lt;/a&gt;&lt;br&gt;
-
-
+&lt;a href=&quot;http://587.claudiastrong.com/national-geographic-typography/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://587.claudiastrong.com/national-geographic-typography/&lt;/a&gt;
 &lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://yoshurikenwords.wordpress.com/2015/03/12/typography-in-national-geographic-magazine/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://news.nationalgeographic.com/2017/01/viking-beyond-northlands-norse-saga-barraclough/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=zxWwbCv1cFU&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://www.youtube.com/watch?v=zxWwbCv1cFU&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://ngm.nationalgeographic.com/covers/gallery&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://ngm.nationalgeographic.com/covers/gallery&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://codyhouse.co/gem/smart-fixed-navigation/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://codyhouse.co/gem/smart-fixed-navigation/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://leafletjs.com/reference.html#url-template&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://leafletjs.com/reference.html#url-template&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://nzbirdsonline.org.nz/species/south-island-takahe&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://nzbirdsonline.org.nz/species/south-island-takahe&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://kingofwallpapers.com/takahe.html&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://kingofwallpapers.com/takahe.html&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.lightfoottravel.com/itinerary/hiking-new-zealand-south-island/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://www.blackzqn.com/tours/fiordland-tours/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://www.blackzqn.com/tours/fiordland-tours/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://materializecss.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://materializecss.com&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 
 
@@ -354,17 +375,35 @@ I decided on a minimal fixed position menu, as to not distract from the main art
 &lt;div class=&quot;col-xs-2 col-sm-2 col-md-2 col-lg-2&quot;&gt;&lt;/div&gt;
 
 &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+  &lt;div class=&quot;link-resources&quot;&gt;
   &lt;p&gt;
-  &lt;a href=&quot;http://www.ptable.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.ptable.com&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://www.rsc.org/periodic-table&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.rsc.org/periodic-table&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://fonts.google.com&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://www.google.co.uk/search?q=images+of+space&amp;client=safari&amp;rls=en&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjtzOKm8enRAhWqB8AKHZYtCfUQ_AUICCgB&amp;biw=1280&amp;bih=640&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.google.com/images&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;https://color.adobe.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://color.adobe.com&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://gifcreator.me&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://gifcreator.me&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://isotope.metafizzy.co&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://isotope.metafizzy.co&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://flexboxgrid.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://flexboxgrid.com&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://ianlunn.github.io/Hover/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://ianlunn.github.io/Hover/&lt;/a&gt;&lt;br&gt;
+  &lt;a href=&quot;http://www.ptable.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.ptable.com&lt;/a&gt;
 &lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.rsc.org/periodic-table&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.rsc.org/periodic-table&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://fonts.google.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://fonts.google.com&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://www.google.co.uk/search?q=images+of+space&amp;client=safari&amp;rls=en&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjtzOKm8enRAhWqB8AKHZYtCfUQ_AUICCgB&amp;biw=1280&amp;bih=640&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://www.google.com/images&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://color.adobe.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;https://color.adobe.com&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://gifcreator.me&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://gifcreator.me&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://isotope.metafizzy.co&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://isotope.metafizzy.co&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://flexboxgrid.com&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://flexboxgrid.com&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://ianlunn.github.io/Hover/&quot; target=&quot;_blank&quot; class=&quot;inline-link&quot;&gt;http://ianlunn.github.io/Hover/&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;/div&gt;
 
@@ -523,19 +562,27 @@ The introduction section contains too different interactions that I really wante
 
 
 &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-12&quot;&gt;
+  &lt;div class=&quot;link-resources&quot;&gt;
 &lt;p&gt;
-  &lt;a href=&quot;http://www.mattboldt.com/demos/typed-js/&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://www.mattboldt.com/demos/typed-js/&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&quot;http://scrollmagic.io&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://scrollmagic.io&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&quot;https://ihatetomatoes.net&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;https://ihatetomatoes.net&lt;/a&gt;&lt;br&gt;
-  &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;https://jekyllrb.com/docs/frontmatter/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;http://navnav.co/tagged/fullscreen-overlay&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://navnav.co/tagged/fullscreen-overlay&lt;/a&gt;&lt;br&gt;
-
-&lt;a href=&quot;http://codepen.io/PaulVanO/pen/GgGeyE&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://codepen.io/PaulVanO/pen/GgGeyE&lt;/a&gt;&lt;br&gt;
-&lt;a href=&quot;#&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;&lt;/a&gt;&lt;br&gt;
-
-
-
+  &lt;a href=&quot;http://www.mattboldt.com/demos/typed-js/&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://www.mattboldt.com/demos/typed-js/&lt;/a&gt;
 &lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&quot;http://scrollmagic.io&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://scrollmagic.io&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&quot;https://ihatetomatoes.net&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;https://ihatetomatoes.net&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;https://jekyllrb.com/docs/frontmatter/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://navnav.co/tagged/fullscreen-overlay&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://navnav.co/tagged/fullscreen-overlay&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://codepen.io/PaulVanO/pen/GgGeyE&quot; target=&quot;&quot; class=&quot;inline-link&quot;&gt;http://codepen.io/PaulVanO/pen/GgGeyE&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
 &lt;/div&gt;
 
 
