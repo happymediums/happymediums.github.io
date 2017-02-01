@@ -62,4 +62,5 @@
       .type-wrap{
     	margin:10px auto;
     	padding:20px;
+      overflow: visible;
     }
