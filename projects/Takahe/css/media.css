@@ -22,6 +22,11 @@
   color:#000;
 }
 
+.film-img-box {
+  border-top: 14px solid #FBE33A;
+  border-bottom: 14px solid #FBE33A;
+}
+
 h2 {
 	font-size: 2em!important;
 }
@@ -53,6 +58,13 @@ nav ul li {
     padding: 0.4em 1.6em!important;
     margin-left: 0;
   }
+
+  .film-img-box {
+  	border-top: 10px solid #FBE33A;
+  	border-bottom: 10px solid #FBE33A;
+  }
+
+
 
   .text-box {
     width:90%;
