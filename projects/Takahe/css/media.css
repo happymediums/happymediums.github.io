@@ -21,11 +21,16 @@
 
 
 nav {
-  line-height: 20px!important;
+  line-height: 35px!important;
 }
   h1 {
     font-size: 1.5em
   }
+
+nav ul li {
+  width:100%;
+  text-align: center;
+}
 
 .parabox p {
     font-size: 1em;
