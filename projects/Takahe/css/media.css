@@ -19,18 +19,44 @@
 
 @media only screen and (max-width: 498px) {
 
+
+nav {
+  line-height: 20px!important;
+}
   h1 {
     font-size: 1.5em
   }
 
+.parabox p {
+    font-size: 1em;
+  }
+
+  #cd-nav.is-fixed ul li a {
+    padding: 0.4em 1.6em!important;
+    margin-left: 0;
+  }
+
   .text-box {
     width:90%;
-    margin-left: 5%;
   }
 
 #home-text {
   width:80%;
   margin-left: 10%;
 }
+
+.parabox {
+	width:95%;
+	position: absolute;
+	left:2.5%;
+	bottom:0;
+	margin-bottom: 30px;
+	padding:15px;
+	height:auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	border: 7px solid #FBE33A;
+}
+
 
 }

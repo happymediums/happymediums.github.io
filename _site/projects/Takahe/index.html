@@ -511,6 +511,27 @@ scrollWheelZoom: false
 
 </script>
 
+<script>
+$(document).ready(function() {
+    $(window).on('resize', updateMap);
+});
+
+function updateMap() {
+  var width = $(window).width();
+  if (width < 768) {
+    map.scrollWheelZoom.disable();
+    map.doubleClickZoom.disable();
+    map.dragging.disable();
+    if (map.tap) map.tap.disable();
+  }
+  else {
+    map.doubleClickZoom.enable();
+    map.dragging.enable();
+    if (map.tap) map.tap.enable();
+  }
+}
+</script>
+
 
 </body>
 </html>
