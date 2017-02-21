@@ -21,11 +21,11 @@ p {
   text-align: center;
 }
 #weather-info {
-  height:75vh;
+  height:50vh;
   background:#EA7651;
 }
 #location-submission {
-  height:25vh;
+  height:50vh;
   background:#fff;
 
 }
