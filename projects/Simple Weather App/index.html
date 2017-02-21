@@ -1,0 +1,72 @@
+<!--DocTypeHTML-->
+<html>
+  <head>
+    <title>Climate | The Weather Buddy</title>
+
+<!-- Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" />
+      <link rel="stylesheet" type="text/css" href="css/hover.css" />
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+<!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Arvo|Raleway:400" rel="stylesheet">
+
+<!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+
+
+    <div class="row" id="weather-info">
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centerstuff" id="tempandloc">  <!-- Open Weather Data Column 1 -->
+
+
+    	<div class="temperature"><span id="temperature">0</span><span class="weatherunits">&deg;</span></div>
+    	<div class="location"><span id="location">Unknown</span></div>
+      <img id="icon" width="75px" src="img/codes/200.png"/>
+      <div class="description"><span id="description">Weather Description</span></div>
+      <div class="humidity">
+        <img src="img/humidity.png" height="16px" />
+        <span id="humidity">0</span><span class="weatherunits">%</span>
+      </div>
+      <div class="wind">
+        <span id="wind">0</span><span class="weatherunits"> mph</span> <span id="direction">N</span>
+      </div>
+
+    </div>    <!-- Close Weather Data Column 1 -->
+
+    </div> <!-- Close Row 1 -->
+
+    <div class="row" id="location-submission">
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centerstuff" id="searchbar">  <!-- Open Search Bar-->
+
+        <input  class="search"
+                onkeydown="if (event.keyCode == 13) document.getElementById('location_Search').click()"
+                onfocus="this.value='';"
+                type="text" id="cityname"
+                value="Where do you fancy checking the weather?">
+
+
+      </div>  <!-- Close Search Bar -->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 centerstuff" id="submitbar">  <!-- Open Weather Data Column 3 -->
+          <button id="location_Search" class="hvr-wobble-vertical hvr-underline-from-left" onclick="locationSearch()">Submit</button>
+
+      </div>  <!-- Close Submit Bar -->
+
+    </div>  <!-- Close Row 2 -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+</html>
