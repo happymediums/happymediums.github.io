@@ -54,7 +54,7 @@
 .menutext p {
 }
 .menutext.color-change {
-  color:#fff;
+  color:#AA4848;
 }
 .menutext.color-change-1 {
   color:black;
@@ -120,7 +120,7 @@ h1 {
   cursor: pointer;
 }
 .button_container span.color-change {
-  background: #fff;
+  background: #AA4848;
 }
 .button_container span.color-change-1 {
   background: #000;
