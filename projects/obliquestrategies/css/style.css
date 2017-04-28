@@ -282,7 +282,7 @@ button:hover {
     }
 
     #randomStrategy {
-      padding-top:25%;
+      padding-top:37.5%;
     }
 
 }
@@ -297,7 +297,7 @@ button:hover {
     position:absolute;
     z-index: 99999;
     top:50%;
-    left:40%;
+    left:42.5%;
   }
 
   .card {
