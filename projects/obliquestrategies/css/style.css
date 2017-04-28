@@ -274,8 +274,12 @@ button:hover {
     .rocket {
       position:absolute;
       z-index: 99999;
-      top:65%;
-      left:47.5%;
+      top:62%;
+      left:45%;
+    }
+
+    .card {
+      align-items: flex-start;
     }
 
 }
