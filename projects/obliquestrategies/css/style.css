@@ -112,7 +112,7 @@ Things to develop:
 body {
   height: 100%;
  width: 100%;
-background: ;
+background-color: #000000;
 text-transform: uppercase;
 letter-spacing: 0.05em;
 font-family: 'Raleway', sans-serif;
@@ -265,8 +265,10 @@ button:hover {
 =================================*/
 
 @media screen and (max-width: 500px) {
-    p {
-      font-size: 1.5em;
+
+    body {
+      font-size: 1em;
+      background-color: #000000;
     }
 
     .rocket {
