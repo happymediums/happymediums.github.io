@@ -293,6 +293,21 @@ button:hover {
     font-size: 1.5em;
   }
 
+  .rocket {
+    position:absolute;
+    z-index: 99999;
+    top:50%;
+    left:40%;
+  }
+
+  .card {
+    align-items: flex-start;
+  }
+
+  #randomStrategy {
+    padding-top:15%;
+  }
+
 
 
 }
