@@ -365,8 +365,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cccccc', e
     border-bottom:;
     opacity: 0;
     /*transform: translateY(50px);*/
-    transition: all 1s ease-in;
-		transform: translateX(-100%);
+    transition: all 1s ease-in-out;
+	/*	transform: translateX(-100%); */
 		width:80%;
 		height:auto;
 }
@@ -377,20 +377,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cccccc', e
 
 .homeclientlogo.fade-in-left {
     opacity: 1;
-		transform: translateX(0);
-		transition: all 1s ease-in
+	/*	transform: translateX(0); */
+		transition: all 1s ease-in-out;
     /*transform: translateY(0);*/
 }
 #worksectionearl {
 	width:80%;
 	height:auto;
-	transition: all 1s linear;
-	transform: translateY(100%);
+	transition: all 1s ease-in-out;
+/*	transform: translateY(100%); */
 	opacity: 0;
 }
 #worksectionearl.fade-up{
     opacity: 1;
-		transform: translateY(0);
+		transition: all 1s ease-in-out;
+/*		transform: translateY(0); */
     /*transform: translateY(0);*/
 }
 #worksectionearl img {
