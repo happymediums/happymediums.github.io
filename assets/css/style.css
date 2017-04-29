@@ -488,6 +488,11 @@ padding-top:10%;
 	color:white;
 	font-family: 'Special Elite';
 }
+
+.para-text {
+
+}
+
 .para-info-box {
 	position: absolute;
 	top:10%;
@@ -591,7 +596,7 @@ height:100vh !important;
 	font-size: 3rem;
 }
 .white-section p{
-	font-family: 'Special Elite', sans-serif !important;
+	font-family: 'Josefin Sans', sans-serif !important;
 }
 
 .link-resources {
@@ -604,7 +609,7 @@ height:100vh !important;
 	padding: 20px 0;
 }
 .info-section p {
-	font-family: 'Special Elite', sans-serif !important;
+	font-family: 'Josefin Sans', sans-serif !important;
 }
 .info-section h2 {
 	font-family: 'Josefin Slab', sans-serif !important;
