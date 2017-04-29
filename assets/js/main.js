@@ -150,6 +150,19 @@ duration: 250
 .addTo(controller);
 
 // build a scene
+var ourScene13c = new ScrollMagic.Scene({
+triggerElement: '#about-text-three',
+triggerHook: 0.5,
+duration: 250
+})
+.setClassToggle('#about-text-three', 'fade-in') // add class to project01
+//.addIndicators({
+
+//}) // this requires a plugin
+.addTo(controller);
+
+
+// build a scene
 var ourScene14 = new ScrollMagic.Scene({
 triggerElement: '#play',
 triggerHook: 0.5

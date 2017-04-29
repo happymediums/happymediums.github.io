@@ -446,7 +446,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cccccc', e
 #about-text-one, #about-text-two, #about-text-three h2{
 	font-family: 'Josefin Slab', sans-serif !important;
 }
-#about-text-one, #about-text-two #about-text-three p{
+#about-text-one, #about-text-two, #about-text-three p{
 	font-family: 'Special Elite', sans-serif !important;
 }
 #about-me {
