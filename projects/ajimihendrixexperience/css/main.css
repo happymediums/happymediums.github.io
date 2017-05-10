@@ -37,15 +37,16 @@ height:100vh;
 .guitarFrame {
   width:100%;
   margin-top:-50px;
-  height:75vh;
 }
 .guitarFrame img {
   width:50%;
   height:auto;
 }
-.guitarTitle
-.fancybox-placeholder {
-/*  transform:scale(2,2)!important; */
+h2.guitariconsTitle {
+  color:#182B49;
+}
+.whiteHeader {
+  color:#fff;
 }
 .projectArrow {
   width:100%;
@@ -63,10 +64,32 @@ height:100vh;
 }
 
 #home {
-  background-image: url('../img/homeBackground.svg');
+  background-image: url('../img/jimi_home.svg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-color: #EECA01;
+}
+#guitarSlide01 {
+background-color: #FBB40E;
+}
+#guitarSlide02 {
+background-color: #A93E2D;
+}
+#guitarSlide03 {
+background-color: #A8B94C;
+}
+#guitarSlide04 {
+background-color: #3C6F56;
+}
+#guitarSlide05 {
+background-color: #182B49;
+}
+#guitarSlide06 {
+background-color: #55ACD7;
+}
+#guitarSlide07 {
+background-color: #DBCC92;
 }
 
 /* ==========================================================================

@@ -69,7 +69,7 @@ html.fp-enabled,
     cursor: pointer;
     width: 48px;
    height: 48px;
-   border-color: #A20F71;
+   border-color: #ffffff;
    position: absolute;
    top: 50%;
    margin-top: -31px;
@@ -79,18 +79,18 @@ html.fp-enabled,
  border-bottom: 3px solid;
  border-left: 3px solid;
  transform: rotate(45deg);
- border-color: #A20F71;
+ border-color: #ffffff;
  left: 50px;
  opacity:1;
  transition: all 0.3s ease-in-out;
 }
 .fp-controlArrow.fp-prev:hover, .fp-controlArrow.fp-next:hover {
-  border-color: #ccc;
+  border-color: #A20F71;
 }
 .fp-controlArrow.fp-next {
   border-bottom: 3px solid;
  border-left: 3px solid;
- border-color: #A20F71;
+ border-color: #ffffff;
  transform: rotate(-135deg);
  right: 50px;
 }
