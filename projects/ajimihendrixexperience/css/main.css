@@ -42,7 +42,7 @@ height:100vh;
   width:50%;
   height:auto;
 }
-h2.guitariconsTitle {
+.guitariconsTitle {
   color:#182B49;
 }
 .whiteHeader {
@@ -135,10 +135,10 @@ p {
 }
 a.downloadLink {
   text-decoration: none;
-  color:#29ABE2;
+  color:#182B49;
 }
 a.downloadLink:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color:#29ABE2;
 }
 .projectTitle {
