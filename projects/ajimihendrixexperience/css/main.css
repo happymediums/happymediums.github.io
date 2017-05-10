@@ -107,13 +107,12 @@ p {
   color:#A20F71;
   font-size: 1.5em;
 }
-.downloadLink a {
-  text-decoration: none;
+a.downloadLink {
+  text-decoration: underline;
   color:#A20F71;
 }
-.downloadLink a:hover {
-  text-decoration: none;
-  color:#cccccc;
+a.downloadLink:hover {
+  text-decoration: #29ABE2;
 }
 .projectTitle {
   width:100%;
