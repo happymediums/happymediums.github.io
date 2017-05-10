@@ -347,6 +347,15 @@ order:1;
       margin-left:10%;
     }
 
+    #home {
+      background-image: url('../img/jimi_home.svg');
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #EECA01;
+    }
+
+
     /* =Header */
 
     /* =Footer */
