@@ -240,6 +240,9 @@ p {
   font-family: 'Josefin Sans', serif;
   font-size: 1em;
 }
+h2.guitarTitle {
+  font-size: 1em;
+}
 .fp-controlArrow {
   width:24px!important;
   height:24px!important;
