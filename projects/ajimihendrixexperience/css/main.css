@@ -150,11 +150,11 @@ p {
   color:#182B49;
   font-size: 1.5em;
 }
-a.downloadLink {
+a.inlineLink {
   text-decoration: none;
   color:#A20F71;
 }
-a.downloadLink:hover {
+a.inlineLink:hover {
   text-decoration: none;
   color:#29ABE2;
 }
