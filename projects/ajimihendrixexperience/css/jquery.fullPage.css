@@ -85,7 +85,7 @@ html.fp-enabled,
  transition: all 0.3s ease-in-out;
 }
 .fp-controlArrow.fp-prev:hover, .fp-controlArrow.fp-next:hover {
-  border-color: #A20F71;
+  border-color: #182B49;
 }
 .fp-controlArrow.fp-next {
   border-bottom: 3px solid;
