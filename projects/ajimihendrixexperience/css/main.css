@@ -122,6 +122,15 @@ a.downloadLink:hover {
 .projectHeading {
   width:100%;
 }
+.logoIcon {
+  width:20px;
+  height:auto;
+}
+.logoIcon img {
+  width:100%;
+  height:auto;
+  fill:#A20F71;
+}
 
 /* ==========================================================================
    Icon Navigation Queries
