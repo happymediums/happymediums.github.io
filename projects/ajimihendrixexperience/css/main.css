@@ -130,12 +130,12 @@ h3 {
 }
 p {
   font-family: 'Josefin Sans', serif;
-  color:#A20F71;
+  color:#182B49;
   font-size: 1.5em;
 }
 a.downloadLink {
   text-decoration: none;
-  color:#182B49;
+  color:#A20F71;
 }
 a.downloadLink:hover {
   text-decoration: none;
@@ -259,7 +259,7 @@ h1 {
 h2 {
   font-size: 1.5em;
 }
-p {
+p.aboutText {
   font-family: 'Josefin Sans', serif;
   font-size: 1em;
 }
