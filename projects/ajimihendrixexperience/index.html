@@ -40,7 +40,7 @@ $(document).ready(function() {
 <body>
 <div class="iconNavigation">
   <ul id="menu">
-	<li data-menuanchor="firstPage"><a href="#firstPage/1"><img class="HomeSwirl" src="img/swirlArrowWhite.svg" /></a></li>
+	<li data-menuanchor="firstPage"><a href="#firstPage/1"><img class="HomeSwirl" src="img/swirlArrowPrev.svg" /></a></li>
 	<li data-menuanchor="secondPage"><a href="#firstPage/2"><img src="img/1960DanElectroBronze.svg"/></a></li>
 	<li data-menuanchor="3rdPage"><a href="#firstPage/3"><img src="img/1965FenderJazzmaster.svg"/></a></li>
   <li data-menuanchor="4thpage"><a href="#firstPage/4"><img src="img/1964FenderStratMonterey.svg"/></a></li>
@@ -59,15 +59,15 @@ $(document).ready(function() {
 
       <div class="slide" id="aboutSection">
 
-<div class="row">
+<div class="row smLayout">
   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
   <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
     <div class="about">
     <h2 class="guitariconsTitle">About<br>GUIT<span><img class="logoIcon" src="img/logoIconBlue.svg"></span>RICONS</h2>
     <div class="aboutText">
-    <p>Guitaricons is an interactive design project by Jim Morrison for <a href="http://www.ixdbelfast.org" class="downloadLink" target="_blank">BDes Interaction Design</a> & Creative Entreprenuership.</p>
-    <p>The project involves designing a set of icons.  The idea behind 'A Jimi Hendrix Experience' was to design the icons of an icon.</p>
-    <p>Feel free to download the <a class="downloadLink" href="downloads/Guitaricons.zip">Guitaricons</a> featured here, or if your feeling extra creative, you can download the <a class="downloadLink" href="downloads/JimiHXColourBook.pdf" target="_blank">'Jimi Hendrix Experience'<a/>colouring book.</p>
+    <p>Guitaricons is an interactive design project by Jim Morrison for the <a href="http://www.ixdbelfast.org" class="downloadLink" target="_blank">BDes Interaction Design</a> course at Ulster University.</p>
+    <p>The project involves designing a family of icons.  The idea behind 'A Jimi Hendrix Experience' was to design the icons of an icon.</p>
+    <p>Feel free to download the <a class="downloadLink" href="downloads/Guitaricons.zip">Guitaricons</a> featured here, or if your feeling extra creative, you can download the<a class="downloadLink" href="downloads/JimiHXColourBook.pdf" target="_blank"> 'Jimi Hendrix Experience'<a/> colouring book.</p>
 <p>If you fancy getting involved in a project together, or just feel like getting in touch, visit my  <a class="downloadLink" href="http://www.jimmorrison.io" target="_blank">portfolio</a> for more info.
 </div>
 </div>
@@ -101,16 +101,17 @@ $(document).ready(function() {
       <div class="slide" id="guitarSlide01">
 
         <div class="row">
-          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-        <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+          <div class="guitarInfo">
           <h3 class="guitarTitle">1960 Dan Electro Bronze Standard</h3>
-          <p>With help from his father, Hendrix bought the Danelectro which he later nick-named “Betty Jean” after his girlfriend at the time.</p>
+          <p>After his first guitar, a Supro Ozark, was stolen, Hendrix bought the Danelectro with help from his father. He later nick-named “Betty Jean” after his girlfriend at the time.</p>
         </div>
-        <div class="col-xs-8 col-sm-8 col-md-6 col-lg-4 middleCol guitarFrame">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
   <a class="imgcenter" data-fancybox="gallery" href="img/1960DanElectroBronze.svg"><img src="img/1960DanElectroBronze.svg"></a>
 </div>
-        <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 </div>
       </div>
 
@@ -118,15 +119,19 @@ $(document).ready(function() {
       <div class="slide" id="guitarSlide02">
 
         <div class="row">
-          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-        <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+          <div class="guitarInfo">
           <h3 class="guitarTitle whiteHeader">1965 Fender Jazzmaster</h3>
+          <p class="whiteText">During the tour with Little Richard in 1965, Jimi was seen playing a sunburst Fender Jazzmaster.
+            The guitar also featured on one of Jimi’s earliest TV appearances.</p>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 middleCol guitarFrame">
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
       <a class="imgcenter" data-fancybox="gallery" href="img/1965FenderJazzmaster.svg"><img src="img/1965FenderJazzmaster.svg"></a>
       </div>
-        <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 
       </div>
 </div>
@@ -134,75 +139,86 @@ $(document).ready(function() {
 <div class="slide" id="guitarSlide03">
 
   <div class="row">
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+    <div class="guitarInfo">
     <h3 class="guitarTitle">1964 Fender Stratocaster 'Monterey Pop'</h3>
+    <p>The 'Monterey Pop' stratocaster is seen during the Monterey Pop Festival in 1967.
+      Jimi decorated the guitar himself, and then set to it fire at the end of the festival.</p>
+</div>
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 middleCol guitarFrame">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
 <a class="imgcenter" data-fancybox="gallery" href="img/1964FenderStratMonterey.svg"><img src="img/1964FenderStratMonterey.svg"></a>
 </div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 </div>
 </div>
 
 <div class="slide" id="guitarSlide04">
 
   <div class="row">
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+    <div class="guitarInfo">
     <h3 class="guitarTitle whiteHeader">1967 Gibson Flying V</h3>
+<p class="whiteText">During 1967 & 1968, this guitar was seen on numerous occasions, being played or sitting on stage. The artwork is hand painted, and has become an iconic feature of the Jimi Hendrix guitar collection.</p>
+</div>
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 middleCol guitarFrame">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
 <a class="imgcenter" data-fancybox="gallery" href="img/1967GibsonFlyingV.svg"><img src="img/1967GibsonFlyingV.svg"></a>
 </div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 </div>
 </div>
 
 <div class="slide" id="guitarSlide05">
 
   <div class="row">
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+    <div class="guitarInfo">
     <h3 class="guitarTitle whiteHeader">1968 Fender Stratocaster</h3>
+    <p class="whiteText">Jimi started using this guitar from late 1968 onwards, and was used throughout 1969, up until his death in September 1970. Some of the last photos of Jimi Hendrix show him holding this guitar.</p>
+</div>
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 middleCol guitarFrame">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
 <a class="imgcenter" data-fancybox="gallery" href="img/1968FenderStratBlack.svg"><img src="img/1968FenderStratBlack.svg"></a>
 </div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 </div>
 </div>
 
 <div class="slide" id="guitarSlide06">
 
   <div class="row">
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+    <div class="guitarInfo">
     <h3 class="guitarTitle whiteHeader">1967 Gibson SG Custom</h3>
+    <p class="whiteText">First seen at the Rhode Island Auditorium in 1968, the Gibson SG Custom made a famous appearance during Jimi's interview on 'The Dick Cravett Show' in 1969.</p>
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 middleCol guitarFrame">
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
 <a class="imgcenter" data-fancybox="gallery" href="img/1967GibsonSGCustom.svg"><img src="img/1967GibsonSGCustom.svg"></a>
 </div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 </div>
 </div>
 
 <div class="slide" id="guitarSlide07">
 
   <div class="row">
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 leftCol">
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 leftPad"></div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftCol">
+    <div class="guitarInfo">
     <h3 class="guitarTitle">1970 Gibson Flying V 'Left-Handed'</h3>
+    <p>First seen in May 1970, this Flying V was specifically made for left-hand use. Thought to be custom made for Jimi, it was famously seen at The Isle Of Wight Festival in August 1970.</p>
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 middleCol guitarFrame">
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 rightCol guitarFrame">
 <a class="imgcenter" data-fancybox="gallery" href="img/1970GibsonFlyingVLH.svg"><img src="img/1970GibsonFlyingVLH.svg"></a>
 </div>
-  <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 rightCol"></div>
-  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 rightPad"></div>
 </div>
 </div>
 

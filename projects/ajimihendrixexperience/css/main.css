@@ -22,17 +22,21 @@ html, body {
 .leftCol {
 background-color: ;
 height:100vh;
+order:2;
 }
-.middleCol {
+.rightCol {
+  order:3;
   background-color: ;
   display:flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-.rightCol {
-  background-color: ;
-  height:100vh;
+.leftPad {
+order:1;
+}
+.rightPad {
+  order:4;
 }
 .guitarFrame {
   width:100%;
@@ -60,6 +64,14 @@ height:100vh;
   height:auto;
 }
 .projectArrow img:hover {
+  color:#fff;
+}
+.guitarInfo {
+  padding:15px 0;
+  width:80%;
+  margin:10%;
+}
+p.whiteText {
   color:#fff;
 }
 
@@ -260,7 +272,7 @@ h2 {
   font-size: 1.5em;
 }
 p {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 h2.guitarTitle {
   font-size: 1em;
@@ -278,10 +290,30 @@ h2.guitarTitle {
   visibility: hidden;
 }
 .guitarFrame img {
-  width:75%;
+  width:50%;
   height:auto;
 }
 
+.row {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+.leftCol {
+height:auto;
+order:2;
+}
+.rightCol {
+  order:3;
+  height: 100vh;
+}
+.leftPad {
+order:1;
+}
+.rightPad {
+  order:4;
+  display: none;
+}
 
     /* =Header */
 
