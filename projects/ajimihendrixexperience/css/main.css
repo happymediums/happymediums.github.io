@@ -259,8 +259,7 @@ h1 {
 h2 {
   font-size: 1.5em;
 }
-p.aboutText {
-  font-family: 'Josefin Sans', serif;
+p {
   font-size: 1em;
 }
 h2.guitarTitle {
