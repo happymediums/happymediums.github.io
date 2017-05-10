@@ -357,7 +357,10 @@ order:1;
       background-size: contain;
       background-color: #EECA01;
     }
-
+    .guitarFrame img {
+      width:75%;
+      height:auto;
+    }
 
     /* =Header */
 
