@@ -341,6 +341,9 @@ order:1;
 @media only screen and (max-width: 1140px) {
     /* =General */
 
+    .leftCol {
+    height:auto;
+    }
     .guitarInfo {
       padding:15px 0;
       width:80%;
