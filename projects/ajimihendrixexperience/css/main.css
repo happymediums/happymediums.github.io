@@ -11,10 +11,7 @@ html, body {
 .intro {
   text-align: center;
 }
-.about {
-  width:60%;
-  height:auto;
-}
+
 .fp-controlArrow.fp-prev.arrowHidden {
  opacity:0;
  transition: all 0.3s ease-in-out;
@@ -73,6 +70,14 @@ order:1;
 }
 p.whiteText {
   color:#fff;
+}
+.downloads {
+  align-self: center;
+}
+.about {
+}
+.aboutTitle {
+  text-align: center;
 }
 
 #home {
@@ -282,10 +287,13 @@ h2.guitarTitle {
   height:24px!important;
   top:90%!important;
 }
-.about {
-  width:100%;
-  height:auto;
+.fp-controlArrow.fp-next {
+right:20px!important;
 }
+.fp-controlArrow.fp-prev {
+left:20px!important;
+}
+
 .iconNavigation {
   visibility: hidden;
 }
