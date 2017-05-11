@@ -1,16 +1,5 @@
 $(document).ready(function(){
 
-  // Setup the player
-      var = plyr.setup({
-          tooltips: {
-              controls:false,
-              seek: false
-          },
-          captions: {
-          defaultActive:  false
-          }
-      });
-
      // Init ScrollMagic
 	var controller = new ScrollMagic.Controller({vertical:false});
 
@@ -46,20 +35,6 @@ $(document).ready(function(){
 	//}) // this requires a plugin
 	.addTo(controller);
 
-  // build a scene
-	var ShowIconMenu02 = new ScrollMagic.Scene({
-		triggerElement: '#guitarslide01',
-		triggerHook: 'onEnter'
-	})
-	.setClassToggle('.iconNavigation', 'iconNavHide')
-//.addIndicators({
-	//name: 'Hide Nav scene',
-	//indent:100,
-	//colorTrigger: 'black',
-	//colorStart: '#75C695',
-	//colorEnd: 'pink',
-	//}) // this requires a plugin
-	.addTo(controller);
 
 
 });
