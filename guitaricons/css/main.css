@@ -37,11 +37,13 @@ order:1;
 }
 .guitarFrame {
   width:100%;
-  margin-top:-50px;
+  margin-top: -30px;
 }
 .guitarFrame img {
-  width:50%;
+  width:35%;
   height:auto;
+}
+.fancybox-image {
 }
 .guitariconsTitle {
   color:#182B49;
