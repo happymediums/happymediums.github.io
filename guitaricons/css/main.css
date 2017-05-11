@@ -359,16 +359,17 @@ order:1;
     /* =Footer */
 }
 
-@media only screen
-  and (min-width: 768px)
-  and (max-width: 1140px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 768px) and (max-width: 1140px)
+                    and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 
     .guitarFrame img {
       width:40%;
       height:auto;
       padding-top:50px;
+    }
+    .aboutText {
+      margin-left:4em;
+      margin-right:4em;
     }
 
 }
