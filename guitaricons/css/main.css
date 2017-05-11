@@ -1,0 +1,423 @@
+
+/* ==========================================================================
+
+   ========================================================================== */
+
+html, body {
+    width:100%;
+    height:100%;
+    background-color: #EECB00;
+}
+.intro {
+  text-align: center;
+}
+
+.fp-controlArrow.fp-prev.arrowHidden {
+ opacity:0;
+ transition: all 0.3s ease-in-out;
+}
+.leftCol {
+background-color: ;
+height:100vh;
+order:2;
+}
+.rightCol {
+  order:3;
+  background-color: ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.leftPad {
+order:1;
+}
+.rightPad {
+  order:4;
+}
+.guitarFrame {
+  width:100%;
+  margin-top:-50px;
+}
+.guitarFrame img {
+  width:50%;
+  height:auto;
+}
+.guitariconsTitle {
+  color:#182B49;
+}
+.whiteHeader {
+  color:#fff;
+}
+.projectArrow {
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content: center;
+  padding-left:30%;
+}
+.projectArrow img {
+  width:100px;
+  height:auto;
+}
+.projectArrow img:hover {
+  color:#fff;
+}
+.guitarInfo {
+  padding:15px 0;
+  width:80%;
+  margin:10%;
+}
+p.whiteText {
+  color:#fff;
+}
+.downloads {
+  width:100%;
+  text-align: center;
+}
+.about {
+}
+.aboutTitle {
+  text-align: center;
+}
+
+#home {
+  background-image: url('../img/jimi_home.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #EECA01;
+}
+#guitarSlide01 {
+background-color: #FBB40E;
+}
+#guitarSlide02 {
+background-color: #A93E2D;
+}
+#guitarSlide03 {
+background-color: #A8B94C;
+}
+#guitarSlide04 {
+background-color: #3C6F56;
+}
+#guitarSlide05 {
+background-color: #3C4B84;
+}
+#guitarSlide06 {
+background-color: #55ACD7;
+}
+#guitarSlide07 {
+background-color: #B2A476;
+}
+#guitarSlide08 {
+background-color: #DBCC92;
+}
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+/*
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'La Belle Aurore', cursive;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Life Savers', cursive;
+font-family: 'Amatica SC', cursive;
+font-family: 'Mystery Quest', cursive;
+font-family: 'Monofett', cursive;
+
+*/
+
+h1 {
+  font-family: 'Mystery Quest', cursive;
+  color:#182B49;
+  font-size: 4em;
+}
+h2 {
+  font-family: 'Josefin Slab', serif;
+  color:#A20F71;
+  font-size: 2em;
+}
+h3 {
+  font-family: 'Mystery Quest', cursive;
+  color:#A20F71;
+  font-size: 2.5em;
+}
+p {
+  font-family: 'Josefin Sans', serif;
+  color:#182B49;
+  font-size: 1.5em;
+}
+a.inlineLink {
+  text-decoration: none;
+  color:#A20F71;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+a.inlineLink:hover {
+  text-decoration: none;
+  color:#29ABE2;
+}
+.projectTitle {
+  width:100%;
+  margin-top:-20px;
+}
+.projectHeading {
+  width:100%;
+}
+.logoIcon {
+  width:20px;
+  height:auto;
+}
+.logoIcon img {
+  width:100%;
+  height:auto;
+  fill:#A20F71;
+}
+
+/* ==========================================================================
+   Icon Navigation Queries
+   ========================================================================== */
+   .iconNavigation {
+     opacity: 1;
+     -webkit-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
+   }
+   .iconNavHide {
+     opacity:0;
+     -webkit-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
+   }
+
+   #menu li {
+   	display:inline-block;
+    margin: 10px;
+    width:50px;
+    text-align: center;
+   }
+   #menu li.active{
+   	color: #fff;
+   }
+   #menu li a{
+   	text-decoration:none;
+   	color: #000;
+   }
+   #menu li.active a:hover{
+   	color: #000;
+   }
+   #menu li:hover{
+   }
+   #menu li a,
+   #menu li.active a{
+   	padding: 9px 18px;
+   	display:block;
+   }
+   #menu li.active a{
+   	color: #fff;
+   }
+   #menu li img {
+     width:20px;
+     height:auto;
+     position: absolute;
+     top:-25px;
+   }
+   #menu li img:hover {
+    /* -webkit-transform: scale(2) translateY(-20px);
+     -moz-transform: scale(2) translateY(-20px);
+     -o-transform: scale(2) translateY(-20px); */
+   }
+   span.iconTitle {
+     position: relative;
+     width:120px;
+     top:-120px;
+     color:#fff;
+     left:-25px;
+
+   }
+   #menu li img:hover span.iconTitle {
+   }
+
+   #menu{
+   	position:fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 15px;
+   	height: 60px;
+   	z-index: 70;
+   	padding: 0;
+   	margin:0;
+    width:100%;
+   }
+
+.imgcenter {
+  text-align: center;
+}
+img.HomeSwirl {
+  width:20px;
+  margin-top:20px;
+  height:auto;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 767px) {
+    /* =General */
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 1.5em;
+}
+h2.guitarTitle {
+  font-size: 1em;
+}
+.fp-controlArrow {
+  width:24px!important;
+  height:24px!important;
+  top:90%!important;
+}
+.fp-controlArrow.fp-next {
+right:20px!important;
+}
+.fp-controlArrow.fp-prev {
+left:20px!important;
+}
+#home {
+  background-image: url('../img/jimi_home.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #EECA01;
+}
+
+.iconNavigation {
+  visibility: hidden;
+}
+.guitarFrame img {
+  width:50%;
+  height:auto;
+}
+
+.row {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+.leftCol {
+height:auto;
+order:2;
+}
+.rightCol {
+  order:3;
+  height: 100vh;
+}
+.leftPad {
+order:1;
+}
+.rightPad {
+  order:4;
+  display: none;
+}
+.about {
+  margin-left:2em;
+  margin-right:2em;
+}
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (max-width: 1140px) {
+    /* =General */
+
+    .leftCol {
+    height:auto;
+    }
+    .guitarInfo {
+      padding:15px 0;
+      width:80%;
+      margin-left:10%;
+    }
+
+    #home {
+      background-image: url('../img/jimi_home.svg');
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: #EECA01;
+    }
+    .guitarFrame img {
+      width:60%;
+      height:auto;
+    }
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* =General */
+
+    /* =Header */
+
+    /* =Footer */
+}
+
+/* ==========================================================================
+   Additional classes
+   ========================================================================== */
+.downloads {
+margin-bottom: 30px;
+  }
+
+  button.button {
+  margin-top:30px;
+  margin-right:20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+   .button {
+     padding: 10px 20px;
+     display: inline;
+     background: #EECA01;
+     border: 2px solid #a20f71;
+     color: #a20f71;
+     cursor: pointer;
+     width:200px;
+     font-family: 'Josefin Sans', serif;
+     font-size: 1.5em;
+     border-radius: 5px;
+     -moz-border-radius: 5px;
+     -webkit-border-radius: 5px;
+     transition: all 0.2s ease-in-out;
+     -webkit-transition: all 0.2s ease-in-out;
+     }
+ .button:hover {
+     background-position: 0 -48px;
+     border: 2px solid #29ABE2;
+     color:#29ABE2;
+
+     }
+ .button:active {
+     background-position: 0 top;
+     position: relative;
+     top: 1px;
+     padding: 6px 10px 4px;
+     }
