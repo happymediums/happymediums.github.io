@@ -43,7 +43,7 @@ order:1;
   width:35%;
   height:auto;
 }
-img.weebitbigger {
+img.weeBitBigger {
   width:40%;
   height:auto;
 }
@@ -359,6 +359,20 @@ order:1;
     /* =Footer */
 }
 
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1140px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .guitarFrame img {
+      width:40%;
+      height:auto;
+      padding-top:50px;
+    }
+
+}
+
 @media only screen and (max-width: 1140px) {
     /* =General */
 
@@ -379,9 +393,14 @@ order:1;
       background-color: #EECA01;
     }
     .guitarFrame img {
-      width:60%;
+      width:50%;
       height:auto;
     }
+    img.weeBitBigger {
+      width:40%;
+      height:auto;
+    }
+
     #aboutTop {
     margin-top: 0em;
     }
