@@ -276,7 +276,7 @@ img.HomeSwirl {
    Media Queries
    ========================================================================== */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     /* =General */
 
 h1 {
@@ -399,7 +399,7 @@ order:1;
     height:auto;
   }
   img.weeBitBigger {
-    width:50%;
+    width:60%;
     height:auto;
   }
   .button {
