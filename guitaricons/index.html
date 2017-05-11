@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/hover.css">
         <link rel="stylesheet" href="css/jquery.fullPage.css">
+        <link rel="stylesheet" href="css/plyr.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/vendors/scrolloverflow.min.js"></script>
@@ -37,6 +38,12 @@ $(document).ready(function() {
 
 
 <body>
+
+
+<div id="audioPlayer">
+<div data-type="youtube" data-video-id="IZBlqcbpmxY"></div>
+</div>
+
 <div class="iconNavigation">
   <ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage/1"><img class="hvr-wobble-vertical HomeSwirl" src="img/swirlArrowPrev.svg" /></a></li>
@@ -274,6 +281,8 @@ $(document).ready(function() {
 
 <script src="js/main.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/plyr.js"></script>
+<script>plyr.setup();</script>
 
 </body>
 

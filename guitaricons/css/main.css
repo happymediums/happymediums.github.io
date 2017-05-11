@@ -337,6 +337,15 @@ order:1;
 }
     /* =Header */
 
+
+    .plyr--video .plyr__controls {
+      top:0!important;
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0))!important;
+      padding-top:30px!important;
+      width:95%!important;
+      padding-left: 2.5%!important;
+    }
+
     /* =Footer */
 }
 
@@ -366,6 +375,13 @@ order:1;
 
     /* =Header */
 
+    .plyr--video .plyr__controls {
+      top:0!important;
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0))!important;
+      padding-top:30px!important;
+      width:95%!important;
+      padding-left: 2.5%!important;
+    }
     /* =Footer */
 }
 
@@ -373,6 +389,14 @@ order:1;
     /* =General */
 
     /* =Header */
+
+    .plyr--video .plyr__controls {
+      top:0!important;
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0))!important;
+      padding-top:60px!important;
+      width:33.33%!important;
+      padding-left: 60px!important;
+    }
 
     /* =Footer */
 }
@@ -421,3 +445,41 @@ a {
      top: 1px;
      padding: 6px 10px 4px;
      }
+
+    /* Media Player Controls */
+
+     .plyr__video-embed {
+       padding-bottom: 0%!important;
+     }
+     .plyr--playing .plyr__play-large {
+       opacity:0!important;
+     }
+     .plyr__play-large {
+       display:none!important;
+       left:50px!important;
+       margin-top:50px!important;
+     }
+
+     .plyr--playing .plyr__controls {
+       opacity: 1!important;
+       visibility: visible!important;
+     }
+     .plyr--hide-controls .plyr__controls {
+       pointer-events: inherit!important;
+     }
+     .plyr--captions-enabled [data-plyr=captions], .plyr--fullscreen-enabled [data-plyr=fullscreen] {
+       display:none!important;
+     }
+     .plyr__progress--played, .plyr__volume--display {
+       color:#182B49!important;
+     }
+     .plyr--video .plyr__controls button.tab-focus:focus, .plyr--video .plyr__controls button:hover {
+       background:#182B49!important;
+     }
+     span.plyr__tooltip {
+       visibility: hidden!important;
+     }
+
+     .plyr input[type=range]:active::-webkit-slider-thumb{background:#182B49!important;}
+     .plyr input[type=range]:active::-moz-range-thumb{background:#182B49!important;}
+     .plyr input[type=range]:active::-ms-thumb{background:#182B49!important;}

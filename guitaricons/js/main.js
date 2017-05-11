@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+  // Setup the player
+      var = plyr.setup({
+          tooltips: {
+              controls:false,
+              seek: false
+          },
+          captions: {
+          defaultActive:  false
+          }
+      });
 
      // Init ScrollMagic
 	var controller = new ScrollMagic.Controller({vertical:false});
