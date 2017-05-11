@@ -374,52 +374,54 @@ order:1;
 
 }
 
-@media only screen and (max-width: 1140px) {
-    /* =General */
 
-    .leftCol {
+@media only screen and (min-width: 768px) and (max-width: 1140px)
+                    and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+  .leftCol {
+  height:auto;
+  }
+  .guitarInfo {
+    padding:15px 0;
+    width:80%;
+    margin-left:10%;
+  }
+
+  #home {
+    background-image: url('../img/jimi_home.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #EECA01;
+  }
+  .guitarFrame img {
+    width:50%;
     height:auto;
-    }
-    .guitarInfo {
-      padding:15px 0;
-      width:80%;
-      margin-left:10%;
-    }
+  }
+  img.weeBitBigger {
+    width:50%;
+    height:auto;
+  }
+  .button {
+    width:150px;
+    font-size: 1em;
+  }
 
-    #home {
-      background-image: url('../img/jimi_home.svg');
-      background-position: bottom;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-color: #EECA01;
-    }
-    .guitarFrame img {
-      width:50%;
-      height:auto;
-    }
-    img.weeBitBigger {
-      width:40%;
-      height:auto;
-    }
-    .button {
-      width:150px;
-      font-size: 1em;
-    }
+  #aboutTop {
+  margin-top: 0em;
+  }
 
-    #aboutTop {
-    margin-top: 0em;
-    }
+  /* =Header */
 
-    /* =Header */
-
-    .plyr--video .plyr__controls {
-      top:0!important;
-      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0))!important;
-      padding-top:30px!important;
-      width:95%!important;
-      padding-left: 2.5%!important;
-    }
-    /* =Footer */
+  .plyr--video .plyr__controls {
+    top:0!important;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0,0))!important;
+    padding-top:30px!important;
+    width:95%!important;
+    padding-left: 2.5%!important;
+  }
+  /* =Footer */
 }
 
 @media only screen and (min-width: 1140px) {
