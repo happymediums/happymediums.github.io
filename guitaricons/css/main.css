@@ -400,6 +400,10 @@ order:1;
       width:40%;
       height:auto;
     }
+    .button {
+      width:150px;
+      font-size: 1em;
+    }
 
     #aboutTop {
     margin-top: 0em;
