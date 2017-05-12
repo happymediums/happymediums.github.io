@@ -9,10 +9,15 @@
         <title>Rainbow Radar | Coming Soon</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/flexboxgrid.css">
         <link rel="stylesheet" href="css/intro.css">
-        <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|VT323" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+  integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+  crossorigin=""/>
     </head>
 
     <body>
@@ -20,6 +25,108 @@
 <div class="wrapper">
 
 <div id="introBackground">
+
+  <div id="mainFrame">
+
+    <div id="mainContainer">
+
+<div class="row">
+
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="leftPanel">
+
+    <div class="rainbowBolt"></div>
+
+    <div id="leftControlPanel"> <!-- (leftControlPanel) contains the branding, lights and buttons -->
+
+<div id="lightPanel">
+  <div class="rainbowScrew" id="topScrew">
+<img src="img/radarScrew.svg"/>
+  </div>
+
+  <div id="brandingPanel">
+
+<div id="brandingElements">
+<div class="brandingBox"><img src="img/rainbowRadarLogo.svg"/></div>  <!-- Close (brandingBox) -->
+<div class="brandingBox"><img src="img/rainbowRadarModel.svg"/></div>  <!-- Close (brandingBox) -->
+</div> <!-- Close (brandingElements) -->
+
+  </div>  <!-- Close (brandingPanel) -->
+
+
+  <div id="rainbowLightsPanel">
+
+<div class="rainbowLight rainbowRed sleep"></div>
+<div class="rainbowLight rainbowOrange sleep"></div>
+<div class="rainbowLight rainbowYellow sleep"></div>
+<div class="rainbowLight rainbowGreen sleep"></div>
+<div class="rainbowLight rainbowBlue sleep"></div>
+<div class="rainbowLight rainbowIndigo sleep"></div>
+<div class="rainbowLight rainbowViolet sleep"></div>
+
+  </div>  <!-- Close (rainbowLightsPanel) -->
+
+  <div class="rainbowScrew" id="bottomScrew">
+<img src="img/radarScrew.svg"/>
+  </div>
+
+
+</div> <!-- Close (lightPanel) -->
+
+<div id="buttonPanel"></div> <!-- Close (buttonPanel) -->
+
+    </div> <!-- Close (leftControlPanel) -->
+
+
+  </div>  <!-- Close (leftPanel) -->
+
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="centerPanel">
+
+    <div id="viewScreenOuter">
+
+<div id="radarScreen">
+<img src="img/viewportScreen.png"/>
+</div>
+
+  </div><!-- Outside (viewScreenOuter) Rounded Square -->
+
+
+  </div>  <!-- Close (centerPanel) -->
+
+  <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="rightPanel">
+
+
+    <div id="weatherInfoScreen">
+
+<img src="img/cloud.png"/>
+<p>It is cloudy at the moment</p>
+
+    </div>
+
+    <button id="bigRedRainbowButton">
+
+    <img src="img/bigRedRainbowButton.png"/>
+
+    </button> <!-- Close (introButton) -->
+
+
+
+  </div>  <!-- Close (rightPanel) -->
+
+</div> <!-- Close (Row) -->
+
+<div id="rainbowSpinner">
+
+<img src="img/rainbowSpinner.svg"/>
+
+</div>
+
+
+
+
+    </div>  <!-- Close (mainContainer) -->
+
+  </div> <!-- Close (mainFrame) -->
+
 
 <div id="introFrame">
 
@@ -40,11 +147,11 @@
 
 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" id="introContainer">
 
-<div id="introButton">
+<button id="introButton">
 
 <img src="img/bigRedRainbowButton.png"/>
 
-</div> <!-- Close (introButton) -->
+</button> <!-- Close (introButton) -->
 
 </div>
 
@@ -53,7 +160,9 @@
   </div>
 
 
-<div id="introUnicorn">
+</div>
+
+<div id="introUnicorn" class="slideUp">
 
 <div class="introBubble">
 <p>Welcome to Rainbow Radar. Sadly the radar is getting fixed at the moment, but check back soon to find some rainbows.</p>
@@ -67,19 +176,37 @@
 
 </div>
 
-<img src="img/introUnicorn.png" />
+<img class="animated couple shake" src="img/introUnicorn.png" />
 
 </div> <!-- Close (introUnicorn) -->
 
-</div>
 
 
-</div>
+</div> <!-- Close (introBackground) -->
+
 
 </div> <!-- Close Container (wrapper) -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+          integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
+          crossorigin=""></script>
+
+
+<script>
+$(document).ready(function(){
+    $("#introButton").click(function(){
+        $("#introFrame").toggleClass("slideFrontUp");
+        $("#introUnicorn").toggleClass("slideDown");
+      });
+    $("#bigRedRainbowButton").click(function(){
+        $(".rainbowLight").toggleClass("active");
+      });
+
+});
+</script>
+
     </body>
 </html>

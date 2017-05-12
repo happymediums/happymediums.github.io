@@ -1,65 +1,6 @@
 
 
-#introBackground {
-background-color: #565555;
-padding:1% 0 1% 1%;
-position: relative;
-overflow: hidden;
-}
-#introFrame {
-  width:99%;
-  height:96vh;
-  background-color:#666666 ;
-}
-#introContainer {
-  height:100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-#introButton {
-
-  width:100%;
-  height:auto;
-}
-
-#introButton img{
-  width:100%;
-  height:auto;
-}
-
-#introUnicorn img{
-  width:100%;
-  height:auto;
-}
-#introUnicorn {
-  position:absolute;
-  left:60%;
-  bottom:0;
-  width:33.33%;
-  height:auto;
-  opacity: 0;
-  animation: 1s ease-in-out 1s 1 slideUp forwards;
-}
-.introBubble {
-  position: absolute;
-  border: 2px solid #ccc;
-  top:-20%;
-  left:-50%;
-  width:300px;
-  height:auto;
-  padding:15px;
-  border-radius: 50px;
-  background: white;
-  animation: 1s ease-in-out 2s 1 fadeIn forwards;
-  opacity: 0;
-}
-.introBubble p {
-  color:#000;
-  font-family: 'Patrick Hand', cursive;
-  font-size: 1.5em;
-}
 
 #introBolts {
 
@@ -68,6 +9,7 @@ overflow: hidden;
   position: absolute;
   z-index: 30;
   margin:20px;
+  pointer-events: none;
 }
 img.introBolt {
   width:50px;
@@ -93,25 +35,7 @@ img.introBolt {
 
 
 
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
 
-@keyframes slideUp {
-  0% {
-    opacity: 0;
-    transform: translateY(150%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(15%);
-  }
-}
 
 /* Small Screen Media Queries (col-sm = min 48em or 768px) */
 

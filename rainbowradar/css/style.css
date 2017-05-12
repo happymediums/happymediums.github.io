@@ -1,0 +1,544 @@
+/*======================
+    CSS Set-up Styles
+=======================*/
+
+body, html {
+  margin: 0 auto;
+  padding:0;
+  width:100%;
+  height:100%;
+  background-color: #565555;
+}
+
+.wrapper {
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+
+/*======================
+    Main Container Styles
+=======================*/
+
+#introBackground {
+background-color: #565555;
+padding:1% 0 1% 1%;
+position: relative;
+z-index: 1;
+}
+#introFrame {
+  width:98%;
+  height:96vh;
+  background-color:#666666 ;
+  position: absolute;
+  top:2%;
+  left:1%;
+  z-index: 3;
+}
+#introContainer {
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#mainFrame {
+  width:99%;
+  height:96vh;
+  position: relative;
+  background-color:#666666;
+  z-index: 2;
+}
+
+#mainContainer {
+    height:100vh;
+}
+
+.panel {
+  height:100vh;
+}
+#leftPanel {
+  height:100vh;
+  border-right:2px solid #565555;
+}
+
+/*======================
+    Center Panel Styles
+=======================*/
+
+#centerPanel {
+  display: flex;
+  justify-content: center;
+}
+
+#viewScreenOuter {
+width:98%;
+background-color: #565656;
+border-radius: 120px;
+height:auto;
+position: relative;
+z-index: 5;
+margin-top:-20px;
+display: flex;
+justify-content: center;
+align-self: center;
+align-items: center;
+box-shadow: 3px 3px 0px 0px #4D4D4D;
+
+}
+
+#viewScreenOuter img {
+  width:100%;
+  height:auto;
+
+}
+#radarScreen {
+  position: relative;
+  z-index: 25;
+}
+#radarSpinner {
+  position: absolute;
+  z-index:31;
+  display: none;
+}
+/* #viewScreenInner {
+width:96%;
+height:96%;
+border-radius: 50%;
+background-color: #808080;
+position: relative;
+z-index: 6;
+
+}
+*/
+
+/*
+#viewScreenViewport {
+position: relative;
+z-index: 7;
+}
+#viewScreenViewport img {
+  width:96%;
+  height:auto;
+}
+
+*/
+
+
+
+
+
+/*======================
+    Right Panel Styles
+=======================*/
+
+#rightPanel {
+  border-left:2px solid #565555;
+}
+
+#bigRedRainbowButton img{
+  width:100%;
+  height:auto;
+}
+
+
+/*======================
+    Intro Styles
+=======================*/
+
+button {
+  background-color: rgba(0,0,0,0)!important;
+  border: 0px;
+}
+.intro {
+
+}
+.slideUp{
+  opacity: 1;
+  animation: 1s ease-in-out 0.4s 1 slideUp forwards;
+}
+.hideBackground {
+  opacity: 0;
+  background-color: rgba(0,0,0,0);
+}
+#leftControlPanel {
+  width:90%;
+  margin-left: 7.5%;
+  margin-top:20%;
+  height:500px;
+  background-color:;
+}
+#lightPanel {
+  width:90%;
+  margin-left: 5%;
+  background-color: #565555;
+  height:450px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 0px 0px #4D4D4D;
+}
+.rainbowScrew {
+  width:100%;
+  text-align: center;
+  padding:5px;
+}
+.rainbowScrew img {
+  width:20px;
+  height:auto;
+}
+
+.brandingBox {
+  float:left;
+  width:50%;
+  height:auto;
+}
+
+.brandingBox img {
+  width:75%;
+  height:auto;
+  padding:10px;
+}
+
+#rainbowLightsPanel {
+  background-color: ;
+  padding-top:100px;
+}
+.rainbowLight {
+  width:90%;
+  height:30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+.sleep {
+  animation: 1.5s ease-in-out infinite;
+}
+.active {
+  animation: 0.7s ease-in-out infinite;
+}
+.rainbowRed {
+  background-color:#DF5032;
+  animation-name: rainbowRed;
+}
+
+@keyframes rainbowRed {
+  0% {
+    background-color: #df5032;
+  }
+  100% {
+    background-color: #BC422E;
+  }
+}
+
+.rainbowOrange {
+  background-color:#F47D43;
+  animation-name: rainbowOrange;
+  animation-delay: 0.5s;
+}
+@keyframes rainbowOrange {
+  0% {
+    background-color: #F47D43;
+  }
+  100% {
+    background-color: #CE653C;
+  }
+}
+.rainbowYellow {
+  background-color:#FFD600;
+  animation-name: rainbowYellow;
+  animation-delay: 1s;
+
+}
+@keyframes rainbowYellow {
+  0% {
+    background-color: #FFD600;
+  }
+  100% {
+    background-color: #BA9704;
+  }
+}
+.rainbowGreen {
+  background-color:#399377;
+  animation-name: rainbowGreen;
+  animation-delay: 1.5s;
+
+}
+@keyframes rainbowGreen {
+  0% {
+    background-color: #399377;
+  }
+  100% {
+    background-color: #296853;
+  }
+}
+.rainbowBlue {
+  background-color:#0A7FC6;
+  animation-name: rainbowBlue;
+  animation-delay: 2s;
+
+}
+@keyframes rainbowBlue {
+  0% {
+    background-color: #0A7FC6;
+  }
+  100% {
+    background-color: #0B5C84;
+  }
+}
+.rainbowIndigo {
+  background-color:#174579;
+  animation-name: rainbowIndigo;
+  animation-delay: 2.5s;
+}
+@keyframes rainbowIndigo {
+  0% {
+    background-color: #174579;
+  }
+  100% {
+    background-color: #123559;
+  }
+}
+.rainbowViolet {
+  background-color:#AF70AF;
+  animation-name: rainbowViolet;
+  animation-delay: 3s;
+}
+@keyframes rainbowViolet {
+  0% {
+    background-color: #AF70AF;
+  }
+  100% {
+    background-color: #8D5E8E;
+  }
+}
+
+#rainbowSpinner {
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+}
+#rainbowSpinner img {
+  padding-top:33px;
+  width:80%;
+  height:auto;
+  margin-left:10%;
+}
+
+.spinner {
+  transform: rotate(360);
+  transition: 1s all ease-in-out infinite;
+}
+.spinnerSleep {
+animation-name: spinnerSleep;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes spinnerSleep {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360);
+  }
+}
+
+.spinnerActive {
+  animation-name: spinnerActive;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinnerActive {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360);
+  }
+}
+
+
+#bigRedRainbowButton {
+  position: relative;
+  z-index: 25;
+}
+#introButton {
+
+  width:100%;
+  height:auto;
+  position: relative;
+  z-index: 20;
+}
+
+#introButton img{
+  width:100%;
+  height:auto;
+}
+
+#introUnicorn img{
+  width:100%;
+  height:auto;
+}
+#introUnicorn {
+  position:absolute;
+  z-index: 30;
+  left:60%;
+  bottom:0;
+  width:33.33%;
+  height:auto;
+  opacity: 0;
+}
+.introBubble {
+  position: absolute;
+  border: 2px solid #ccc;
+  top:-20%;
+  left:-50%;
+  width:300px;
+  height:auto;
+  padding:15px;
+  border-radius: 50px;
+  background: white;
+  animation: 1s ease-in-out 2s 1 fadeIn forwards;
+  opacity: 0;
+}
+.introBubble p {
+  color:#000;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes slideUp {
+0% {
+  opacity: 0;
+  transform: translateY(150%);
+}
+100% {
+  opacity: 1;
+  transform: translateY(15%);
+}
+}
+
+@keyframes slideDown {
+0% {
+  opacity: 1;
+  transform: translateY(15%);
+}
+100% {
+  opacity: 0;
+  transform: translateY(150%);
+}
+}
+
+
+.slideFrontUp {
+  animation: 1.2s ease-in-out 0.3s 1 slideFrontUp forwards;
+}
+
+.slideDown {
+  opacity: 1;
+  animation: 1s ease-in-out 0.3s 1 slideDown forwards;
+}
+
+
+@keyframes slideFrontUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-200%);
+  }
+}
+
+
+/*======================
+    Weather Info Styles
+=======================*/
+
+#weatherInfoScreen {
+  margin-top:50px;
+  margin-bottom:20px;
+  width:90%;
+  height:auto;
+  background-color: #FFD600;
+  border-radius: 30px;
+  box-shadow: 0px 6px 0px 0px #4D4D4D;
+  padding:10px;
+  text-align: center;
+  overflow: hidden;
+}
+#weatherInfoScreen img {
+  width:50%;
+  height:auto;
+}
+#weatherInfoScreen p {
+  margin:10px;
+  font-family: 'VT323', monospace;
+  font-size: 1.5em;
+  color:#BA9704;
+}
+
+
+/*======================
+    Media Styles
+=======================*/
+
+
+
+
+/* xSmall Screen Media Queries (col-xs = min  em) */
+
+@media only screen and (max-width: 60em) {
+
+.topBolts {
+  height:3vh;
+}
+.bottomBolts {
+  height:3vh;
+}
+
+}
+
+/* Small Screen Media Queries (col-sm = min 48em or 768px) */
+
+@media only screen and (max-width: 48em) {
+
+.leftPanel {
+  height:25vh;
+  border-bottom:2px solid #565555;
+}
+.centerPanel {
+  height:50vh;
+}
+.rightPanel {
+  height:25vh;
+  border-top:2px solid #565555;
+}
+
+
+}
+
+/* Medium Screen Media Queries (col-md = min 62em or 992px) */
+
+@media only screen and (min-width: 62em) and (max-width: 75em) {
+
+}
+
+/* Large Screen Media Queries (col-lg = min 75em or 1200px) */
+
+
+@media only screen and (min-width: 75em) {
+
+}
