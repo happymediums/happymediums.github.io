@@ -1,0 +1,221 @@
+
+/*======================
+    CSS Set-up Styles
+=======================*/
+
+body, html {
+  background-color:grey;
+  margin: 0 auto;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+.wrapper {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+
+/* Container Styles */
+
+#mainFrame {
+  background-color: #565555;
+}
+
+#rainbowRadar {
+  position: relative;
+  top: 0;
+  left:0;
+  width:100%;
+  padding:0;
+  height:auto;
+  overflow: hidden;
+  background-color: ;
+
+}
+
+/* Left Panel Styles */
+
+#leftPanel {
+  border-right: 2px solid #4D4D4D;
+  box-sizing: border-box;
+}
+#leftControlPanel {
+  height:80vh;
+}
+#leftControlOuter {
+}
+#lightPanel {
+  padding-top:8.3333%;
+  background-image: url('../img/lightPanelOuter.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#lightPanelOuter {
+  height:55vh;
+  border-radius: 30px;
+
+}
+#lightPanelInner {
+  margin-right:3px;
+  margin-bottom: 3px;
+  height:100%;
+}
+#buttonsPanel {
+}
+#buttonsPanelOuter {
+  height:10vh;
+  background-color: yellow;
+}
+img.bolt {
+  width:50px;
+  height:auto;
+}
+.topBolts {
+  height:10vh;
+}
+.bottomBolts {
+  height: 10vh;
+}
+.leftBolt {
+  display: flex;
+justify-content: flex-start;
+}
+.leftBolt img {
+  padding-left:5px;
+}
+.rightBolt {
+  display: flex;
+  justify-content: flex-end;
+}
+.rightBolt img {
+  padding-right:5px;
+
+}
+
+#rainbowRadarLogo {
+
+}
+#rainbowRadarLogo img {
+  width:60px;
+  height:auto;
+}
+#rainbowRadarModel {
+
+}
+#rainbowRadarModel img {
+  width:100px;
+  height:auto;
+}
+#brandingPanel {
+  position: relative;
+}
+
+
+/* Center Panel Styles */
+
+#centerPanel {
+  background-color: ;
+  height:100vh;
+}
+#viewscreen {
+  background-color: orange;
+  border-radius: 30px;
+}
+#viewScreenOuter {
+  background-color: pink;
+  height:80vh;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+#viewScreenInner {
+  width:90%;
+  height:90%;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: 0 auto;
+}
+
+
+/* Right Panel Styles */
+
+#rightPanel {
+  background-color: ;
+  border-left: 2px solid #4D4D4D;
+}
+
+#rightControlPanel {
+  height:80vh;
+}
+#rightControlOuter {
+}
+#weatherPanel {
+  padding-top:8.3333%;
+}
+#weatherPanelOuter {
+  height:35vh;
+  background-color: yellow;
+
+}
+
+#soundPanel {
+  margin-top:5%;
+}
+#soundPanelOuter {
+  height:10vh;
+  background-color: green;
+}
+#rainbowButton {
+  margin-top: 5%;
+}
+#rainbowButtonOuter {
+  height:25vh;
+  background-color: red;
+}
+
+/* xSmall Screen Media Queries (col-xs = min  em) */
+
+@media only screen and (max-width: 60em) {
+
+.topBolts {
+  height:3vh;
+}
+.bottomBolts {
+  height:3vh;
+}
+#leftControlPanel {
+  height:20vh;
+}
+
+
+}
+
+/* Small Screen Media Queries (col-sm = min 48em or 768px) */
+
+@media only screen and (min-width: 48em) {
+
+
+}
+
+/* Medium Screen Media Queries (col-md = min 62em or 992px) */
+
+@media only screen and (min-width: 62em) and (max-width: 75em) {
+
+#lightPanel {
+  transform: rotate(90);
+}
+#centerPanel {
+  height:50vh;
+}
+}
+
+/* Large Screen Media Queries (col-lg = min 75em or 1200px) */
+
+
+@media only screen and (min-width: 75em) {
+
+}
