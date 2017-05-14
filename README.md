@@ -1,5 +1,7 @@
-###Designing for happy.
+Designing for happy mediums.
 
-The "currently in the process of being built" portfolio website of Jim Morrison
+The portfolio of Jim Morrison
 
-<a href="http://www.jimmorrison.io" target="_blank">Visit me</a>
+UX & Interaction Designer | Visual Artist | Digital Composer | Avant-Guardian
+
+If you fancy having a look, come <a href="http://www.jimmorrison.io" target="_blank">visit</a>.
