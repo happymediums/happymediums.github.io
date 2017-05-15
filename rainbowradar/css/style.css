@@ -103,31 +103,6 @@ box-shadow: 3px 3px 0px 0px #4D4D4D;
   z-index:31;
   display: none;
 }
-/* #viewScreenInner {
-width:96%;
-height:96%;
-border-radius: 50%;
-background-color: #808080;
-position: relative;
-z-index: 6;
-
-}
-*/
-
-/*
-#viewScreenViewport {
-position: relative;
-z-index: 7;
-}
-#viewScreenViewport img {
-  width:96%;
-  height:auto;
-}
-
-*/
-
-
-
 
 
 /*======================
