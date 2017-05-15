@@ -151,6 +151,8 @@ z-index: 7;
 button {
   background-color: rgba(0,0,0,0)!important;
   border: 0px;
+  cursor: pointer;
+  cursor: hand;
 }
 .intro {
 
