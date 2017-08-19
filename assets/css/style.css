@@ -469,8 +469,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cccccc', e
 	font-size:1.1em;
 }
 
-#audioplayer {
+#audio-player {
 	padding:20px 0px;
+	display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+	justify-content: center;
 }
 
 .companies img{
