@@ -1,0 +1,32 @@
+body {
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Raleway', serif;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Raleway';
+  font-size: 18px;
+}
+
+
+.container {
+  width:80%;
+  height:auto;
+  margin-left: 10%;
+}
