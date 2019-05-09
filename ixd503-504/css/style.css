@@ -37,6 +37,17 @@ a {
   font-size: 18px;
 }
 
+.btnEight {
+  color:#d7482D;
+  background-color: #ffffff;
+  border: 2px #d7482D solid;
+}
+.btnEight:hover {
+  color:#ffffff;
+  background-color: #d7482D;
+  cursor: pointer;
+}
+
 .btnOne {
   color:#ffffff;
   background-color: #d7482D;
@@ -112,6 +123,8 @@ a {
   background-color: #ffffff;
   cursor: pointer;
 }
+
+
 
 button {
   padding:10px 40px;
