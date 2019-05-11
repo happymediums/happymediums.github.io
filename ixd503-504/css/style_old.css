@@ -1,0 +1,140 @@
+body {
+  width:100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container {
+  width:60%;
+  height:auto;
+  margin-left: 20%;
+}
+#two {
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: 'Amatic SC', serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Amatic SC', serif;
+  font-size: 24px;
+}
+h4 {
+  font-family: 'Amatic SC', serif;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+.btnEight {
+  color:#d7482D;
+  background-color: #ffffff;
+  border: 2px #d7482D solid;
+}
+.btnEight:hover {
+  color:#ffffff;
+  background-color: #d7482D;
+  cursor: pointer;
+}
+
+.btnOne {
+  color:#ffffff;
+  background-color: #d7482D;
+  border: 2px #d7482d solid;
+}
+.btnOne:hover {
+  color:#d7482D;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.btnTwo {
+  color:#ffffff;
+  background-color: #0087CC;
+  border: 2px #0087CC solid;
+}
+.btnTwo:hover {
+  color:#0087CC;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btnThree {
+  color:#0087CC;
+  background-color: #ffffff;
+  border: 2px #0087CC solid;
+}
+.btnThree:hover {
+  color:#ffffff;
+  background-color: #0087CC;
+  cursor: pointer;
+}
+
+.btnFour {
+  color:#ffffff;
+  background-color: #ed6d3a;
+  border: 2px #ed6d3a solid;
+}
+.btnFour:hover {
+  color:#ed6d3a;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btnFive {
+  color:#ffffff;
+  background-color: #499176;
+  border: 2px #499176 solid;
+}
+.btnFive:hover {
+  color:#499176;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btnSix {
+  color:#ffffff;
+  background-color: #104C77;
+  border: 2px #104C77 solid;
+}
+.btnSix:hover {
+  color:#104C77;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btnSeven {
+  color:#ffffff;
+  background-color: #8D5BA1;
+  border: 2px #8D5BA1 solid;
+}
+.btnSeven:hover {
+  color:#8D5BA1;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+button {
+  padding:10px 40px;
+  border-radius: 8px;
+  font-size: 28px;
+  transition: 0.3s;
+  font-family: "Amatic SC";
+}
+button:hover {
+  color:#d7482D;
+  background-color: #ffffff;
+  cursor: pointer;
+}

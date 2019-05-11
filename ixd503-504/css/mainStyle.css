@@ -1,0 +1,272 @@
+body, html{
+  margin:0 auto;
+  background-color: #ffffff;
+}
+
+nav {
+  position: fixed;
+  background-color:#499176;
+  width:100%;
+  height:70px;
+}
+nav ul {
+  float:right;
+  list-style-type: none;
+  margin-right: 50px;
+}
+nav ul li {
+display: inline;
+color: #ffffff;
+font-family: 'Welcome To Yonder', Arial, sans-serif;
+font-size: 24px;
+padding-left: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+transition: 0.3s;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+color:#FFD740;
+}
+
+.fullContainer {
+  width:100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+#textColour {
+  background-color: red;
+}
+
+/* Image Styles */
+
+img {
+  width:100%;
+  height:auto;
+}
+
+/* Typography */
+
+@font-face {
+font-family: "Welcome To Yonder";
+src: url("css/fonts/WelcomeToYonder.otf");
+}
+
+h1 {
+font-family: 'Welcome To Yonder', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 48px;
+color: #ff644e;
+}
+
+h2 {
+font-family: 'Welcome To Yonder',Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 36px;
+color: #ff644e;
+}
+
+h3 {
+font-family: 'Welcome To Yonder', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+font-size: 22px;
+color: #ff644e;
+}
+
+p {
+	font-family:Libre Baskerville;
+	font-size: 16px;
+	color: #3f3f3e;
+  line-height: 1.5;
+}
+.centerAlign {
+  text-align: ;
+}
+
+/* #0087CC Rainbow Blue */
+/* #FFD740 Rainbow Yellow */
+/* #499176 Rainbow Green */
+/* #d7482d Rainbow Red */
+
+/* Button Styles */
+
+button {
+	padding:10px 40px 10px 40px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 5px;
+	border: 3px solid #ffffff;
+	cursor: pointer;
+	font-family: Raleway;
+	font-size: 22px;
+	color: #ffffff;
+	transition: 0.3s ease;
+}
+button:hover {
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 3px solid #499176;
+	cursor: pointer;
+	font-family: Raleway;
+	font-size: 22px;
+	color: #499176;
+}
+
+button:hover i {
+  color: #ffffff;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+
+#aboutButton button {
+  border: 3px solid #ff644e;
+	cursor: pointer;
+	font-family: 'Welcome To Yonder';
+	font-size: 22px;
+	color: #ff644e;
+}
+
+#aboutButton button:hover {
+  background-color: #ff644e;
+	border-radius: 5px;
+	border: 3px solid #ff644e;
+	color: #ffffff;
+}
+
+/* Link Styles */
+
+a i {
+  margin-left:10px;
+  margin-right: 10px;
+  color: #ff644e;
+  transition: transform 0.2s ease 0s;
+}
+
+a i:hover {
+  transform: translateY(-5px);
+}
+
+/* Home Styles */
+
+#homeIntro {
+background-color: #499176; /* Rainbow Green */
+background-image: url("../img/introImg.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding-top:70px;
+}
+#introText {
+    margin-top: 50px;
+}
+
+#introText h1 {
+  text-align: center;
+  color:#ffffff;
+}
+
+#introImage {
+  width:100%;
+  padding-left:120px;
+  height:auto;
+  margin-top:20px;
+}
+
+#introImage img {
+  width:100%;
+}
+#introBox {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#introButton {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#projectIntroText h2{
+  text-align: center
+}
+#projectIntroText {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Book Styles */
+
+#bookIntro {
+background-color: ;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#bookText h1, #bookText h2 {
+  color:#d7482d;
+}
+
+
+#aboutButton {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+/* App Styles */
+
+#appIntro {
+  height:auto;
+  background-color: #499176;
+}
+#appBox {
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+#appImage {
+  width:100%;
+  height:auto;
+  text-align: center;
+  background-color: red;
+}
+#appImage img {
+width:20%;
+height: auto;
+}
+
+/* Responsive CSS */
+
+@media only screen and (max-width: 800px){
+
+	#lottie {
+		width:100%;
+		padding-left:0;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	#lottie {
+		width:100%;
+		padding-left:0;
+		padding-top:20%;
+	}
+
+}
+
+/* Lottie Styles */
+
+#lottie {
+  width: 50%;
+  height:auto;
+  overflow: hidden;
+	padding-left: 25%;
+}

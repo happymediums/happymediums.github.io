@@ -1,131 +1,130 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/*
+html {
+  scroll-behavior: smooth;
+}
+*/
 body {
-  width:100%;
-  height: auto;
-  margin: 0 auto;
+  background-color: #ffffff;
+}
+nav ul a,
+nav .brand-logo {
+  color: #7fb1b5;
+  font-family: "Amatic SC";
+}
+.footerCopy {
+margin:0 auto;
+}
+.footerLink  a{
+color:#ffffff !important;
+}
+.footerLink a:hover{
+color:#cccccc !important;
+cursor: pointer;
+}
+.socialIcon {
+  padding-right:20px;
+}
+.listCentered {
+  text-align: center;
+  padding-top: 10px;
+}
+.listCentered li {
+  display: inline;
+}
+.containerWhite {
+  background-color: #ffffff;
+}
+span.readingList {
+  color:#0087CC;
+}
+.storyStages {
+  color: #0087CC;
+  font-size: 16px;
+}
+.pageNav {
+  padding-top: 20px;
 }
 
-.container {
-  width:60%;
-  height:auto;
-  margin-left: 20%;
+.rainbowRed {
+  background-color: #d7482D !important;
 }
-#two {
-  padding-bottom: 100px;
+.rainbowBlue {
+  background-color: #0087CC !important;
 }
-
-h1 {
-  font-family: 'Amatic SC', serif;
-  font-size: 36px;
+#logoImg {
+text-align: center;
+padding-top: 50px;
+padding-left: 250px;
 }
 
-h3 {
-  font-family: 'Amatic SC', serif;
+nav ul a {
   font-size: 24px;
 }
-h4 {
-  font-family: 'Amatic SC', serif;
-  font-size: 18px;
+/* #d7482D RainbowRed
+    #0087CC RainbowBlue
+    #7fb1b5 SkyBlue
+*/
+
+.sidenav ul {
+  padding-top:20px;
+}
+.sidenav li > a {
+  font-size: 24px;
+}
+#rhymeSection {
+  padding-top:20px;
+}
+.parallax-darken:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-p {
-  font-family: 'Montserrat';
-  font-size: 18px;
-}
-
-a {
-  font-family: 'Montserrat';
-  font-size: 18px;
-}
-
-.btnEight {
-  color:#d7482D;
-  background-color: #ffffff;
-  border: 2px #d7482D solid;
-}
-.btnEight:hover {
-  color:#ffffff;
-  background-color: #d7482D;
-  cursor: pointer;
-}
-
-.btnOne {
+.mainBtn {
   color:#ffffff;
   background-color: #d7482D;
   border: 2px #d7482d solid;
 }
-.btnOne:hover {
+.mainBtn:hover {
   color:#d7482D;
   background-color: #ffffff;
   cursor: pointer;
 }
-.btnTwo {
-  color:#ffffff;
-  background-color: #0087CC;
-  border: 2px #0087CC solid;
-}
-.btnTwo:hover {
-  color:#0087CC;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
-.btnThree {
+.secBtn {
   color:#0087CC;
   background-color: #ffffff;
   border: 2px #0087CC solid;
 }
-.btnThree:hover {
+.secBtn:hover {
   color:#ffffff;
   background-color: #0087CC;
   cursor: pointer;
 }
-
-.btnFour {
-  color:#ffffff;
-  background-color: #ed6d3a;
-  border: 2px #ed6d3a solid;
+.continueBtn {
+  padding-top:;
+  padding-bottom: 30px;
 }
-.btnFour:hover {
-  color:#ed6d3a;
-  background-color: #ffffff;
-  cursor: pointer;
+.backLink a{
+  font-family: "Amatic SC";
+  font-size: 24px;
 }
-
-.btnFive {
-  color:#ffffff;
-  background-color: #499176;
-  border: 2px #499176 solid;
+.backLink a:hover {
+  color:#d7482D;
 }
-.btnFive:hover {
-  color:#499176;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
-.btnSix {
-  color:#ffffff;
-  background-color: #104C77;
-  border: 2px #104C77 solid;
-}
-.btnSix:hover {
-  color:#104C77;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
-.btnSeven {
-  color:#ffffff;
-  background-color: #8D5BA1;
-  border: 2px #8D5BA1 solid;
-}
-.btnSeven:hover {
-  color:#8D5BA1;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
-
-
 button {
   padding:10px 40px;
   border-radius: 8px;
@@ -137,4 +136,143 @@ button:hover {
   color:#d7482D;
   background-color: #ffffff;
   cursor: pointer;
+}
+
+.buttonCenter {
+text-align: center;
+padding-top:30px;
+padding-bottom: 30px;
+}
+.introButton {
+  position: absolute;
+  bottom: 0;
+}
+.responsiveImage {
+  width: 100%;
+  height:auto;
+}
+.imageContainer {
+  width:100%;
+  height:auto;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.imageSmall {
+  width: 25%;
+  height:auto;
+}
+#downloadButton {
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+#downloadBack {
+  padding-top:50px;
+}
+.statement {
+  padding-top:20px;
+}
+#apkDownload {
+  padding-right:10px;
+}
+#fAndT {
+  width:75%;
+  height:auto;
+}
+.responsiveImage img {
+
+}
+
+.card-title {
+  color:#000 !important;
+}
+
+
+
+p {
+  line-height: 2rem;
+}
+
+.rhymeType {
+
+}
+
+.partTitle {
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+h5 {
+  font-family: "Amatic SC";
+  font-size: 36px;
+}
+
+h2 {
+  font-family: "Amatic SC";
+  font-size: 48px;
+}
+h3 {
+  font-family: "Amatic SC";
+  font-size: 40px;
+}
+h4 {
+  font-family: "Amatic SC";
+  font-size: 24px;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 470px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.parallax img {
+  width:100%;
+  height:auto;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color:#7fb1b5;
+}
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+#heroTitle {
+  padding-top:;
+}
+
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+padding: 0 !important;
+margin: 0 !important;
 }
